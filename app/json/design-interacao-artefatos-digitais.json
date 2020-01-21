@@ -12,31 +12,21 @@
         }
     ],
     "conteudo": [
-        {
-            "1": "Design Centrado no Usuário",
-            "2": "Design Thinking",
-            "3": "Pitch e Apresentação de Projetos"
-        },
-        {
-            "1": "Metodologia de Design",
-            "2": "UI Design - User Interface Design",
-            "3": "IoT, Playable e SmartCities"
-        },
-        {
-            "1": "Inovação e Geração de Novos Negócios",
-            "2": "Prototipação",
-            "3": "Gamificação"
-        },
-        {
-            "1": "Sociedade, Tecnologia e Tendências",
-            "2": "Testes com Usuários",
-            "3": "Capacitação de Recursos para Financiamento da Inovação"
-        },
-        {
-            "1": "Liderança Adaptativa",
-            "2": "Usabilidade e Acessibilidade",
-            "3": "Metodologia Científica"
-        }
+        {"item": "Design Centrado no Usuário"},
+        {"item": "Design Thinking"},
+        {"item": "Pitch e Apresentação de Projetos"},
+        {"item": "Metodologia de Design"},
+        {"item": "UI Design - User Interface Design"},
+        {"item": "IoT, Playable e SmartCities"},
+        {"item": "Inovação e Geração de Novos Negócios"},
+        {"item": "Prototipação"},
+        {"item": "Gamificação"},
+        {"item": "Sociedade, Tecnologia e Tendências"},
+        {"item": "Testes com Usuários"},
+        {"item": "Capacitação de Recursos para Financiamento da Inovação"},
+        {"item": "Liderança Adaptativa"},
+        {"item": "Usabilidade e Acessibilidade"},
+        {"item": "Metodologia Científica"}
     ],
     "coordenador": [
         {
@@ -94,37 +84,29 @@
         }
     ],
     "valores": [
-        {
-            "1": "Descontos",
-            "2": "Valor do curso",
-            "3": "Valor com desconto",
-            "4": "Matrícula até 15/12/19",
-            "5": "Matrícula de 16/12/19 a 28/02/20",
-            "6": "Matrícula após 01/03/20"
-        },
-        {
-            "1": "À vista (20% de desconto)",
-            "2": "R$ 27.360,00",
-            "3": "R$ 21.888,00",
-            "4": "R$ 19.918,08",
-            "5": "R$ 20.355,84",
-            "6": "R$ 20.793,60"
-        },
-        {
-            "1": "1+1 (10% de desconto)",
-            "2": "R$ 27.360,00",
-            "3": "R$ 24.624,00",
-            "4": "R$ 11.203,92",
-            "5": "R$ 11.450,16",
-            "6": "R$ 11.696,40"
-        },
-        {
-            "1": "24 vezes de R$ 1.140,00",
-            "2": "R$ 27.360,00",
-            "3": "-",
-            "4": "R$ 1.037,40",
-            "5": "R$ 1.060,20",
-            "6": "R$ 1.083,00"
-        }
+        {"desconto": "Descontos"},
+        {"valor-curso": "Valor do curso"},
+        {"valor-desconto": "Valor com desconto"},
+        {"matricula-opcao-1": "Matrícula até 15/12/19"},
+        {"matricula-opcao-2": "Matrícula de 16/12/19 a 28/02/20"},
+        {"matricula-opcao-3": "Matrícula após 01/03/20"},
+        {"a-vista": "À vista (20% de desconto)"},
+        {"valor-curso": "R$ 27.360,00"},
+        {"valor-desconto": "R$ 21.888,00"},
+        {"valor-matricula-1": "R$ 19.918,08"},
+        {"valor-matricula-2": "R$ 20.355,84"},
+        {"valor-matricula-3": "R$ 20.793,60"},
+        {"1+1": "1+1 (10% de desconto)"},
+        {"valor-curso": "R$ 27.360,00"},
+        {"valor-desconto": "R$ 24.624,00"},
+        {"valor-matricula-1": "R$ 11.203,92"},
+        {"valor-matricula-2": "R$ 11.450,16"},
+        {"valor-matricula-3": "R$ 11.696,40"},
+        {"24-vezes": "24 vezes de R$ 1.140,00"},
+        {"valor-curso": "R$ 27.360,00"},
+        {"valor-desconto": "-"},
+        {"valor-matricula-1": "R$ 1.037,40"},
+        {"valor-matricula-2": "R$ 1.060,20"},
+        {"valor-matricula-3": "R$ 1.083,00"}
     ]
 }
