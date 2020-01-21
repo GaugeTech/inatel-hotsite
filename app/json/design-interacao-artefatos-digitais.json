@@ -6,8 +6,31 @@
     "horario": "Horário: Sáb: 8h30 às 12h30 e 13h30 às 17h30",
     "duracao": "Duração: 24 meses",
     "sobre": "<p>O curso de especialização em Design de Interação para Artefatos Digitais promove competências para a pesquisa, ideação, prototipação, análise e desenvolvimento de soluções digitais interativas, com base em práticas de Design Centrado no Usuário e o emprego eficaz de Metodologias de Design voltados à concepção de inovações com alto grau de usabilidade.</p><p>Ao se formar neste curso, você poderá atuar em centenas de áreas diferentes, sobretudo com as diversas formas de tecnologias existentes atualmente.  Neste contexto, trabalhar um profissional com características fundamentais ligadas ao dinamismo, versatilidade, eficiência e alta capacidade é uma premissa que está presente na concepção da grade curricular do curso de Design de Interação para Artefatos Digitais.</p>",
-    "conteudo": ["Design Centrado no Usiário","Design Thinking","Pitch e Apresentação de Projetos","Metodologia de Design","UI Design - User Interface Design","IoT, Playable e SmartCities","Inovação e Geração de Novos Negócios","Prototipação","Gamificação","Sociedade, Tecnologia e Tendências","Testes com Usuários","Capacitação de Recursos para Financiamento da Inovação","Liderança Adaptativa","Usabilidade e Acessibilidade","Metodologia Científica"],
-    "coordenador": ["imagem","Prof. Mestre Luiz Francisco Alves de Araujo","Coordenador do curso","É doutorando em Design pela Universidade Federal de Pernambuco na área de artefatos digitais, possui mestrado (2015) e graduação em Design (1994) pela mesma instituição. É coordenador do curso de Bacharelado em Design da CESAR School e também atua como coordenador do curso de especialização em Design de Interação para Artefatos Digitais na mesma instituição. Atuou como coordenador do Curso Técnico de Nível Médio de Multimídia/Artes para Jogos Digitais na Escola Técnica Estadual Cícero Dias - Programa NAVE, e também coordenou a especialização em Design de Interação na Faculdade Guararapes."],
-    "professor": [["imagem","Eduardo José Gonçalves de Oliveira","Matéria do professor"],["imagem","Luiz Francisco Alves de Araujo","Matéria do professor"],["imagem","Marcello Caldas Bressan","Matéria do professor"],["imagem","Leonardo Carneiro da Cunha de S. Lima","Matéria do professor"],["imagem","Ricardo André de Lima Peters","Matéria do professor"],["imagem","Helda Barros","Matéria do professor"],["imagem","Erika Cavalcanti Madeira Campos","Matéria do professor"],["imagem","Tamires Serra","Matéria do professor"],["imagem","Renata Santos de Souza","Matéria do professor"]],
-    ""
+    "conteudo": [
+        {
+            "1": "Design Centrado no Usuário",
+            "2": "Design Thinking",
+            "3": "Pitch e Apresentação de Projetos"
+        },
+        {
+            "1": "Metodologia de Design",
+            "2": "UI Design - User Interface Design",
+            "3": "IoT, Playable e SmartCities"
+        },
+        {
+            "1": "Inovação e Geração de Novos Negócios",
+            "2": "Prototipação",
+            "3": "Gamificação"
+        },
+        {
+            "1": "Sociedade, Tecnologia e Tendências",
+            "2": "Testes com Usuários",
+            "3": "Capacitação de Recursos para Financiamento da Inovação"
+        },
+        {
+            "1": "Liderança Adaptativa",
+            "2": "Usabilidade e Acessibilidade",
+            "3": "Metodologia Científica"
+        }
+    ]
 }
