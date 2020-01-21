@@ -1,6 +1,7 @@
 {
     "titulo": "Design de Interação para artefatos digitais",
     "nivel": "Pós-graduação",
+    "class": "design-interacao-artefatos-digitais"
     "campus": "Campus: Sta. Rita do Sapucaí / São Paulo / Rio de Janeiro",
     "inicio": "Início: Mar/2020",
     "horario": "Horário: Sáb: 8h30 às 12h30 e 13h30 às 17h30",
@@ -84,29 +85,37 @@
         }
     ],
     "valores": [
-        {"desconto": "Descontos"},
-        {"valor-curso": "Valor do curso"},
-        {"valor-desconto": "Valor com desconto"},
-        {"matricula-opcao-1": "Matrícula até 15/12/19"},
-        {"matricula-opcao-2": "Matrícula de 16/12/19 a 28/02/20"},
-        {"matricula-opcao-3": "Matrícula após 01/03/20"},
-        {"a-vista": "À vista (20% de desconto)"},
-        {"valor-curso": "R$ 27.360,00"},
-        {"valor-desconto": "R$ 21.888,00"},
-        {"valor-matricula-1": "R$ 19.918,08"},
-        {"valor-matricula-2": "R$ 20.355,84"},
-        {"valor-matricula-3": "R$ 20.793,60"},
-        {"1+1": "1+1 (10% de desconto)"},
-        {"valor-curso": "R$ 27.360,00"},
-        {"valor-desconto": "R$ 24.624,00"},
-        {"valor-matricula-1": "R$ 11.203,92"},
-        {"valor-matricula-2": "R$ 11.450,16"},
-        {"valor-matricula-3": "R$ 11.696,40"},
-        {"24-vezes": "24 vezes de R$ 1.140,00"},
-        {"valor-curso": "R$ 27.360,00"},
-        {"valor-desconto": "-"},
-        {"valor-matricula-1": "R$ 1.037,40"},
-        {"valor-matricula-2": "R$ 1.060,20"},
-        {"valor-matricula-3": "R$ 1.083,00"}
+        {
+            "desconto": "Descontos",
+            "valor-curso": "Valor do curso",
+            "valor-desconto": "Valor com desconto",
+            "matricula-opcao-1": "Matrícula até 15/12/19",
+            "matricula-opcao-2": "Matrícula de 16/12/19 a 28/02/20",
+            "matricula-opcao-3": "Matrícula após 01/03/20"
+        },
+        {
+            "a-vista": "À vista (20% de desconto)",
+            "valor-curso": "R$ 27.360,00",
+            "valor-desconto": "R$ 21.888,00",
+            "valor-matricula-1": "R$ 19.918,08",
+            "valor-matricula-2": "R$ 20.355,84",
+            "valor-matricula-3": "R$ 20.793,60"
+        },
+        {
+            "1+1": "1+1 (10% de desconto)",
+            "valor-curso": "R$ 27.360,00",
+            "valor-desconto": "R$ 24.624,00",
+            "valor-matricula-1": "R$ 11.203,92",
+            "valor-matricula-2": "R$ 11.450,16",
+            "valor-matricula-3": "R$ 11.696,40"
+        },
+        {
+            "24-vezes": "24 vezes de R$ 1.140,00",
+            "valor-curso": "R$ 27.360,00",
+            "valor-desconto": "-",
+            "valor-matricula-1": "R$ 1.037,40",
+            "valor-matricula-2": "R$ 1.060,20",
+            "valor-matricula-3": "R$ 1.083,00"
+        }
     ]
 }
