@@ -32,5 +32,60 @@
             "2": "Usabilidade e Acessibilidade",
             "3": "Metodologia Científica"
         }
+    ],
+    "coordenador": [
+        {
+            "1": "imagem",
+            "2": "Prof. Mestre Luiz Francisco Alves de Araujo",
+            "3": "Coordenador do curso",
+            "4": "É doutorando em Design pela Universidade Federal de Pernambuco na área de artefatos digitais, possui mestrado (2015) e graduação em Design (1994) pela mesma instituição. É coordenador do curso de Bacharelado em Design da CESAR School e também atua como coordenador do curso de especialização em Design de Interação para Artefatos Digitais na mesma instituição. Atuou como coordenador do Curso Técnico de Nível Médio de Multimídia/Artes para Jogos Digitais na Escola Técnica Estadual Cícero Dias - Programa NAVE, e também coordenou a especialização em Design de Interação na Faculdade Guararapes."
+        }
+    ],
+    "professores": [
+        {
+            "1": "imagem",
+            "2": "Eduardo José Gonçalves de Oliveira",
+            "3": "Matéria do professor"
+        },
+        {
+            "1": "imagem",
+            "2": "Luiz Francisco Alves de Araujo",
+            "3": "Matéria do professor"
+        },
+        {
+            "1": "imagem",
+            "2": "Marcello Caldas Bressan",
+            "3": "Matéria do professor"
+        },
+        {
+            "1": "imagem",
+            "2": "Leonardo Carneiro da Cunha de S. Lima",
+            "3": "Matéria do professor"
+        },
+        {
+            "1": "imagem",
+            "2": "Ricardo André de Lima Peters",
+            "3": "Matéria do professor"
+        },
+        {
+            "1": "imagem",
+            "2": "Helda Barros",
+            "3": "Matéria do professor"
+        },
+        {
+            "1": "imagem",
+            "2": "Erika Cavalcanti Madeira Campos",
+            "3": "Matéria do professor"
+        },
+        {
+            "1": "imagem",
+            "2": "Tamires Serra",
+            "3": "Matéria do professor"
+        },
+        {
+            "1": "imagem",
+            "2": "Renata Santos de Souza",
+            "3": "Matéria do professor"
+        }
     ]
 }
