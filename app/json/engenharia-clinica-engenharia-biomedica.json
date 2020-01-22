@@ -1,0 +1,195 @@
+{
+    "titulo": "Engenharia Clínica e Engenharia Biomédica",
+    "nivel": "Pós-graduação",
+    "class": "engenharia-clinica-engenharia-biomedica",
+    "campus": "Campus: Sta. Rita do Sapucaí / Belo Horizonte / Rio de Janeiro / Recife",
+    "inicio": "Início: Mar/2020",
+    "horario": "Horário: Sáb: 8h30 às 12h30 e 13h30 às 17h30",
+    "duracao": "Duração: 24 meses",
+"sobre": [
+    {
+        "descricao": "<p>O curso de Especialização em Engenharia Clínica e Engenharia Biomédica do Inatel tem por objetivo formar profissionais das áreas de Ciências Exatas e de Saúde, desenvolvendo os conhecimentos técnicos, científicos e práticas gerenciais destes profissionais para atuarem na área de tecnologias médicas. Ao finalizar o curso, você poderá atuar tanto em estabelecimentos assistenciais de saúde (EAS), quanto em empresas e centros de pesquisas do ramo de equipamentos odonto-médico-hospitalares. Aplique conhecimentos de engenharia, computação, anatomia, fisiologia, entre outros, para o aprimoramento de técnicas, recursos, processos e serviços para a área da saúde.</p>",
+        "imagem": "imagem"
+    }
+],
+"conteudo": [
+    {"item": "Introdução à Eletricidade e Eletrônica"},
+    {"item": "Anatomia e Fisiologia Humana I"},
+    {"item": "Tecnologias em Equipamentos de Imagem"},
+    {"item": "Tecnologias em Imagens Médicas"},
+    {"item": "Normas Regulamentadoras"},
+    {"item": "Engenharia Clínica I"},
+    {"item": "Engenharia Clínica II"},
+    {"item": "Processo de Avaliação e de Certificação da Qualidade dos Serviços de Saúde"},
+    {"item": "Normas de Segurança e Desempenho Aplicadas a Equipamentos Médicos e Odontológicos"},
+    {"item": "Regulamentação para Fabricação de Equipamentos em Conformidade com os Organismos de Regulamentação Nacionais"},
+    {"item": "Processamento Digital de Sinais Biomédicos"},
+    {"item": "Biomateriais"},
+    {"item": "Bioestatística"},
+    {"item": "Metodologia Científica"},
+    {"item": "Automação e Instrumentação Hospitalar"},
+    {"item": "Metrologia Médica"},
+    {"item": "Gestão em Engenharia Clínica"},
+    {"item": "Tecnologias Móveis para Saúde IoT"},
+    {"item": "Arquitetura Hospitalar"},
+    {"item": "Interação da Radiação com o Tecido Biológico"},
+    {"item": "Tecnologias em Equipamentos Médico - Hospitalares I"},
+    {"item": "Tecnologias em Equipamentos Médico-Hospitalares II"},
+    {"item": "Anatomia e Fisiologia Humana II"},
+    {"item": "Organização Hospitalar"}
+],
+"coordenador": [
+    {
+        "imagem": "imagem",
+        "nome": "Prof. Fabiano Valias de Carvalho",
+        "cargo": "Coordenador do curso",
+        "descricao": "Possui graduação em Engenharia Elétrica, com ênfase em Telecomunicações e Eletrônica pelo Instituto Nacional de Telecomunicações - Inatel (1995) e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá - Unifei (2002). Atualmente é coordenador no Inatel do curso de Graduação em Engenharia Biomédica, desde 2010, tendo participado da criação e da implantação desse curso. Coordena o Centro de Desenvolvimento e Transferência de Tecnologia Assistiva do Inatel - CDTTA. Atua nas áreas de eletrônica digital e analógica, sistemas microcontrolados, redes de dados, processamento digital de sinais biomédicos e tecnologia assistiva."
+    }
+],
+"professores": [
+    {
+        "imagem": "imagem",
+        "professor": "Adriano Gonçalves Sallum",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Antônio Marcos de Souza",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Bruno Nunes Bono",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Bernardo Augusto Chaves Dória",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Camila Mendonça de Moraes",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Carlos Alberto Ynoguti",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Egidio Raimundo Neto",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Elisa Rennó Carneiro Dester",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Fabiano Valias de Carvalho",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Felipe Emanoel Chaves",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Francisco Eduardo de Carvalho Costa",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Jefferson Davis Pena Cária",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "João Paulo Carvalho Henriques",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Kássio André Lacerda",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Karina Perez Mokarzel Carneiro",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Mário Ferreira Silva Junior",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Marcelo de Almeida Duarte",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Marcelo de Moraes Antunes",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Patrícia de Azambuja",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Romulo Mota Volpato",
+        "materia": "Matéria do professor"
+    },
+    {
+        "imagem": "imagem",
+        "professor": "Viviane Viana Silva",
+        "materia": "Matéria do professor"
+    }
+],
+"principais-atividades-desenvolvidas": [
+    {
+        "imagem": "imagem",
+        "descricao": "Participar da definição, do planejamento e da incorporação de tecnologias no ambiente odonto-médico-hospitalar."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Aplicar tecnologias de ponta para beneficiar as atividades ligadas à área da saúde."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Aprimorar os processos no EAS, visando favorecer os cuidados dispensados aos pacientes e a otimização de recursos."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Administrar departamentos que envolvam tecnologias médicas."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Produzir e desenvolver equipamentos e tecnologias médicas para terapia, diagnóstico e monitoração de pacientes."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Participar da definição, do planejamento e da incorporação de tecnologias no ambiente odonto-médico-hospitalar."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Gerenciar o parque tecnológico do EAS."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Aprimorar os processos no EAS, visando favorecer os cuidados dispensados aos pacientes e a otimização de recursos."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Administrar departamentos que envolvam tecnologias médicas."
+    }
+]
+
+}

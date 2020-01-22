@@ -117,5 +117,19 @@
             "valor-matricula-2": "R$ 1.060,20",
             "valor-matricula-3": "R$ 1.083,00"
         }
+    ],
+    "principais-atividades-desenvolvidas": [
+        {
+            "imagem": "imagem",
+            "descricao": "Desenvolvimento de artefatos digitais interativos da análise inicial, sua implementação e análise estratégica dos projetos."
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Organização e planejamento de projetos de artefatos digitais, tanto sobre os processos envolvidos como também sobre gestão de pessoas envolvidas na iniciativa."
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Utilização de metodologias de design, abordagens de Design Thinking e design."
+        }
     ]
 }
