@@ -1,0 +1,137 @@
+@import "../settings/variables.less";
+@import "../settings/font.less";
+
+.background-image-top {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 100%;
+    height: 787px;
+    h3 {
+        color: #FFFFFF;
+        font-family: Tahoma;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4.18px;
+        padding: 64px 0 0 0;
+        line-height: 16px;
+        text-align: left;
+    }
+    h1 {
+        font-family: @fontTahoma;
+        padding: 40px 0;
+        color: @white;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        width: 505px;
+        text-align: left;
+    }
+}
+
+.course {
+    margin: -300px 0 0 0;
+    .container-grid {
+        background: @white;
+        .info-course {
+            background: #F9F9F9;
+            padding: 10px 40px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 -40px;
+        }
+        .tab {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 0;
+            .tab-item {
+                cursor: pointer;
+                font-family: @fontRoboto;
+                font-weight: 700;
+                padding: 0 0 20px 0;
+                text-align: center;
+                width: 25%;
+                border-bottom: 1px solid #F0F0F0;
+                &.active {
+                    color: @black!important;
+                    border-bottom: 4px solid @black;
+                }
+            }
+        }
+        .tab-content {
+            padding-bottom: 40px;
+            h2 {
+                color: @black;
+                font-family: Tahoma;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px;
+                text-align: left;
+            }
+            .sobre-o-curso {
+                img {
+                    width: 100%;
+                }
+            }    
+            .conteudo {
+                .item-conteudo {
+                    padding: 20px 0;
+                    border-bottom: 1px solid #F0F0F0;
+                }
+            }  
+            .professores {
+                .coordernador {
+                    padding: 40px 20px;
+                    background: #F0F0F0;
+                    .thumb-coordernador {
+                        border-radius: 50%;
+                        width: 110px;
+                        height: 110px;
+                        margin-right: 15px;
+                    }
+                    .dados-coordernador {
+                        .nome {
+                            font-family: @fontTahoma;
+                            font-size: 16px;                            
+                            font-weight: 700;
+                            margin: 0;
+                        }
+                        .materia {
+                            font-family: @fontRoboto;
+                            font-size: 15px;
+                            margin: 0;
+                        }
+                    }
+                    .descricao-coordernador {
+
+                    }
+                }
+                .item-professores {
+                    padding: 40px 20px;
+                    border: 1px solid #F0F0F0;
+                    display: flex;
+                    align-items: center;
+                    .thumb-professor {
+                        border-radius: 50%;
+                        width: 80px;
+                        height: 80px;
+                        margin-right: 15px;
+                    }
+                    .dados-professor {
+                        .nome {
+                            font-family: @fontRoboto;
+                            font-size: 16px;                            
+                            font-weight: 700;
+                            margin: 0;
+                        }
+                        .materia {
+                            font-family: @fontRoboto;
+                            font-size: 15px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }           
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@import "../settings/variables.less";
+
+.container-grid {
+    width: 100%;
+    padding: 0 16px;
+    margin-right: auto;
+    margin-left: auto;
+    @media screen and (max-width: @desktop) {
+        width: 1025px;
+        padding: 0 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    @media screen and (min-width: @desktop) {
+        width: 1360px;
+        padding: 0 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }      
+}
+
+.design-interacao-artefatos-digitais {
+    .color-course { color: @curso-x!important;}
+    .background-course { background-color: @curso-x!important;}
+    .border-course { border-color: @curso-x!important;}
+
+    .background-image-top {background-image: url(https://www.inatel.br/home/images/2017/06/20/inatel.jpg);}
+}
+

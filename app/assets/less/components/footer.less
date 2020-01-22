@@ -1,0 +1,67 @@
+@import "../settings/variables.less";
+@import "../settings/font.less";
+
+
+footer {
+    padding: 20px 0 40px 0;
+    background: @primary-color;
+    color: @white;
+    h4 {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 20px 0 40px 0;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 15px 0;
+    }
+    .link-footer {
+        display: flex;
+        flex-flow: wrap;
+        align-items: baseline;
+        margin-top: -5px;
+        margin-left: -10px;     
+        margin-bottom: 20px; 
+        .item {
+            color: @primary-color;
+            background: @white;
+            border-radius: 4px;
+            box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #065CBE;        
+            margin: 5px;
+            padding: 10px 15px;
+            width: auto;
+        }
+    }
+    .contatc-us {
+        .phone {
+            .phone-local {
+                margin: -15px;
+                p { 
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    .signature {
+        background: @white;
+        color: @primary-color;
+        padding: 20px;
+        .logo-footer {
+            height: 32px;
+        }
+        .copyrights {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        .social {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            height: 100%;
+        }
+    }
+}
