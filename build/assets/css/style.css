@@ -155,15 +155,12 @@ footer .signature .social {
 .design-interacao-artefatos-digitais .border-course {
   border-color: #CC2562 !important;
 }
-.design-interacao-artefatos-digitais .background-image-top {
-  background-image: url(https://www.inatel.br/home/images/2017/06/20/inatel.jpg);
-}
 .background-image-top {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
   width: 100%;
-  height: 787px;
+  height: 540px;
 }
 .background-image-top h3 {
   color: #FFFFFF;
@@ -186,7 +183,7 @@ footer .signature .social {
   text-align: left;
 }
 .course {
-  margin: -300px 0 0 0;
+  margin: -150px 0 0 0;
 }
 .course .container-grid {
   background: #FFF;
@@ -202,6 +199,7 @@ footer .signature .social {
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
+  flex-wrap: initial;
 }
 .course .container-grid .tab .tab-item {
   cursor: pointer;
@@ -235,25 +233,41 @@ footer .signature .social {
   border-bottom: 1px solid #F0F0F0;
 }
 .course .container-grid .tab-content .professores .coordernador {
+  margin: 20px 0;
   padding: 40px 20px;
   background: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
 }
-.course .container-grid .tab-content .professores .coordernador .thumb-coordernador {
+.course .container-grid .tab-content .professores .coordernador .apresentacao-coordernador {
+  text-align: center;
+  width: 250px;
+}
+.course .container-grid .tab-content .professores .coordernador .apresentacao-coordernador .thumb-coordernador {
   border-radius: 50%;
   width: 110px;
   height: 110px;
   margin-right: 15px;
 }
-.course .container-grid .tab-content .professores .coordernador .dados-coordernador .nome {
+.course .container-grid .tab-content .professores .coordernador .apresentacao-coordernador .dados-coordernador .nome {
   font-family: 'Tahoma', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
-.course .container-grid .tab-content .professores .coordernador .dados-coordernador .materia {
+.course .container-grid .tab-content .professores .coordernador .apresentacao-coordernador .dados-coordernador .materia {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  margin: 0;
+  margin: 10px 0 0 0;
+}
+.course .container-grid .tab-content .professores .coordernador .divisao {
+  width: 4px;
+  background: #D2D2D2;
+  height: 200px;
+  margin: 0 30px;
+}
+.course .container-grid .tab-content .professores .coordernador .descricao-coordernador {
+  width: fit-content;
 }
 .course .container-grid .tab-content .professores .item-professores {
   padding: 40px 20px;
@@ -277,6 +291,40 @@ footer .signature .social {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   margin: 0;
+}
+.course .container-grid .tab-content .valores table {
+  width: 100%;
+}
+.course .container-grid .tab-content .valores table th {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  font-weight: 700;
+  padding: 20px 0;
+  border-bottom: 1px solid #F0F0F0;
+}
+.course .container-grid .tab-content .valores table th span {
+  color: #008A82;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  position: absolute;
+  margin-top: -20px;
+}
+.course .container-grid .tab-content .valores table td {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  padding: 20px 0;
+  border-bottom: 1px solid #F0F0F0;
 }
 @font-face {
   font-family: 'Roboto';
