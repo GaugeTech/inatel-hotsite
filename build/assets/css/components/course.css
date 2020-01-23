@@ -1,0 +1,400 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+.background-image-top {
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: bottom;
+  width: 100%;
+  height: 400px;
+}
+@media screen and (min-width: 1025px) {
+  .background-image-top {
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: bottom;
+    width: 100%;
+    height: 540px;
+  }
+}
+.background-image-top h3 {
+  color: #FFFFFF;
+  font-family: Tahoma;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4.18px;
+  padding: 40px 0 0 0;
+  line-height: 16px;
+  text-align: left;
+}
+@media screen and (min-width: 1025px) {
+  .background-image-top h3 {
+    padding: 64px 0 0 0;
+  }
+}
+.background-image-top h1 {
+  font-family: 'Tahoma', sans-serif;
+  padding: 20px 0;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  width: 100%;
+  text-align: left;
+}
+@media screen and (min-width: 1025px) {
+  .background-image-top h1 {
+    padding: 40px 0;
+    width: 505px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .background-image-top a {
+    width: 100%;
+    display: inline-block;
+    padding: 15px 40px;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+.course {
+  margin: 0;
+}
+@media screen and (min-width: 1025px) {
+  .course {
+    margin: -150px 0 0 0;
+  }
+}
+.course .container-grid {
+  background: #FFF;
+}
+.course .container-grid .info-course {
+  background: #F9F9F9;
+  margin: 0 -15px;
+  padding: 20px 15px;
+}
+@media screen and (min-width: 1025px) {
+  .course .container-grid .info-course {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .course .container-grid .nav {
+    overflow: auto;
+  }
+}
+.course .container-grid .tab {
+  flex-flow: initial;
+  overflow: overlay;
+  display: -webkit-box;
+  margin: 0 -15px;
+  padding: 25px 0;
+}
+@media screen and (min-width: 1025px) {
+  .course .container-grid .tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin: 0;
+    flex-wrap: initial;
+  }
+}
+.course .container-grid .tab .tab-item {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  padding: 20px 10px;
+  text-align: center;
+  width: fit-content;
+  border-bottom: 1px solid #F0F0F0;
+}
+.course .container-grid .tab .tab-item.active {
+  color: #000 !important;
+  border-bottom: 4px solid #000;
+}
+@media screen and (min-width: 1025px) {
+  .course .container-grid .tab .tab-item {
+    width: 25%;
+    padding: 0 0 20px 0;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .course .container-grid .tab-content {
+    padding-bottom: 40px;
+  }
+}
+.course .container-grid .tab-content h2 {
+  color: #000;
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.course .container-grid .tab-content .sobre-o-curso img {
+  width: 100%;
+}
+.course .container-grid .tab-content .conteudo .item-conteudo {
+  padding: 20px 0;
+  border-bottom: 1px solid #F0F0F0;
+}
+.course .container-grid .tab-content .professores .coordernador {
+  margin: 20px 0;
+  padding: 40px 20px;
+  background: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1025px) {
+  .course .container-grid .tab-content .professores .coordernador {
+    flex-wrap: initial;
+  }
+}
+.course .container-grid .tab-content .professores .coordernador .apresentacao-coordernador {
+  text-align: center;
+  width: 100%;
+}
+@media screen and (min-width: 1025px) {
+  .course .container-grid .tab-content .professores .coordernador .apresentacao-coordernador {
+    width: 250px;
+  }
+}
+.course .container-grid .tab-content .professores .coordernador .apresentacao-coordernador .thumb-coordernador {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin-right: 15px;
+}
+.course .container-grid .tab-content .professores .coordernador .apresentacao-coordernador .dados-coordernador .nome {
+  font-family: 'Tahoma', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0 0 0;
+}
+.course .container-grid .tab-content .professores .coordernador .apresentacao-coordernador .dados-coordernador .materia {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 10px 0 0 0;
+}
+.course .container-grid .tab-content .professores .coordernador .divisao {
+  background: #D2D2D2;
+  width: 100%;
+  height: 4px;
+  margin: 30px;
+}
+@media screen and (min-width: 1025px) {
+  .course .container-grid .tab-content .professores .coordernador .divisao {
+    width: 4px;
+    height: 200px;
+    margin: 0 30px;
+  }
+}
+.course .container-grid .tab-content .professores .coordernador .descricao-coordernador {
+  width: fit-content;
+}
+.course .container-grid .tab-content .professores .item-professores {
+  padding: 40px 20px;
+  border: 1px solid #F0F0F0;
+  display: flex;
+  align-items: center;
+}
+.course .container-grid .tab-content .professores .item-professores .thumb-professor {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+.course .container-grid .tab-content .professores .item-professores .dados-professor .nome {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+.course .container-grid .tab-content .professores .item-professores .dados-professor .materia {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+.course .container-grid .tab-content .valores table {
+  width: 900px;
+}
+@media screen and (min-width: 1025px) {
+  .course .container-grid .tab-content .valores table {
+    width: 100%;
+  }
+}
+.course .container-grid .tab-content .valores table th {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  font-weight: 700;
+  padding: 20px 0;
+  border-bottom: 1px solid #F0F0F0;
+}
+.course .container-grid .tab-content .valores table th span {
+  color: #008A82;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  position: absolute;
+  margin-top: -20px;
+  width: 100%;
+}
+.course .container-grid .tab-content .valores table td {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  padding: 20px 0;
+  border-bottom: 1px solid #F0F0F0;
+}
+.course .container-grid .tab-content .valores .alerta-valores {
+  font-weight: 700;
+  margin: 40px 0;
+  text-align: center;
+}
+.course .container-grid .tab-content .valores .tel-contato {
+  width: fit-content;
+  padding-left: 61px;
+  margin: 0 auto;
+  background-image: url(/assets/img/phone.svg);
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+.course .container-grid .tab-content .valores .tel-contato p {
+  margin: 0;
+}
+.mais-cursos {
+  padding: 40px 0;
+  margin-top: 40px;
+  height: auto;
+  background-size: 100% auto;
+}
+@media screen and (max-width: 768px) {
+  .mais-cursos {
+    background-image: none!important;
+    background-color: #F9F9F9;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .mais-cursos {
+    padding: 80px 0;
+    margin-top: 40px;
+    height: 830px;
+  }
+}
+.mais-cursos .divisao {
+  background: #FFF;
+  border-radius: 2.5px;
+  width: 24px;
+  height: 4px;
+  margin: 0 auto;
+}
+.mais-cursos h4 {
+  color: #000;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4.18px;
+  line-height: 16px;
+  text-align: center;
+  margin: 40px 0;
+}
+@media screen and (min-width: 768px) {
+  .mais-cursos h4 {
+    color: #FFF;
+  }
+}
+.mais-cursos h2 {
+  color: #000;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  width: auto;
+  padding: 0 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media screen and (min-width: 1025px) {
+  .mais-cursos h2 {
+    color: #FFF;
+    width: 824px;
+    padding: 0;
+  }
+}
+.mais-cursos .lista-cursos {
+  padding: 40px 0 0 0;
+}
+.mais-cursos .lista-cursos .item-cursos {
+  background: #FFF;
+  border-radius: 8px 8px 0 0;
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #CC2562;
+  height: auto;
+  margin: 16px;
+}
+@media screen and (min-width: 1025px) {
+  .mais-cursos .lista-cursos .item-cursos {
+    height: 475px;
+    margin: 0;
+  }
+}
+.mais-cursos .lista-cursos .item-cursos .img-destaque {
+  width: 100%;
+  height: auto;
+}
+.mais-cursos .lista-cursos .item-cursos .descricao-cursos {
+  padding: 20px 20px 20px 20px;
+}
+.mais-cursos .lista-cursos .item-cursos .descricao-cursos .titulo {
+  color: #000;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.mais-cursos .lista-cursos .item-cursos .descricao-cursos .item {
+  color: #848689;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+.mais-cursos .lista-cursos .item-cursos .descricao-cursos .item img {
+  margin-right: 5px;
+}
+.mais-cursos .lista-cursos .item-cursos .descricao-cursos .item span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  margin-left: 10px;
+}
