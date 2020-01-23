@@ -56,6 +56,7 @@ footer .signature {
   color: #001E40;
   padding: 20px;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
   footer .signature {
     background: transparent;
@@ -69,6 +70,11 @@ footer .signature .logo-footer {
     background: #FFF;
   }
 }
+=======
+footer .signature .logo-footer {
+  height: 32px;
+}
+>>>>>>> 206cf110b7a94f497739bb91321dd88abb3000a3
 footer .signature .copyrights {
   display: flex;
   align-items: center;

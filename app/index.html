@@ -9,35 +9,54 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/js.js"></script>
 
-    <script>
-        $.get( "./json/design-interacao-artefatos-digitais.json", function(data) {               
-            console.log(data)
-            $( "body" ).addClass(data.class);
-
-            $('.json-name-curso').text(data.titulo);
-            $('.json-horario').text(data.horario);
-        });
-    </script>
-
     <title>Inatel</title>
 </head>
-<body>
-    <section class="head border-course">
+<body class="home">
+    <section class="head border-primary menu-link">
         <div class="container-grid">
             <div class="row">
-                <div class="col-2">
-                    <div class="logo background-course"></div>
+                <div class="col-2 menu-link">
+                    <div class="logo background-primary"></div>
                 </div>
-                <div class="col-5">
-                    <div class="bradcrumbs">
-                        <a href="/" class="color-course">Pós-graduação</a> / <span class="json-name-curso"></span>
+                <div class="row">
+                    <div class="">
+                        <a href="">Cursos</a>
+                    </div>
+                <div class="row">
+                    <div class="">
+                        <a href="">Nossos Diferenciais</a>
                     </div>
                 </div>
-                <div class="col-5">
-                    <div class="buttons-header">
-                        <a href="/" class="button-shadown border-course background-course">Inscreva-se</a>
-                        <a href="/" class="button border-course color-course">Receba conteúdo exclusivos dos cursos</a>
+                <div class="row">
+                    <div class="">
+                        <a href="">Depoimentos</a>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="">
+                        <a href="">Infraestrutura</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="">
+                        <a href="">Instalações</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="">
+                        <a href="">Blog Inatel</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="">
+                        <a href="">Nossos Diferenciais</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="">
+                        <a href="">Parcerias</a>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>

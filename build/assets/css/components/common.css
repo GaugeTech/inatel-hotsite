@@ -1,5 +1,6 @@
 .container-grid {
   width: 100%;
+<<<<<<< HEAD
   padding: 0;
   margin-right: auto;
   margin-left: auto;
@@ -7,6 +8,13 @@
   padding-right: 15px;
 }
 @media screen and (min-width: 1025px) {
+=======
+  padding: 0 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (max-width: 1360px) {
+>>>>>>> 206cf110b7a94f497739bb91321dd88abb3000a3
   .container-grid {
     width: 1025px;
     padding: 0 20px;
@@ -28,6 +36,7 @@
 .design-interacao-artefatos-digitais .background-course {
   background-color: #CC2562 !important;
 }
+<<<<<<< HEAD
 .design-interacao-artefatos-digitais .background-course-mobile {
   background-color: #CC2562;
 }
@@ -39,3 +48,17 @@
 .design-interacao-artefatos-digitais .border-course {
   border-color: #CC2562 !important;
 }
+=======
+.design-interacao-artefatos-digitais .border-course {
+  border-color: #CC2562 !important;
+}
+.home .color-primary {
+  color: #065CBE !important;
+}
+.home .background-primary {
+  background-color: #065CBE !important;
+}
+.home .border-primary {
+  border-color: #065CBE !important;
+}
+>>>>>>> 206cf110b7a94f497739bb91321dd88abb3000a3

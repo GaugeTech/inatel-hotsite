@@ -14,6 +14,7 @@
 }
 .background-image-top {
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-size: auto 100%;
   background-position: bottom;
   width: 100%;
@@ -28,6 +29,12 @@
     width: 100%;
     height: 540px;
   }
+=======
+  background-size: 100%;
+  background-position: bottom;
+  width: 100%;
+  height: 540px;
+>>>>>>> 206cf110b7a94f497739bb91321dd88abb3000a3
 }
 .background-image-top h3 {
   color: #FFFFFF;
@@ -35,6 +42,7 @@
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 4.18px;
+<<<<<<< HEAD
   padding: 40px 0 0 0;
   line-height: 16px;
   text-align: left;
@@ -78,12 +86,31 @@
   .course {
     margin: -150px 0 0 0;
   }
+=======
+  padding: 64px 0 0 0;
+  line-height: 16px;
+  text-align: left;
+}
+.background-image-top h1 {
+  font-family: 'Tahoma', sans-serif;
+  padding: 40px 0;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  width: 505px;
+  text-align: left;
+}
+.course {
+  margin: -150px 0 0 0;
+>>>>>>> 206cf110b7a94f497739bb91321dd88abb3000a3
 }
 .course .container-grid {
   background: #FFF;
 }
 .course .container-grid .info-course {
   background: #F9F9F9;
+<<<<<<< HEAD
   padding: 20px 0;
 }
 @media screen and (min-width: 1025px) {
@@ -115,20 +142,39 @@
     margin: 0;
     flex-wrap: initial;
   }
+=======
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -40px;
+}
+.course .container-grid .tab {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  flex-wrap: initial;
+>>>>>>> 206cf110b7a94f497739bb91321dd88abb3000a3
 }
 .course .container-grid .tab .tab-item {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+<<<<<<< HEAD
   padding: 20px 10px;
   text-align: center;
   width: fit-content;
+=======
+  padding: 0 0 20px 0;
+  text-align: center;
+  width: 25%;
+>>>>>>> 206cf110b7a94f497739bb91321dd88abb3000a3
   border-bottom: 1px solid #F0F0F0;
 }
 .course .container-grid .tab .tab-item.active {
   color: #000 !important;
   border-bottom: 4px solid #000;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 1025px) {
   .course .container-grid .tab .tab-item {
     width: 25%;
@@ -139,6 +185,10 @@
   .course .container-grid .tab-content {
     padding-bottom: 40px;
   }
+=======
+.course .container-grid .tab-content {
+  padding-bottom: 40px;
+>>>>>>> 206cf110b7a94f497739bb91321dd88abb3000a3
 }
 .course .container-grid .tab-content h2 {
   color: #000;
@@ -249,6 +299,7 @@
   padding: 20px 0;
   border-bottom: 1px solid #F0F0F0;
 }
+<<<<<<< HEAD
 .course .container-grid .tab-content .valores .alerta-valores {
   font-weight: 700;
   margin: 40px 0;
@@ -368,3 +419,5 @@
   text-align: left;
   margin-left: 10px;
 }
+=======
+>>>>>>> 206cf110b7a94f497739bb91321dd88abb3000a3
