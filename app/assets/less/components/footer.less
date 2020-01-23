@@ -48,8 +48,14 @@ footer {
         background: @white;
         color: @primary-color;
         padding: 20px;
+        @media screen and (max-width: @mobile) { 
+            background: transparent;
+        }
         .logo-footer {
             height: 32px;
+            @media screen and (max-width: @mobile) { 
+                background: @white;
+            }
         }
         .copyrights {
             display: flex;

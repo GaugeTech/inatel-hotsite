@@ -6,13 +6,19 @@
     border-bottom-width: 2px;
     font-family: @fontRoboto;
     .logo {
-        width: 168px;
+        width: 100%;
         height: 80px;
+        @media screen and (min-width: @desktop) { 
+            width: 168px;
+        }
     }
     .bradcrumbs {
         display: flex;
         align-items: center;
-        height: 100%;  
+        height: 100%;
+        @media screen and (max-width: @tablet) {
+            display: none
+        }   
     }
     .buttons-header {
         display: flex;
@@ -22,6 +28,9 @@
         a {
             padding: 15px 25px;
         }  
+        @media screen and (max-width: @tablet) {
+            display: none
+        }           
     }
 }
 
