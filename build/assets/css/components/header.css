@@ -36,11 +36,14 @@
     width: 100%;
   }
 }
+<<<<<<< HEAD
 @media screen and (max-width: 1025px) {
   .head .col-5 {
     display: none;
   }
 }
+=======
+>>>>>>> d19b480cf11f38b5e6286cc9735c1ce5c91a67f7
 .head .bradcrumbs {
   display: flex;
   align-items: center;
@@ -87,6 +90,11 @@
   .head .menu .menu-link {
     color: white;
     margin: 14px 12px;
+<<<<<<< HEAD
+=======
+    font-size: 14px;
+    text-align: left;
+>>>>>>> d19b480cf11f38b5e6286cc9735c1ce5c91a67f7
   }
 }
 @media screen and (max-width: 1200px) {

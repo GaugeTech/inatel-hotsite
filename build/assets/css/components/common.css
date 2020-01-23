@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
   .order-mobile-first {
     -ms-flex-order: 1;
@@ -10,6 +11,8 @@
     order: 2;
   }
 }
+=======
+>>>>>>> d19b480cf11f38b5e6286cc9735c1ce5c91a67f7
 .container-grid {
   width: 100%;
   padding: 0;
