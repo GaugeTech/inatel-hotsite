@@ -54,3 +54,131 @@
         }
     }
 }
+
+.home-content-cursos {
+    margin: 0;
+    @media screen and (min-width: @tablet) { 
+        margin: -150px 0 0 0;
+    }
+    .container-grid {
+        &.background-home-cursos {
+            background: #F9F9F9;
+            padding-top: 50px;
+        }
+        .topo-cursos-home {
+            .divisao {
+                width: 50px;
+                height: 4px;
+            }
+            h4 {
+                font-family: @fontTahoma;
+                color: @black;
+                font-size: 13px;
+                font-weight: 400;
+                letter-spacing: 4.18px;
+                line-height: 16px;
+                text-align: left;
+                margin: 15px 0;
+            }
+            h2 {
+                color: @black;
+                font-family: @fontTahoma;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 36px;
+                width: 506px;
+                text-align: left;
+            }
+        }
+
+        .lista-cursos {
+            padding: 40px 0 0 0;
+            .item-cursos {
+                background: @white;
+                border-radius: 8px 8px 0 0;
+                box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #065CBE;
+                height: auto;
+                margin: 16px;
+                display: block;
+                text-decoration: none;
+                @media screen and (min-width: @tablet) { 
+                    height: 475px;
+                    margin: 0 0 40px 0;
+                }
+                .img-destaque {
+                    width: 100%;
+                    height: auto;
+                }
+                .descricao-cursos {
+                    padding: 20px 20px 20px 20px;
+                    .titulo {
+                        color: @black;
+                        font-family: @fontTahoma;
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 26px;
+                        text-align: left;
+                    }
+                    .item {
+                        color: #848689;
+                        font-family: @fontRoboto;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        text-align: left;
+                        img {
+                            margin-right: 5px;
+                        }
+                        span {
+                            font-family: @fontRoboto;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 19px;
+                            text-align: left;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }        
+    }
+}
+
+.home-content-diferenciais {
+    margin: 40px 0;
+    .container-grid {
+        &.background-home-diferenciais {
+            background-image: url(../assets/img/bg-diferenciais.svg);
+            padding-top: 50px;
+            height: 650px;
+        }
+        .topo-diferenciais-home {
+            .divisao {
+                width: 50px;
+                height: 4px;
+                margin:0 auto;
+            }
+            h4 {
+                font-family: @fontTahoma;
+                color: @black;
+                font-size: 13px;
+                font-weight: 400;
+                letter-spacing: 4.18px;
+                line-height: 16px;
+                text-align: center;
+                margin: 15px 0;
+            }
+            h2 {
+                color: @black;
+                font-family: @fontTahoma;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 36px;
+                max-width: 820px;
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+            }
+        }
+    }   
+}
