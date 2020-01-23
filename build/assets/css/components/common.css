@@ -1,0 +1,40 @@
+.container-grid {
+  width: 100%;
+  padding: 0 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (max-width: 1360px) {
+  .container-grid {
+    width: 1025px;
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .container-grid {
+    width: 1360px;
+    padding: 0 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.design-interacao-artefatos-digitais .color-course {
+  color: #CC2562 !important;
+}
+.design-interacao-artefatos-digitais .background-course {
+  background-color: #CC2562 !important;
+}
+.design-interacao-artefatos-digitais .border-course {
+  border-color: #CC2562 !important;
+}
+.home .color-primary {
+  color: #065CBE !important;
+}
+.home .background-primary {
+  background-color: #065CBE !important;
+}
+.home .border-primary {
+  border-color: #065CBE !important;
+}
