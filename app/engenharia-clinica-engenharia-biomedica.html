@@ -16,6 +16,7 @@
 
             $('.json-name-curso').text(data.titulo);
             $('.json-horario').text(data.horario);
+            $('.json-sobre').html(data.sobre[0].descricao);
         });
     </script>
 
@@ -100,9 +101,11 @@
                 <div class="tab-pane sobre-o-curso fade show active" id="sobreocurso">
                     <div class="row">
                         <h2 class="col-12">Sobre o curso</h2>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 json-sobre">
+                            <!--
                             <p>O curso de especialização em Design de Interação para Artefatos Digitais promove competências para a pesquisa, ideação, prototipação, análise e desenvolvimento de soluções digitais interativas, com base em práticas de Design Centrado no Usuário e o emprego eficaz de Metodologias de Design voltados à concepção de inovações com alto grau de usabilidade.</p>
                             <p>Ao se formar neste curso, você poderá atuar em centenas de áreas diferentes, sobretudo com as diversas formas de tecnologias existentes atualmente.  Neste contexto, trabalhar um profissional com características fundamentais ligadas ao dinamismo, versatilidade, eficiência e alta capacidade é uma premissa que está presente na concepção da grade curricular do curso de Design de Interação para Artefatos Digitais.</p>
+                            -->
                         </div>
                         <div class="col-12 col-md-6">
                             <img src="./assets/img/cursos/design-interacao-artefatos-digitais/sobre-o-curso.png">
