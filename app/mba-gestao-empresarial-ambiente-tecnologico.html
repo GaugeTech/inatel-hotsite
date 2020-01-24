@@ -17,6 +17,24 @@
             $('.json-name-curso').text(data.titulo);
             $('.json-horario').text(data.horario);
             $('.json-sobre').html(data.sobre[0].descricao);
+            $('.json-campus').text(data.campus);
+            $('.json-inicio').text(data.inicio);
+            $('.json-horario').text(data.inicio);
+            $('.json-duracao').text(data.duracao);
+
+            for(var i=0; i< data.conteudo.length; i++){
+                var strHTL = "<div class='col-12 col-md-4'><div class='item-conteudo'>" + data.conteudo[i].item+"</div></div>";
+                $(".json-conteudo").append(strHTL);
+            }
+
+            for(var i=0; i< data.professores.length; i++){
+                var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'><img src='https://www.politize.com.br/wp-content/uploads/2019/09/aposentadoria-de-professor-politize.jpg' class='thumb-professor'><div class='dados-professor'><p class='nome'>"+ data.professores[i].professor +"</p><p class='materia'>"+ data.professores[i].materia +"</p></div></div></div>";
+                $(".json-professores").append(strPROFS);
+            }
+
+
+            $('.json-coordenador').text(data.coordenador[0].nome)
+            $('.json-coordenador-descricao').text(data.coordenador[0].descricao);
         });
     </script>
 
@@ -61,19 +79,19 @@
     <section class="course-content">
         <div class="container-grid">
             <div class="info-course">
-                <div class="local">
+                <div class="local json-campus">
                     <img src="./assets/img/maps-and-flags.svg">
                     Campus
                 </div>
-                <div class="init">
+                <div class="init json-inicio">
                     <img src="./assets/img/shuttle.svg">
                     Campus
                 </div>
-                <div class="hour">
+                <div class="hour json-horario">
                     <img src="./assets/img/alarm-clock.svg">
                     Horário
                 </div>
-                <div class="durability">
+                <div class="durability json-duracao">
                     <img src="./assets/img/calendar.svg">
                     Campus
                 </div>
@@ -102,10 +120,6 @@
                     <div class="row">
                         <h2 class="col-12">Sobre o curso</h2>
                         <div class="col-12 col-md-6 json-sobre">
-                            <!--
-                            <p>O curso de especialização em Design de Interação para Artefatos Digitais promove competências para a pesquisa, ideação, prototipação, análise e desenvolvimento de soluções digitais interativas, com base em práticas de Design Centrado no Usuário e o emprego eficaz de Metodologias de Design voltados à concepção de inovações com alto grau de usabilidade.</p>
-                            <p>Ao se formar neste curso, você poderá atuar em centenas de áreas diferentes, sobretudo com as diversas formas de tecnologias existentes atualmente.  Neste contexto, trabalhar um profissional com características fundamentais ligadas ao dinamismo, versatilidade, eficiência e alta capacidade é uma premissa que está presente na concepção da grade curricular do curso de Design de Interação para Artefatos Digitais.</p>
-                            -->
                         </div>
                         <div class="col-12 col-md-6">
                             <img src="./assets/img/cursos/design-interacao-artefatos-digitais/sobre-o-curso.png">
@@ -122,22 +136,7 @@
                 <div class="tab-pane conteudo fade" id="conteudo">
                     <div class="row">
                         <h2 class="col-12">Conteúdo</h2>
-                        <div class="col-12 col-md-4">
-                            <div class="item-conteudo">Design Centrado no Usuário</div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="item-conteudo">Design Centrado no Usuário</div>
-                        </div>
-
-                        <div class="col-12 col-md-4">
-                            <div class="item-conteudo">Design Centrado no Usuário</div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="item-conteudo">Design Centrado no Usuário</div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="item-conteudo">Design Centrado no Usuário</div>
-                        </div>
+                        <div class="json-conteudo row col-12"></div>
                     </div>
                 </div>  
                 
@@ -149,26 +148,18 @@
                                 <div class="apresentacao-coordernador">
                                     <img src="https://www.politize.com.br/wp-content/uploads/2019/09/aposentadoria-de-professor-politize.jpg" class="thumb-coordernador">
                                     <div class="dados-coordernador">
-                                        <p class="nome">Eduardo José Gonçalves de Oliveira</p>
+                                        <p class="json-coordenador"></p>
                                         <p class="materia">Matéria do professor</p>
                                     </div>
                                 </div>
                                 <div class="divisao"></div>
 
-                                <div class="descricao-coordernador">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius leo arcu, laoreet varius dui convallis sed. Nam in neque commodo, iaculis augue non, volutpat orci. Nam odio enim, porttitor in dapibus id, ultrices nec justo. Phasellus volutpat a nulla id ultricies. Fusce ac fermentum arcu. Nullam risus orci, sagittis id ultrices imperdiet, luctus ac tortor. Quisque luctus, justo ac vestibulum vestibulum, urna eros hendrerit lacus, eu condimentum urna arcu sit amet lorem. Quisque placerat ac magna vitae efficitur. Aliquam vehicula arcu ante, pellentesque rhoncus turpis consequat id. Praesent pharetra massa eu commodo accumsan. Aenean massa lorem, gravida at diam tempor, faucibus finibus arcu. Integer rhoncus rhoncus varius. Integer tempor lorem nec risus faucibus hendrerit. Curabitur non lobortis velit. Maecenas eleifend quis ipsum dapibus pulvinar.</p>
+                                <div class="descricao-coordernador json-coordenador-descricao">
+                            
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <div class="item-professores">
-                                <img src="https://www.politize.com.br/wp-content/uploads/2019/09/aposentadoria-de-professor-politize.jpg" class="thumb-professor">
-                                <div class="dados-professor">
-                                    <p class="nome">Eduardo José Gonçalves de Oliveira</p>
-                                    <p class="materia">Matéria do professor</p>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="json-professores row col-12"></div>
                     </div>
                 </div> 
                 
