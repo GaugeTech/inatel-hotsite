@@ -119,6 +119,12 @@ footer .cursos-footer p {
   font-weight: 700;
   margin: 20px 0;
 }
+footer .cursos-footer p a {
+  color: #FFF;
+}
+footer .cursos-footer p a:hover {
+  text-decoration: none;
+}
 footer .link-footer {
   display: flex;
   flex-flow: wrap;
@@ -346,11 +352,14 @@ footer .signature .social .link.youtube-footer {
 }
 @media screen and (min-width: 1025px) {
   .home .background-primary-mobile {
-    background-color: initial;
+    background-color: #FFF;
   }
 }
 .home .border-primary {
   border-color: #065CBE !important;
+}
+.design-interacao-artefatos-digitais {
+  padding-top: 80px;
 }
 .design-interacao-artefatos-digitais .color-course {
   color: #CC2562 !important;
@@ -366,11 +375,17 @@ footer .signature .social .link.youtube-footer {
 }
 @media screen and (min-width: 1025px) {
   .design-interacao-artefatos-digitais .background-course-mobile {
-    background-color: initial;
+    background-color: #FFF;
   }
+}
+.design-interacao-artefatos-digitais .background-course-image {
+  background-image: url(/assets/img/cursos/design-interacao-artefatos-digitais/banner-interna-design.png);
 }
 .design-interacao-artefatos-digitais .border-course {
   border-color: #CC2562 !important;
+}
+.engenharia-redes-sistemas-telecomunicacoes {
+  padding-top: 80px;
 }
 .engenharia-redes-sistemas-telecomunicacoes .color-course {
   color: #EA2F00 !important;
@@ -386,11 +401,17 @@ footer .signature .social .link.youtube-footer {
 }
 @media screen and (min-width: 1025px) {
   .engenharia-redes-sistemas-telecomunicacoes .background-course-mobile {
-    background-color: initial;
+    background-color: #FFF;
   }
+}
+.engenharia-redes-sistemas-telecomunicacoes .background-course-image {
+  background-image: url(/assets/img/cursos/engenharia-redes-sistemas-telecomunicacoes/engenharia-redes.png);
 }
 .engenharia-redes-sistemas-telecomunicacoes .border-course {
   border-color: #EA2F00 !important;
+}
+.engenharia-clinica-engenharia-biomedica {
+  padding-top: 80px;
 }
 .engenharia-clinica-engenharia-biomedica .color-course {
   color: #A220CB !important;
@@ -406,11 +427,17 @@ footer .signature .social .link.youtube-footer {
 }
 @media screen and (min-width: 1025px) {
   .engenharia-clinica-engenharia-biomedica .background-course-mobile {
-    background-color: initial;
+    background-color: #FFF;
   }
+}
+.engenharia-clinica-engenharia-biomedica .background-course-image {
+  background-image: url(/assets/img/cursos/engenharia-clinica-engenharia-biomedica/engenharia-clinica.png);
 }
 .engenharia-clinica-engenharia-biomedica .border-course {
   border-color: #A220CB !important;
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial {
+  padding-top: 80px;
 }
 .engenharia-sistemas-eletroeletronico-automacao-controle-industrial .color-course {
   color: #2E0096 !important;
@@ -426,11 +453,17 @@ footer .signature .social .link.youtube-footer {
 }
 @media screen and (min-width: 1025px) {
   .engenharia-sistemas-eletroeletronico-automacao-controle-industrial .background-course-mobile {
-    background-color: initial;
+    background-color: #FFF;
   }
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial .background-course-image {
+  background-image: url(/assets/img/cursos/engenharia-sistemas-eletroeletronicos-automacao-controle-industrial/engenharia-sistemas.png);
 }
 .engenharia-sistemas-eletroeletronico-automacao-controle-industrial .border-course {
   border-color: #2E0096 !important;
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing {
+  padding-top: 80px;
 }
 .desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .color-course {
   color: #008394 !important;
@@ -446,11 +479,17 @@ footer .signature .social .link.youtube-footer {
 }
 @media screen and (min-width: 1025px) {
   .desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .background-course-mobile {
-    background-color: initial;
+    background-color: #FFF;
   }
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .background-course-image {
+  background-image: url(/assets/img/cursos/desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing/desenvolvimento.png);
 }
 .desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .border-course {
   border-color: #008394 !important;
+}
+.internet-das-coisas {
+  padding-top: 80px;
 }
 .internet-das-coisas .color-course {
   color: #068CD4 !important;
@@ -466,11 +505,17 @@ footer .signature .social .link.youtube-footer {
 }
 @media screen and (min-width: 1025px) {
   .internet-das-coisas .background-course-mobile {
-    background-color: initial;
+    background-color: #FFF;
   }
+}
+.internet-das-coisas .background-course-image {
+  background-image: url(/assets/img/cursos/internet-das-coisas/Iot.png);
 }
 .internet-das-coisas .border-course {
   border-color: #068CD4 !important;
+}
+.mba-gestao-empresarial-ambiente-tecnologico {
+  padding-top: 80px;
 }
 .mba-gestao-empresarial-ambiente-tecnologico .color-course {
   color: #3F930A !important;
@@ -486,11 +531,17 @@ footer .signature .social .link.youtube-footer {
 }
 @media screen and (min-width: 1025px) {
   .mba-gestao-empresarial-ambiente-tecnologico .background-course-mobile {
-    background-color: initial;
+    background-color: #FFF;
   }
+}
+.mba-gestao-empresarial-ambiente-tecnologico .background-course-image {
+  background-image: url(/assets/img/cursos/mba-gestao-empresarial-ambiente-tecnologico/MBA.png);
 }
 .mba-gestao-empresarial-ambiente-tecnologico .border-course {
   border-color: #3F930A !important;
+}
+.industria-4 {
+  padding-top: 80px;
 }
 .industria-4 .color-course {
   color: #820073 !important;
@@ -506,8 +557,11 @@ footer .signature .social .link.youtube-footer {
 }
 @media screen and (min-width: 1025px) {
   .industria-4 .background-course-mobile {
-    background-color: initial;
+    background-color: #FFF;
   }
+}
+.industria-4 .background-course-image {
+  background-image: url(/assets/img/cursos/industria-4/industria.png);
 }
 .industria-4 .border-course {
   border-color: #820073 !important;
