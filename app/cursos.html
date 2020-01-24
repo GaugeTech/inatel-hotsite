@@ -11,16 +11,11 @@
 
     <script>
         $.get( "./json/design-interacao-artefatos-digitais.json", function(data) {               
-            console.log(data.conteudo.length)
+            console.log(data)
             $( "body" ).addClass(data.class);
 
             $('.json-name-curso').text(data.titulo);
             $('.json-horario').text(data.horario);
-
-            for (var i=0; i < data.conteudo.length; i++){
-                var strHTL = "<div class='col-12 col-md-4'><div class='item-conteudo'>"+data.conteudo[i].item+"</div></div>";
-                $(".json-conteudo").append(strHTL);
-            }    
         });
     </script>
 
@@ -125,7 +120,7 @@
                     <div class="row">
                         <h2 class="col-12">Conteúdo</h2>
                         <div class="json-conteudo row col-12">
-                            
+
                         </div>
                     </div>
                 </div>  
@@ -220,7 +215,7 @@
 
             <div class="lista-cursos row">
                 <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos box-shadow-course">
+                    <div class="item-cursos">
                         <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
                         <div class="descricao-cursos">
                             <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
@@ -237,7 +232,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos box-shadow-course">
+                    <div class="item-cursos">
                         <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
                         <div class="descricao-cursos">
                             <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
@@ -254,7 +249,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos box-shadow-course">
+                    <div class="item-cursos">
                         <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
                         <div class="descricao-cursos">
                             <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
@@ -271,7 +266,7 @@
                     </div>
                 </div>  
                 <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos box-shadow-course">
+                    <div class="item-cursos">
                         <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
                         <div class="descricao-cursos">
                             <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
