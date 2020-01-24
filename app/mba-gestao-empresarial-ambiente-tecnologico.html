@@ -10,7 +10,7 @@
     <script src="./js/js.js"></script>
 
     <script>
-        $.get( "./json/engenharia-redes-sistemas-telecomunicacoes.json", function(data) {               
+        $.get( "./json/mba-gestao-empresarial-ambiente-tecnologico.json", function(data) {               
             console.log(data)
             $( "body" ).addClass(data.class);
 
@@ -31,6 +31,7 @@
                 var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'><img src='https://www.politize.com.br/wp-content/uploads/2019/09/aposentadoria-de-professor-politize.jpg' class='thumb-professor'><div class='dados-professor'><p class='nome'>"+ data.professores[i].professor +"</p><p class='materia'>"+ data.professores[i].materia +"</p></div></div></div>";
                 $(".json-professores").append(strPROFS);
             }
+
 
             $('.json-coordenador').text(data.coordenador[0].nome)
             $('.json-coordenador-descricao').text(data.coordenador[0].descricao);
@@ -119,7 +120,6 @@
                     <div class="row">
                         <h2 class="col-12">Sobre o curso</h2>
                         <div class="col-12 col-md-6 json-sobre">
-
                         </div>
                         <div class="col-12 col-md-6">
                             <img src="./assets/img/cursos/design-interacao-artefatos-digitais/sobre-o-curso.png">
@@ -136,9 +136,7 @@
                 <div class="tab-pane conteudo fade" id="conteudo">
                     <div class="row">
                         <h2 class="col-12">Conteúdo</h2>
-                        <div class="json-conteudo row col-12">
-
-                        </div>
+                        <div class="json-conteudo row col-12"></div>
                     </div>
                 </div>  
                 
@@ -157,11 +155,11 @@
                                 <div class="divisao"></div>
 
                                 <div class="descricao-coordernador json-coordenador-descricao">
-                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius leo arcu, laoreet varius dui convallis sed. Nam in neque commodo, iaculis augue non, volutpat orci. Nam odio enim, porttitor in dapibus id, ultrices nec justo. Phasellus volutpat a nulla id ultricies. Fusce ac fermentum arcu. Nullam risus orci, sagittis id ultrices imperdiet, luctus ac tortor. Quisque luctus, justo ac vestibulum vestibulum, urna eros hendrerit lacus, eu condimentum urna arcu sit amet lorem. Quisque placerat ac magna vitae efficitur. Aliquam vehicula arcu ante, pellentesque rhoncus turpis consequat id. Praesent pharetra massa eu commodo accumsan. Aenean massa lorem, gravida at diam tempor, faucibus finibus arcu. Integer rhoncus rhoncus varius. Integer tempor lorem nec risus faucibus hendrerit. Curabitur non lobortis velit. Maecenas eleifend quis ipsum dapibus pulvinar.</p>-->
+                            
                                 </div>
                             </div>
                         </div>
-                    <div class="json-professores row col-12"></div>
+                        <div class="json-professores row col-12"></div>
                     </div>
                 </div> 
                 

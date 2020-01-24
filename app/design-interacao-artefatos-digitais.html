@@ -10,17 +10,17 @@
     <script src="./js/js.js"></script>
 
     <script>
-        $.get( "./json/engenharia-redes-sistemas-telecomunicacoes.json", function(data) {               
+        $.get( "./json/design-interacao-artefatos-digitais.json", function(data) {               
             console.log(data)
             $( "body" ).addClass(data.class);
 
             $('.json-name-curso').text(data.titulo);
             $('.json-horario').text(data.horario);
-            $('.json-sobre').html(data.sobre[0].descricao);
             $('.json-campus').text(data.campus);
             $('.json-inicio').text(data.inicio);
             $('.json-horario').text(data.inicio);
             $('.json-duracao').text(data.duracao);
+            $('.json-sobre').html(data.sobre[0].descricao);
 
             for(var i=0; i< data.conteudo.length; i++){
                 var strHTL = "<div class='col-12 col-md-4'><div class='item-conteudo'>" + data.conteudo[i].item+"</div></div>";
@@ -119,7 +119,6 @@
                     <div class="row">
                         <h2 class="col-12">Sobre o curso</h2>
                         <div class="col-12 col-md-6 json-sobre">
-
                         </div>
                         <div class="col-12 col-md-6">
                             <img src="./assets/img/cursos/design-interacao-artefatos-digitais/sobre-o-curso.png">
@@ -136,9 +135,7 @@
                 <div class="tab-pane conteudo fade" id="conteudo">
                     <div class="row">
                         <h2 class="col-12">Conteúdo</h2>
-                        <div class="json-conteudo row col-12">
-
-                        </div>
+                        <div class="json-conteudo row col-12"></div>
                     </div>
                 </div>  
                 
@@ -161,7 +158,7 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="json-professores row col-12"></div>
+                        <div class="json-professores row col-12"></div>
                     </div>
                 </div> 
                 
