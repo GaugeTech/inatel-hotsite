@@ -20,6 +20,11 @@
             width: 100%;
         }
     }
+    .col-5 {
+        @media screen and (max-width: @tablet) {
+            display: none;
+        }  
+    }
     .bradcrumbs {
         display: flex;
         align-items: center;
@@ -44,6 +49,13 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        height: 100%;
+        @media screen and (max-width: @mobile) {
+            padding: 0 15px;
+            margin: 0 -15px;
+            width: max-content;
+            height: auto;
+        }
         .menu-link {
             color: #065CBE;
             font-size: 18px;

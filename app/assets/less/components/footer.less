@@ -3,9 +3,12 @@
 
 
 footer {
-    padding: 20px 0 40px 0;
+    padding: 20px 0 120px 0;
     background: @primary-dark-color;
     color: @white;
+    @media screen and (min-width: @mobile) { 
+        padding: 20px 0 40px 0;
+    }
     h4 {
         font-size: 16px;
         font-weight: 400;
@@ -66,14 +69,19 @@ footer {
         padding: 20px 40px;
         @media screen and (max-width: @mobile) { 
             background: transparent;
+            padding: 20px 15px;
+            color: @white;
         }
         .logo-footer {
             height: 32px;
             display: flex;
             align-items: center;
             height: 100%;
+            padding: 20px;
+            justify-content: left;
             @media screen and (max-width: @mobile) { 
                 background: @white;
+                justify-content: center;
             }
         }
         .copyrights {
@@ -85,17 +93,60 @@ footer {
         .social {
             display: flex;
             height: 100%;
-            justify-content: flex-end;
-            align-items: center;
+            align-items: center;            
+            justify-content: flex-end;            
+            @media screen and (max-width: @mobile) { 
+                justify-content: center;    
+                margin: 40px 0;
+            }
             p {
                 margin: 0 10px 0 0;
             }
-            img {
+            .link {
                 margin: 0 10px;
+                padding: 12px;
+                background-position: center;
+                background-repeat: no-repeat;
                 &:last-child {
                     margin: 0 0 0 10px;
                 }
+                &.facebook-footer {
+                    background-image: url(/assets/img/facebook.svg);
+                    @media screen and (max-width: @mobile) { 
+                        background-image: url(/assets/img/facebook-white.svg);
+                    }
+                }
+                &.twitter-footer {
+                    background-image: url(/assets/img/twitter.svg);
+                    @media screen and (max-width: @mobile) { 
+                        background-image: url(/assets/img/twitter-white.svg);
+                    }
+                }
+                &.youtube-footer {
+                    background-image: url(/assets/img/youtube.svg);
+                    @media screen and (max-width: @mobile) { 
+                        background-image: url(/assets/img/youtube-white.svg);
+                    }
+                }                                
             }
         }
+    }
+}
+
+.float-button-mobile {
+    background: @white;
+    padding: 25px 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #F0F0F0;
+    display: block;
+    @media screen and (min-width: @mobile) { 
+        display: none;
+    }
+    a {
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 }

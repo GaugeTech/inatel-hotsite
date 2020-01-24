@@ -55,7 +55,7 @@
     }
 }
 
-.course {
+.course-content {
     margin: 0;
     @media screen and (min-width: @tablet) { 
         margin: -150px 0 0 0;
@@ -64,7 +64,8 @@
         background: @white;
         .info-course {
             background: #F9F9F9;
-            padding: 20px 0;
+            margin: 0 -15px;
+            padding: 20px 15px;
             @media screen and (min-width: @tablet) {            
                 padding: 10px 40px;
                 display: flex;
@@ -81,7 +82,7 @@
             flex-flow: initial;
             overflow: overlay;
             display: -webkit-box;
-            width: 100%;
+            // width: 100%;
             margin: 0 -15px;
             padding: 25px 0;
             @media screen and (min-width: @tablet) {     
@@ -139,9 +140,16 @@
                     background: #F0F0F0;
                     display: flex;
                     justify-content: space-between;      
+                    flex-wrap: wrap;
+                    @media screen and (min-width: @tablet) { 
+                        flex-wrap: initial;
+                    }
                     .apresentacao-coordernador {   
                         text-align: center;  
-                        width: 250px;         
+                        width: 100%;    
+                        @media screen and (min-width: @tablet) { 
+                            width: 250px;
+                        }     
                         .thumb-coordernador {
                             border-radius: 50%;
                             width: 110px;
@@ -163,10 +171,15 @@
                         }
                     }
                     .divisao {
-                        width: 4px;
                         background: #D2D2D2;
-                        height: 200px;
-                        margin: 0 30px;
+                        width: 100%;
+                        height: 4px;
+                        margin: 30px;
+                        @media screen and (min-width: @tablet) { 
+                            width: 4px;
+                            height: 200px;
+                            margin: 0 30px;
+                        }
                     }
                     .descricao-coordernador {
                         width: fit-content;
@@ -200,7 +213,10 @@
             }    
             .valores {
                 table {
-                    width: 100%;
+                    width: 900px;
+                    @media screen and (min-width: @tablet) {
+                        width: 100%;
+                    }
                     th {
                         color: #000000;
                         font-family: @fontRoboto;
@@ -219,7 +235,8 @@
                             line-height: 20px;
                             text-align: left;      
                             position: absolute;
-                            margin-top: -20px;                     
+                            margin-top: -20px;    
+                            width: 100%;                 
                         }
                     }
                     td {
@@ -239,9 +256,12 @@
                     text-align: center;
                 }
                 .tel-contato {
-                    width: 375px;
-                    padding-left: 90px;
+                    width: fit-content;
+                    padding-left: 61px;
                     margin: 0 auto;
+                    background-image: url(/assets/img/phone.svg);
+                    background-repeat: no-repeat;
+                    background-size: 45px;
                     p {
                         margin: 0;
                     }
@@ -274,7 +294,7 @@
     }
     h4 {
         color: @black;
-        font-family: @fontTahoma;
+font-family: @fontTahoma;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4.18px;
@@ -334,6 +354,9 @@
                     font-weight: 400;
                     line-height: 18px;
                     text-align: left;
+                    img {
+                        margin-right: 5px;
+                    }
                     span {
                         font-family: @fontRoboto;
                         font-size: 16px;
