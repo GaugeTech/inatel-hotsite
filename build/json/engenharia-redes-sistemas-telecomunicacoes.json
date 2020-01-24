@@ -1,0 +1,218 @@
+{
+    "titulo": "Engenharia de Redes e Sistemas de Telecomunicações",
+    "nivel": "Pós-graduação",
+    "class": "engenharia-redes-sistemas-telecomunicacoes",
+    "campus": "Campus: Sta. Rita do Sapucaí / São Paulo / Rio de Janeiro",
+    "inicio": "Início: Mar/2020",
+    "horario": "Horário: Sáb: 8h às 12h e 13h às 17h",
+    "duracao": "Duração: 24 meses",
+    "sobre": [
+        {
+            "descricao": "<p>Este é o curso de maior tradição do Inatel, com mais de 50 turmas formadas na modalidade regular (aberto ao público) e In Company (para empresas). A especialização tem grade 100% técnica e prepara os alunos para atuarem com excelência nas áreas de redes e sistemas de telecomunicações. Capacite-se para atuação na operação, análise e projetos de sistemas rádio-digital, comunicação por satélite, sistemas de comunicações óticas, redes de telecomunicações, redes de acesso e transporte, sistemas de transmissão digital, etc. Além da excelente infraestrutura e expertise do Inatel, os participantes têm a oportunidade de desenvolver um excelente networking nas aulas.</p>",
+            "imagem": "imagem"
+        }
+    ],
+    "conteudo": [
+        {"item": "Introdução à Teoria da Informação: Codificação de Fonte e Canal"},
+        {"item": "Modulação Digital"},
+        {"item": "Fundamentos de Antenas e Propagação"},
+        {"item": "Sistemas Radioenlaces Digitais – Terrestre"},
+        {"item": "Sistemas Radioenlaces Digitais – Satélite"},
+        {"item": "Fundamentos de Comunicações Móveis"},
+        {"item": "Técnicas de Diversidade e Transmissão com Múltiplas Portadoras"},
+        {"item": "Padrões de Comunicações Móveis"},
+        {"item": "Comunicações Ópticas"},
+        {"item": "Redes Ópticas"},
+        {"item": "Televisão Digital"},
+        {"item": "Introdução às Redes de Telecomunicações"},
+        {"item": "Redes de Acesso, Redes Telefônicas"},
+        {"item": "Redes de Transporte"},
+        {"item": "Redes Locais e Metropolitanas"},
+        {"item": "Redes IP"},
+        {"item": "Redes Frame Relay, ATM, MPLS e GMPLS"},
+        {"item": "Análise de Desempenho e Dimensionamento de Redes de Telecomunicações"},
+        {"item": "Segurança em Redes de Telecomunicações"},
+        {"item": "Gerência de Redes"},
+        {"item": "Redes Multimídia e Qualidade de Serviço"},
+        {"item": "NGN"},
+        {"item": "Tópicos Especiais"},
+        {"item": "Metodologia Científica"}
+    ],
+    "coordenador": [
+        {
+            "imagem": "imagem",
+            "nome": "Prof. Estevan Marcelo Lopes",
+            "cargo": "Coordenador do curso",
+            "descricao": "Atualmente é professor adjunto dos cursos de graduação e pós-graduação, atuando também como coordenador adjunto dos cursos de Pós-Graduação de Redes e Sistemas de Telecomunicações, Tv Digital e IPTV e Eletrônica Avançada da Fundação Instituto Nacional de Telecomunicações (Inatel). Professor assistente da Universidade do Vale do Sapucaí (UNIVÁS)."
+        }
+    ],
+
+    "professores": [
+        {
+            "imagem": "imagem",
+            "professor": "Alexandre Carvalho Ferreira",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "André Luís Rocha Abbade",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Antônio Marcos Alberti",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Arismar Cerqueira Sodré Júnior",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Bruno Oliveira Monteiro",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Carlos Alberto Ynoguti",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Carlos Algusto Rocha",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Carlos Nazareth Motta Marins",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Carlos Roberto dos Santos",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Daniel Andrade Nunes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Edson Josias Cruz Gimenez",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Estevan Marcelo Lopes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Evandro Luiz Brandão Gomes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Fabiano Valias de Carvalho",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Guilherme Pedro Aquino",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Guilherme Augusto Barucke Marcondes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Guilherme Rezende dos Santos",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "José Antônio Justino Ribeiro",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Juliano Silveira Ferreira",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "José Marcos Câmara Brito",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Luciano Leonel Mendes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Leonardo Luciano de Almeida Maia",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Marcelo Carneiro de Paiva",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Mário Ferreira Silva Junior",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Rauley Adriano Amaral de Souza",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Rinaldo Duarte Teixeira de Carvalho",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Tiago Reis Rufino Marins",
+            "materia": "Matéria do professor"
+        }
+    ],
+
+    "principais-atividades-desenvolvidas": [
+        {
+            "imagem": "imagem",
+            "descricao": "Gerenciamento de Sistemas digitais"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gestão da Comunicação por satélite"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gestão de Sistemas de comunicações móveis"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gerenciamento Sistemas de comunicações ópticas"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Administração de Redes de computadores em ambiente local e metropolitano"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gestão de Redes de comutação de pacotes e um amplo universo temático"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Domínio de Tecnologias WCDMA, LTE, WiMAX, TV Digital, IPTV e VoIP"
+        }
+    ]
+}
