@@ -9,6 +9,23 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/js.js"></script>
 
+    <script>
+        $.get( "./json/cards.json", function(data) {               
+            console.log(data)
+            $( "body" ).addClass(data.class);
+
+            for(var i=0; i< data.cards.length; i++){
+                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos' href='"+ data.cards[i].link +".html'><img src='./assets/img/thumb-engenharia-redes.png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div>";
+                $('.json-cards').append(strCARDS);
+            }
+
+            for(var i=0; i< data.cards.length; i++){
+                var strFOOTER = "<p><a href='"+ data.cards[i].link +".html'>"+ data.cards[i].nome +"</a></p>";
+                $('.json-footer').append(strFOOTER);
+            }
+        });
+    </script>
+
     <title>Inatel</title>
 </head>
 <body class="home">
@@ -58,143 +75,7 @@
                 <input
             </div> -->
 
-        <div class="lista-cursos row">
-                <div class="col-12 col-lg-3 col-md-6">
-                    <a class="item-cursos" href="cursos.html">
-                        <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                        <div class="descricao-cursos">
-                            <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                            <p class="item">
-                                <img src="./assets/img/maps-and-flags.svg">
-                                Campus <span class="color-primary">+4</span></p>
-                            <p class="item">
-                                <img src="./assets/img/shuttle.svg">
-                                Campus</p>
-                            <p class="item">
-                                <img src="./assets/img/calendar.svg">
-                                Campus</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos">
-                        <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                        <div class="descricao-cursos">
-                            <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                            <p class="item">
-                                    <img src="./assets/img/maps-and-flags.svg">
-                                    Campus <span class="color-primary">+4</span></p>
-                                <p class="item">
-                                    <img src="./assets/img/shuttle.svg">
-                                    Campus</p>
-                                <p class="item">
-                                    <img src="./assets/img/calendar.svg">
-                                    Campus</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos">
-                        <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                        <div class="descricao-cursos">
-                            <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                            <p class="item">
-                                    <img src="./assets/img/maps-and-flags.svg">
-                                    Campus <span class="color-primary">+4</span></p>
-                                <p class="item">
-                                    <img src="./assets/img/shuttle.svg">
-                                    Campus</p>
-                                <p class="item">
-                                    <img src="./assets/img/calendar.svg">
-                                    Campus</p>
-                        </div>
-                    </div>
-                </div>  
-                <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos">
-                        <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                        <div class="descricao-cursos">
-                            <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                            <p class="item">
-                                <img src="./assets/img/maps-and-flags.svg">
-                                Campus <span class="color-primary">+4</span></p>
-                            <p class="item">
-                                <img src="./assets/img/shuttle.svg">
-                                Campus</p>
-                            <p class="item">
-                                <img src="./assets/img/calendar.svg">
-                                Campus</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos">
-                        <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                        <div class="descricao-cursos">
-                            <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                            <p class="item">
-                                <img src="./assets/img/maps-and-flags.svg">
-                                Campus <span class="color-primary">+4</span></p>
-                            <p class="item">
-                                <img src="./assets/img/shuttle.svg">
-                                Campus</p>
-                            <p class="item">
-                                <img src="./assets/img/calendar.svg">
-                                Campus</p>
-                        </div>
-                    </div>
-                </div>   
-                <div class="col-12 col-lg-3 col-md-6">
-                        <div class="item-cursos">
-                            <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                            <div class="descricao-cursos">
-                                <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                                <p class="item">
-                                    <img src="./assets/img/maps-and-flags.svg">
-                                    Campus <span class="color-primary">+4</span></p>
-                                <p class="item">
-                                    <img src="./assets/img/shuttle.svg">
-                                    Campus</p>
-                                <p class="item">
-                                    <img src="./assets/img/calendar.svg">
-                                    Campus</p>
-                            </div>
-                        </div>
-                    </div>   
-                    <div class="col-12 col-lg-3 col-md-6">
-                            <div class="item-cursos">
-                                <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                                <div class="descricao-cursos">
-                                    <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                                    <p class="item">
-                                        <img src="./assets/img/maps-and-flags.svg">
-                                        Campus <span class="color-primary">+4</span></p>
-                                    <p class="item">
-                                        <img src="./assets/img/shuttle.svg">
-                                        Campus</p>
-                                    <p class="item">
-                                        <img src="./assets/img/calendar.svg">
-                                        Campus</p>
-                                </div>
-                            </div>
-                        </div>   
-                        <div class="col-12 col-lg-3 col-md-6">
-                                <div class="item-cursos">
-                                    <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                                    <div class="descricao-cursos">
-                                        <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                                        <p class="item">
-                                            <img src="./assets/img/maps-and-flags.svg">
-                                            Campus <span class="color-primary">+4</span></p>
-                                        <p class="item">
-                                            <img src="./assets/img/shuttle.svg">
-                                            Campus</p>
-                                        <p class="item">
-                                            <img src="./assets/img/calendar.svg">
-                                            Campus</p>
-                                    </div>
-                                </div>
-                            </div>                                                                                                                           
+        <div class="lista-cursos row json-cards">                                                                                                                           
             </div>
         </div>
         </div>
@@ -433,14 +314,7 @@
                 <div class="row">
                     <div class="col-12 col-md-6 cursos-footer">
                         <h4>Cursos</h4>
-                        <p>Engenharia de redes e sistemas de telecomunicações</p>
-                        <p>Engenharia clínica e engenharia biomédica</p>
-                        <p>Engenharia de sistemas eletroeletrônicos, automação e controle industrial</p>
-                        <p>Desenvolvimento de aplicações para dispositivos móveis e cloud computing</p>
-                        <p>Internet das coisas (IoT)</p>
-                        <p>MBA em gestão empresarial em ambiente tecnológico</p>
-                        <p>Indústria 4.0</p>
-                        <p>Design de interação para artefatos digitais</p>
+                        <div class="json-footer"></div>
                     </div>
     
                     <div class="col-12 col-md-6">
