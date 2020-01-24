@@ -35,18 +35,6 @@
     }      
 }
 
-.design-interacao-artefatos-digitais {
-    .color-course { color: @curso-x!important;}
-    .background-course { background-color: @curso-x!important;}
-    .background-course-mobile {
-        background-color: @curso-x;
-        @media screen and (min-width: @tablet) {
-            background-color: initial;
-        }
-    }
-    .border-course { border-color: @curso-x!important;}
-}
-
 .home {
     .color-primary { color: @primary!important;}
     .background-primary { background-color: @primary!important;}
@@ -58,4 +46,32 @@
     }
     .border-primary { border-color: @primary!important;}
 }
+
+.design-interacao-artefatos-digitais {
+    .color-course { color: @curso-x!important;}
+    .background-course { background-color: @curso-x!important;}
+    .box-shadow-course { box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 @curso-x;}
+    .background-course-mobile {
+        background-color: @curso-x;
+        @media screen and (min-width: @tablet) {
+            background-color: initial;
+        }
+    }
+    .border-course { border-color: @curso-x!important;}
+}
+
+.engenharia-redes-sistemas-telecomunicacoes {
+    .color-course { color: @engenharia-redes!important;}
+    .background-course { background-color: @engenharia-redes!important;}
+    .box-shadow-course { box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 @engenharia-redes;}
+    .background-course-mobile {
+        background-color: @engenharia-redes;
+        @media screen and (min-width: @tablet) {
+            background-color: initial;
+        }
+    }
+    .border-course { border-color: @engenharia-redes!important;}
+}
+
+
 
