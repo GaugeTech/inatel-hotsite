@@ -1,0 +1,121 @@
+{
+    "titulo": "Internet das Coisas (IoT)",
+    "nivel": "Pós-graduação",
+    "class": "internet-das-coisas",
+    "campus": [{"item":"São Paulo"}],
+    "inicio": "Início: Mar/2020",
+    "horario": "Horário: Sáb: 8h às 12h e 13h às 17h",
+    "duracao": "Duração: 24 meses",
+    "sobre": [
+        {
+            "descricao": "<p>Internet das Coisas pode mudar o futuro e deixar cidades e casas mais eficientes. As novas tecnologias de IoT prometem conectar mais de 20 bilhões de dispositivos nos próximos cinco anos. Mas como? O objetivo deste curso é fornecer ao aluno uma ampla visão do mundo da Internet das Coisas, incluindo aspectos de hardware, software, comunicação e também aspectos de tratamento da informação e de negócio.</p><p>Integrando teoria e prática, o curso capacita você a desenvolver soluções completas em IoT (Internet das Coisas) e mostra como aplicá-las no mercado de tecnológico atual. A especialização é uma iniciativa do Centro de Referência em Radiocomunicações (CRR) do Inatel, que realiza pesquisas para contribuir com o aumento da capacidade de rede e de acesso às informações geradas pelos bilhões de aparelhos conectados.</p>",
+            "imagem": "imagem"
+        }
+    ],
+    "conteudo": [
+        {"item": "Introdução à IoT e Aplicações de IoT"},
+        {"item": "Fundamentos de Redes de Comunicações Digitais"},
+        {"item": "Redes TCP/IP e a Internet"},
+        {"item": "Redes de Sensores"},
+        {"item": "Padrões de redes de comunicação sem fio aplicáveis a IoT"},
+        {"item": "Soluções de Comunicação para IoT"},
+        {"item": "Protocolos de Comunicação para IoT"},
+        {"item": "Segurança em IoT"},
+        {"item": "Algoritmos, Estrutura de Dados"},
+        {"item": "Arquitetura de Computadores, Sistemas Microprocessados e Microcontrolados"},
+        {"item": "Sistemas Operacionais para IoT"},
+        {"item": "Prototipagem rápida de soluções para IoT"},
+        {"item": "Arquiteturas e Middleware para Smart Places: Conceitos, Tecnologias e Exemplos"},
+        {"item": "Banco de Dados para IoT"},
+        {"item": "Big Data e Analytics em IoT"},
+        {"item": "Modelo de Negócios e Design de Serviços para IoT"},
+        {"item": "Estudos de Caso"},
+        {"item": "Metodologia Científica"}
+    ],
+    "coordenador": [
+        {
+            "imagem": "imagem",
+            "nome": "Prof. Estevan Marcelo Lopes",
+            "cargo": "Coordenador do curso",
+            "descricao": "Atualmente é professor adjunto dos cursos de graduação e pós-graduação, atuando também como coordenador adjunto dos cursos de Pós-Graduação de Redes e Sistemas de Telecomunicações, Tv Digital e IPTV e Eletrônica Avançada da Fundação Instituto Nacional de Telecomunicações (Inatel). Professor assistente da Universidade do Vale do Sapucaí (UNIVÁS)."
+        }
+    ],
+    "professores": [
+        {
+            "imagem": "imagem",
+            "professor": "Antônio Marcos Alberti",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Carlos Alberto Ynoguti",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Daniel Andrade Nunes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Daniel Mazzer",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Edson Josias Cruz Gimenez",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Estevan Marcelo Lopes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Guilherme Pedro Aquino",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Guilherme Rezende dos Santos",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "José Marcos Camara Brito",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Lucas Jun Sakai",
+            "materia": "Matéria do professor"
+        }
+    ],
+    "principais-atividades-desenvolvidas": [
+        {
+            "imagem": "imagem",
+            "descricao": "Conhecimento de Comunicação para IoT (Internet das Coisas);"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Conhecimento de Tecnologia da Informação para IoT;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Prototipagem Rápida de Soluções para IoT;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Capacidade de desenvolver modelos de negócios para IoT;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Conhecimento em Design de Serviços para IoT;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Compreensão e planejamento de Redes de Sensores, Big Data e Banco de Dados para IoT;"
+        }
+    ]
+}

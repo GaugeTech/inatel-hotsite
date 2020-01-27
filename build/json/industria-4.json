@@ -1,0 +1,155 @@
+{
+    "titulo": "Indústria 4.0",
+    "nivel": "Pós-graduação",
+    "class": "industria-4",
+    "campus": [{"item":"São Paulo"},{"item":"Santa Rita do Sapucaí"}],
+    "inicio": "Início: Mar/2020",
+    "horario": "Horário: Sáb: 8h às 12h e 13h às 17h",
+    "duracao": "Duração: 24 meses",
+    "sobre": [
+        {
+            "descricao": "<p>Com a evolução tecnológica, a necessidade de se capacitar com as novas demandas do mercado é maior a cada dia. Na pós-graduação em Indústria 4.0 do Inatel, você se prepara para atuar com excelência com as mais diversas tecnologias da Indústria e do mercado tecnológico. O aluno desta capacitação aprende sistemas computacionais e de automação e controle industrial aplicados à indústria 4.0, além de tecnologias de grande impacto, como Inteligência Artificial, Cloud Computing e Internet das Coisas.</p>",
+            "imagem": "imagem"
+        }
+    ],
+    "conteudo": [
+        {"item": "Visão Geral de Processos de Manufatura"},
+        {"item": "Instalações Elétricas"},
+        {"item": "Controladores Programáveis"},
+        {"item": "Máquinas Elétricas"},
+        {"item": "Instrumentação Industrial"},
+        {"item": "Sistemas Supervisórios"},
+        {"item": "Manufatura Avançada"},
+        {"item": "Robótica Industrial"},
+        {"item": "Metodologia Científica"},
+        {"item": "Redes IP"},
+        {"item": "Redes Industriais"},
+        {"item": "Segurança Cibernética"},
+        {"item": "Banco da Dados"},
+        {"item": "Fundamentos de IoT"},
+        {"item": "Big Data / Cloud Computing"},
+        {"item": "Data Mining"},
+        {"item": "Inteligência Artificial"}
+    ],
+    "coordenador": [
+        {
+            "imagem": "imagem",
+            "nome": "Prof. Dr. Yvo Marcelo Chiaradia Masselli",
+            "cargo": "Coordenador do curso",
+            "descricao": "Atualmente é professor adjunto da graduação e Pós Graduação, além de coordenador do curso de Pós Graduação em Automação Industrial do INATEL. Possui artigos publicados no Brasil e no exterior."
+        }
+    ],
+    "professores": [
+        {
+            "imagem": "imagem",
+            "professor": "Alexandre Baratella Lugli",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Carlos Alberto Ynoguti",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Diego Aparecido Lemes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Daniel Mazzer",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Egídio Raimundo Neto",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Felipe Andery Reis",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Guilherme Pedro Aquino",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Giovanni Henrique Faria Floriano",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "João Paulo Carvalho Henriques",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Júlio Arlindo Pinto Azevedo",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Raphael Cardoso",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Marcelo Vinícius Cysneiros Aragão",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Renzo Paranaiba Mesquita",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Rogério Adas Pereira Vitalli",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Vinícius Antônio Montgomery de Miranda",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Wanderson Eleutério Saldanha",
+            "materia": "Matéria do professor"
+        },
+        {
+            "imagem": "imagem",
+            "professor": "Yvo Marcelo Chiaradia Masselli",
+            "materia": "Matéria do professor"
+        }
+    ],
+    "principais-atividades-desenvolvidas": [
+        {
+            "imagem": "imagem",
+            "descricao": "Visão ampla e multidisciplinar em sistemas eletroeletrônicos, computacionais e de automação e controle industrial, aplicados à Indústria 4.0;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Capacidade de modelar e analisar sistemas de comunicação, inteligência artificial e de tecnologia da informação, aplicados aos ambientes industriais;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Entender o funcionamento dos equipamentos e processos industriais, bem como dos processos de manufatura e produção;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Projetar e implementar sistemas de tecnologia da informação para realizar a operação e funcionamento dos equipamentos dentro do conceito da Indústria 4.0;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Avaliar, em situações reais, a viabilidade técnica das possíveis alternativas de automação e de tecnologia da informação aplicadas ao conceito da Indústria 4.0;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Dominar os fundamentos das tecnologias e métodos empregados no campo da instrumentação, automação e controle, aplicados ao conceito da Indústria;"
+        }
+    ]
+}
