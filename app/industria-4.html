@@ -3,12 +3,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1,maximum-scale=1"/>
 
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="js/slick.min.js"></script>    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">    
-
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/js.js"></script>
-
+    <link rel="stylesheet" href="./assets/css/style.css">  
     <script>
         $.get( "./json/industria-4.json", function(data) {               
             console.log(data)
@@ -35,6 +40,11 @@
             $('.json-coordenador').text(data.coordenador[0].nome)
             $('.json-coordenador-descricao').text(data.coordenador[0].descricao);
         });
+
+        function modalOpen() {
+            $('body').find('.float-inscreva-se').toggleClass('closed');
+            $('body').find('.overlay').toggleClass('closed');
+        }   
     </script>
 
     <title>Inatel</title>
@@ -56,7 +66,7 @@
                 <div class="col-5">
                     <div class="buttons-header">
                         <a href="/" class="button-shadown border-course background-course">Inscreva-se</a>
-                        <a href="/" class="button border-course color-course">Receba conteúdo exclusivos dos cursos</a>
+                        <a href="#" class="button border-course color-course" onClick="modalOpen()">Receba conteúdo exclusivos dos cursos</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +80,7 @@
                 <h1 class="json-name-curso"></h1>
 
                 <a href="#" class="button-shadown color-course button-xg">Inscreva-se</a>
-                <a href="#" class="button-outline button-xg">Receba conteúdos exclusivos dos cursos </a>
+                <a href="#" class="button-outline button-xg" onClick="modalOpen()">Receba conteúdos exclusivos dos cursos </a>
             </div>
         </div>
     </section>
@@ -297,18 +307,11 @@
             <div class="row">
                 <div class="col-12 col-md-6 cursos-footer">
                     <h4>Cursos</h4>
-                    <p>Engenharia de redes e sistemas de telecomunicações</p>
-                    <p>Engenharia clínica e engenharia biomédica</p>
-                    <p>Engenharia de sistemas eletroeletrônicos, automação e controle industrial</p>
-                    <p>Desenvolvimento de aplicações para dispositivos móveis e cloud computing</p>
-                    <p>Internet das coisas (IoT)</p>
-                    <p>MBA em gestão empresarial em ambiente tecnológico</p>
-                    <p>Indústria 4.0</p>
-                    <p>Design de interação para artefatos digitais</p>
+                    <div class="json-footer"></div>
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <h4>Blog</h4>
+                    <!-- <h4>Blog</h4>
                     <div class="link-footer">
                         <div class="item">
                             <a hred="/">Telecomunicações</a>
@@ -346,7 +349,7 @@
                         <div class="item">
                             <a hred="/">Desenvolvimento de aplicações mobile</a>
                         </div>
-                    </div>
+                    </div> -->
                     
                     <div class="contact-us">
                         <h4>Fale Conosco</h4>
@@ -380,9 +383,9 @@
                 <div class="col-12 col-md-3 order-mobile-first">
                     <div class="social">
                         <p>Redes sociais</p>
-                        <a href="#" class="link facebook-footer"></a>
-                        <a href="#" class="link twitter-footer"></a>
-                        <a href="#" class="link youtube-footer"></a>
+                        <a href="https://www.facebook.com/inatel" target=_blank class="link facebook-footer"></a>
+                        <a href="https://twitter.com/inateloficial" target="_blank" class="link twitter-footer"></a>
+                        <a href="https://www.youtube.com/channel/UCBB5HfmeAByTUs0XuzFXRew" target="_blank" class="link youtube-footer"></a>
                         <!-- <img src="./assets/img/facebook.svg" />
                         <img src="./assets/img/twitter.svg" />
                         <img src="./assets/img/youtube.svg" /> -->
@@ -393,11 +396,27 @@
     </footer>
 
     <div class="float-button-mobile">
-        <a href="#" class="button-shadown border-course background-course">Increva-se</a>
+        <a href="#" onclick="modalOpen()" class="button-shadown border-course background-course">Increva-se</a>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <div class="float-inscreva-se closed">
+        <div class="topo">
+            <h4>Para receber os conteúdos exclusivos dos cursos de Pós-graduação Inatel, preencha os dados abaixo:</h4>
+            <div class="fechar" onClick="modalOpen()">
+                Fechar <img src="./assets/img/fechar.svg" />
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <div role="main" id="pos-graduacao-inatel-0c98e105f235b59b1851"></div>
+            <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+            <script type="text/javascript"> new RDStationForms('pos-graduacao-inatel-0c98e105f235b59b1851', 'UA-273753-15').createForm();</script>
+        </div>
+    </div>
+
+    <div class="overlay  closed" onClick="modalOpen()"></div>        
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>        
 </body>
 </html>

@@ -4,7 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="js/slick.min.js"></script>    
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">    
@@ -33,16 +39,68 @@
                 
                 $('html, body, header').stop().animate({
                                     scrollTop: ($($anchor.attr('href')).offset().top + -70)
-                                }, 2500,'easeInOutExpo');
+                                }, 500,'easeInOutExpo');
                 
                 event.preventDefault();
                 });
+            });  
+
+            $(".diferenciais-counter").each(function (index, element) {
+                $(element).find(".js-current-diferenciais").text(1);
+            });
+
+            $('.diferenciais-item').slick({
+                appendArrows: $('.navegacao-diferenciais-carousel')[0],
+                infinite: false,  
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                slideOffset: 15,
+                cssEase: 'linear',
+                prevArrow:"<img class='previous-arrow slick-prev' src='../assets/img/arrow-previous.svg'>",
+                nextArrow:"<img class='next-arrow slick-next' src='../assets/img/next-arrow.svg'>",       
+                windowTimer: true,  
+                customPaging: (slider) => {
+                    $(slider.$slider).siblings('.diferenciais-counter').find('.js-total-contrast').text(slider.slideCount);
+                    return;
+                }             
+            });    
+            
+            $('.diferenciais-item').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                $(event.target).closest('.infraestrutura-carousel').find('.js-current-diferenciais').text(nextSlide + 1);
+            });
+
+            ////
+
+            $(".products-counter").each(function (index, element) {
+                $(element).find(".js-current-products").text(1);
+            });
+
+            $('.foto-item').slick({
+                appendArrows: $('.navegacao-carousel')[0],
+                infinite: false,  
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                slideOffset: 15,
+                cssEase: 'linear',
+                prevArrow:"<img class='previous-arrow slick-prev' src='../assets/img/arrow-previous.svg'>",
+                nextArrow:"<img class='next-arrow slick-next' src='../assets/img/next-arrow.svg'>",       
+                windowTimer: true,  
+                customPaging: (slider) => {
+                    $(slider.$slider).siblings('.products-counter').find('.js-total-contrast').text(slider.slideCount);
+                    return;
+                }             
+            });    
+            
+            $('.foto-item').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                $(event.target).closest('.infraestrutura-carousel').find('.js-current-products').text(nextSlide + 1);
             });            
         });
+
         function modalOpen() {
             $('body').find('.float-inscreva-se').toggleClass('closed');
             $('body').find('.overlay').toggleClass('closed');
-            console.log('etes');
         }          
                 
     </script>
@@ -113,8 +171,36 @@
                         da sua carreira</h2>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-12">
+                    <!-- <div class="diferenciais-carosel">
+                        <div class="diferenciais-item">
+                            <div class="item-diferenciais">
+                                <img src="./assets/img/team.svg" />
+                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                            </div>
+                            <div class="item-diferenciais">
+                                <img src="./assets/img/team.svg" />
+                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                            </div> 
+                            <div class="item-diferenciais">
+                                <img src="./assets/img/team.svg" />
+                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                            </div>     
+                            <div class="item-diferenciais">
+                                <img src="./assets/img/team.svg" />
+                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                            </div>                                                                                
+                        </div>
+                        <div class="navegacao-diferenciais-carousel">
+                            <div class="count">
+                                <span class="diferenciais-counter">
+                                    <span class="js-current-diferenciais"></span> Exibindo de 4
+                                </span>
+                            </div>
+                        </div>                        
+                    </div> -->
                     <div class="row">
+                    <!-- <div class="row nossos-diferenciais-mobile"> -->
                         <div class="col-md-6">
                             <div class="item-diferenciais">
                                 <img src="./assets/img/team.svg" />
@@ -141,7 +227,7 @@
                         </div>                                                                                    
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6">
                     <div class="item-diferenciais-destaque">
                         <p class="title">
                             Chegou a sua hora de subir de nível com o Inatel                            
@@ -200,6 +286,36 @@
                 <h4>infraestrutura</h4>
                 <h2>Conheça um pouco do Campus Inatel</h2>
             </div>
+            <div class="infraestrutura-carousel">
+                <div class="texto-mobile">
+                    <p>• 	Infraestrutura de 75 mil m² de área;</p>
+                    <p>• 	+ de 40 ambientes de laboratórios tecnológicos;</p>
+                    <p>• 	Amplo espaço poliesportivo;</p>
+                    <p>• 	Biblioteca com mais de um milhão de títulos eletrônicos, além de extenso acervo físico;</p>
+                    <p>• 	Incubadora de Empresas com espaço para + de 20 projetos;</p>
+                    <p>• 	Teatro Inatel, um dos mais modernos do sul de Minas Gerais;</p>
+                    <p>• 	Centro de competências para PD&I.</p>                    
+                </div>
+                <div class="foto-item">                                                   
+                    <img src="./assets/img/galeria1.png" style="margin: 0 5px;">                      
+                    <img src="./assets/img/galeria2.png" style="margin: 0 5px;">       
+                    <img src="./assets/img/galeria3.png" style="margin: 0 5px;">       
+                    <img src="./assets/img/galeria4.png" style="margin: 0 5px;">       
+                    <img src="./assets/img/galeria5.png" style="margin: 0 5px;">       
+                    <img src="./assets/img/galeria6.png" style="margin: 0 5px;">       
+                    <img src="./assets/img/galeria7.png" style="margin: 0 5px;">       
+                    <img src="./assets/img/galeria8.png" style="margin: 0 5px;">       
+                    <img src="./assets/img/galeria9.png" style="margin: 0 5px;">       
+                </div>
+                <div class="navegacao-carousel">
+                    <div class="count">
+                        <span class="products-counter">
+                            <span class="js-current-products"></span> Exibindo de 9
+                        </span>
+                    </div>
+                </div>
+            </div>
+
             <div class="fotos-campus">
                 <div class="left">
                     <img src="./assets/img/galeria1.png" class="full">
@@ -237,7 +353,7 @@
         <div class="container-grid">
             <div class="topo-instalacoes-home">
                 <div class="divisao background-primary"></div>
-                <h4>Nossos diferenciais</h4>
+                <h4>Nossos instalações</h4>
                 <h2>Faça sua pós-graduação na instalação mais perto de você</h2>
             </div>
 
@@ -270,39 +386,37 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane cidade cidade-santa-rita-do-sapucai fade" id="saopaulo">
+            <div class="tab-pane cidade cidade-sao-paulo fade" id="saopaulo">
                 <div class="container-grid">
                     <div class="cidade-dados">
-                        <p class="cidade">Santa Rita do Sapucaí</p>
-                        <p class="local">Campus do Inatel Avenida João de Camargo, 510 - Santa Rita do Sapucaí - MG</p>
-                        <p class="telefone">(35) 3471-9292</p>
+                        <p class="cidade">São Paulo</p>
+                        <p class="local">WTC Berrini Avenida das Nações Unidas 12.551 18º - Brooklin Novo, SP</p>
+                        <p class="telefone">(11) 3043-6015</p>
                     </div>
                 </div>
             </div> 
-            <div class="tab-pane cidade cidade-santa-rita-do-sapucai fade" id="riodejaneiro">
+            <div class="tab-pane cidade cidade-rio-de-janeiro fade" id="riodejaneiro">
                 <div class="container-grid">
                     <div class="cidade-dados">
-                        <p class="cidade">Santa Rita do Sapucaí</p>
-                        <p class="local">Campus do Inatel Avenida João de Camargo, 510 - Santa Rita do Sapucaí - MG</p>
-                        <p class="telefone">(35) 3471-9292</p>
+                        <p class="cidade">Rio de Janeiro</p>
+                        <p class="local">Hospital da Força Aérea do Galeão - Estrada do Galeão, 4101 - Galeão - Av. RIo Branco, 81 / 7º - Centro</p>
                     </div>
                 </div>
             </div> 
-            <div class="tab-pane cidade cidade-santa-rita-do-sapucai fade" id="voltaredonda">
+            <div class="tab-pane cidade cidade-volta-redonda fade" id="voltaredonda">
                 <div class="container-grid">
                     <div class="cidade-dados">
-                        <p class="cidade">Santa Rita do Sapucaí</p>
-                        <p class="local">Campus do Inatel Avenida João de Camargo, 510 - Santa Rita do Sapucaí - MG</p>
-                        <p class="telefone">(35) 3471-9292</p>
+                        <p class="cidade">Volta Redonda</p>
+                        <p class="local">ETPC - Escola Técnica Pandiá Calógeras R. Sessenta e Dois, 90 - Sessenta</p>
                     </div>
                 </div>
             </div> 
-            <div class="tab-pane cidade cidade-santa-rita-do-sapucai fade" id="belohorizonte">
+            <div class="tab-pane cidade cidade-belo-horizonte fade" id="belohorizonte">
                 <div class="container-grid">
                     <div class="cidade-dados">
-                        <p class="cidade">Santa Rita do Sapucaí</p>
-                        <p class="local">Campus do Inatel Avenida João de Camargo, 510 - Santa Rita do Sapucaí - MG</p>
-                        <p class="telefone">(35) 3471-9292</p>
+                        <p class="cidade">Belo Horizonte</p>
+                        <p class="local">Universidade Fumec - Rua Cobre, 200</p>
+                        
                     </div>
                 </div>
             </div>                                              
@@ -417,9 +531,9 @@
                     <div class="col-12 col-md-3 order-mobile-first">
                         <div class="social">
                             <p>Redes sociais</p>
-                            <a href="#" class="link facebook-footer"></a>
-                            <a href="#" class="link twitter-footer"></a>
-                            <a href="#" class="link youtube-footer"></a>
+                            <a href="https://www.facebook.com/inatel" target=_blank class="link facebook-footer"></a>
+                            <a href="https://twitter.com/inateloficial" target="_blank" class="link twitter-footer"></a>
+                            <a href="https://www.youtube.com/channel/UCBB5HfmeAByTUs0XuzFXRew" target="_blank" class="link youtube-footer"></a>
                             <!-- <img src="./assets/img/facebook.svg" />
                             <img src="./assets/img/twitter.svg" />
                             <img src="./assets/img/youtube.svg" /> -->
@@ -430,7 +544,7 @@
         </footer>
     
         <div class="float-button-mobile">
-            <a href="#" class="button-shadown border-primary background-primary">Increva-se</a>
+            <a href="#" onclick="modalOpen()" class="button-shadown border-primary background-primary">Increva-se</a>
         </div>
 
         <div class="float-inscreva-se closed">
