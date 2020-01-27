@@ -23,9 +23,19 @@
             $('.json-name-curso').text(data.titulo);
             $('.json-horario').text(data.horario);
             $('.json-sobre').html(data.sobre[0].descricao);
-            $('.json-campus').text(data.campus);
+            
+            if(data.campus.length > 3){
+                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item + " / " + data.campus[2].item + "<span class=''> + "+ (data.campus.length-3) + "</span>");
+            }else if(data.campus.length == 3){
+                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item + " / " + data.campus[2].item);
+            }else if(data.campus.length == 2){
+                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item);
+            }else if(data.campus.length == 1){
+                $('.json-campus').html(data.campus[0].item);
+            }
+
             $('.json-inicio').text(data.inicio);
-            $('.json-horario').text(data.inicio);
+            $('.json-horario').text(data.horario);
             $('.json-duracao').text(data.duracao);
 
             for(var i=0; i< data.conteudo.length; i++){
@@ -42,10 +52,26 @@
             $('.json-coordenador-descricao').text(data.coordenador[0].descricao);
         });
 
+        $.get( "./json/cards.json", function(data) {               
+            console.log(data)
+            $( "body" ).addClass(data.class);
+
+            for(var i=0; i< 4; i++){
+                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><div class='item-cursos box-shadow-course'><a class='item-cursos' href='"+ data.cards[i].link +".html'><img src='"+ data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus[0].item +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div></div>";
+                $('.json-cards').append(strCARDS);
+            }
+
+            for(var i=0; i< data.cards.length; i++){
+                var strFOOTER = "<p><a href='"+ data.cards[i].link +".html'>"+ data.cards[i].nome +"</a></p>";
+                $('.json-footer').append(strFOOTER);
+            }
+        });
+
         function modalOpen() {
             $('body').find('.float-inscreva-se').toggleClass('closed');
             $('body').find('.overlay').toggleClass('closed');
-        }   
+            console.log('etes');
+        }  
     </script>
 
     <title>Inatel</title>
@@ -82,6 +108,7 @@
 
                 <a href="#" class="button-shadown color-course button-xg">Inscreva-se</a>
                 <a href="#" class="button-outline button-xg" onClick="modalOpen()">Receba conteúdos exclusivos dos cursos </a>
+
             </div>
         </div>
     </section>
@@ -225,81 +252,14 @@
         </div>
     </section>
 
-    <section class="mais-cursos" style="background-image: url(./assets/img/cursos/design-interacao-artefatos-digitais/bg-cursos-interna.png)">
+    <section class="mais-cursos background-course-more">
         <div class="container-grid">
             <div class="divisao"></div>
             <h4>Cursos</h4>
             <h2>Além deste, temos outros cursos de pós-graduação com certificados reconhecidos pelo MEC</h2>
 
             <div class="lista-cursos row">
-                <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos box-shadow-course">
-                        <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                        <div class="descricao-cursos">
-                            <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                            <p class="item">
-                                <img src="./assets/img/maps-and-flags.svg">
-                                Campus <span class="color-course">+4</span></p>
-                            <p class="item">
-                                <img src="./assets/img/shuttle.svg">
-                                Campus</p>
-                            <p class="item">
-                                <img src="./assets/img/calendar.svg">
-                                Campus</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos box-shadow-course">
-                        <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                        <div class="descricao-cursos">
-                            <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                            <p class="item">
-                                    <img src="./assets/img/maps-and-flags.svg">
-                                    Campus <span class="color-course">+4</span></p>
-                                <p class="item">
-                                    <img src="./assets/img/shuttle.svg">
-                                    Campus</p>
-                                <p class="item">
-                                    <img src="./assets/img/calendar.svg">
-                                    Campus</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos box-shadow-course">
-                        <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                        <div class="descricao-cursos">
-                            <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                            <p class="item">
-                                    <img src="./assets/img/maps-and-flags.svg">
-                                    Campus <span class="color-course">+4</span></p>
-                                <p class="item">
-                                    <img src="./assets/img/shuttle.svg">
-                                    Campus</p>
-                                <p class="item">
-                                    <img src="./assets/img/calendar.svg">
-                                    Campus</p>
-                        </div>
-                    </div>
-                </div>  
-                <div class="col-12 col-lg-3 col-md-6">
-                    <div class="item-cursos box-shadow-course">
-                        <img src="./assets/img/thumb-engenharia-redes.png" class="img-destaque" >
-                        <div class="descricao-cursos">
-                            <p class="titulo">Engenharia de redes e sistemas de telecomincações</p>
-                            <p class="item">
-                                <img src="./assets/img/maps-and-flags.svg">
-                                Campus <span class="color-course">+4</span></p>
-                            <p class="item">
-                                <img src="./assets/img/shuttle.svg">
-                                Campus</p>
-                            <p class="item">
-                                <img src="./assets/img/calendar.svg">
-                                Campus</p>
-                        </div>
-                    </div>
-                </div>                                                  
+                <div class="json-cards row col-12"></div>                                                 
             </div>
         </div>        
     </section>
@@ -311,9 +271,9 @@
                     <h4>Cursos</h4>
                     <div class="json-footer"></div>
                 </div>
-
+                <!--
                 <div class="col-12 col-md-6">
-                    <!-- <h4>Blog</h4>
+                    <h4>Blog</h4>
                     <div class="link-footer">
                         <div class="item">
                             <a hred="/">Telecomunicações</a>
@@ -352,7 +312,6 @@
                             <a hred="/">Desenvolvimento de aplicações mobile</a>
                         </div>
                     </div> -->
-                    
                     <div class="contact-us">
                         <h4>Fale Conosco</h4>
                         <div class="phone">
@@ -416,7 +375,7 @@
         </div>
     </div>
 
-    <div class="overlay  closed" onClick="modalOpen()"></div>        
+    <div class="overlay  closed" onClick="modalOpen()"></div> 
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>        

@@ -2,7 +2,7 @@
     "titulo": "Desenvolvimento de aplicações para dispositivos móveis e Cloud Computing",
     "nivel": "Pós-graduação",
     "class": "desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing",
-    "campus": "Campus: Sta. Rita do Sapucaí",
+    "campus": [{"item":"Santa Rita do Sapucaí"}],
     "inicio": "Início: Mar/2020",
     "horario": "Horário: Sáb: 8h30 às 12h30 e 13h30 às 17h30",
     "duracao": "Duração: 24 meses",
