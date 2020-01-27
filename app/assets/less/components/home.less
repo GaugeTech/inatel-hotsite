@@ -3,21 +3,26 @@
 
 .home {
     padding-top: 80px;
+    @media screen and (max-width: @tablet) {
+        padding-top: 130px;
+    }
 }
 
-.background-image-top-home {
+.background-image-top-home {    
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: right;
     width: 100%;
     height: 400px;
+    padding-top: 50px;   
     @media screen and (min-width: @tablet) {
         padding: 0;
         background-repeat: no-repeat;
         background-size: auto 100%;
         background-position: bottom;
         width: 100%;
-        height: 787px;        
+        height: 787px;  
+        padding-top: 99px;      
     }
     h3 {
         color: #FFFFFF;
@@ -329,7 +334,7 @@
 }
 
 .home-content-infraestrutura {
-    margin: 40px 0;
+    margin: 140px 0 40px 0;
     .container-grid {
         .topo-infraestrutura-home {
             .divisao {
@@ -367,14 +372,26 @@
             }
             .left {
                 width: 50%;
+                @media screen and (max-width: @tablet) { 
+                    display: none;
+                }
                 img {
-                    margin: 0 1px 3px 0;
+                    margin-bottom: 0.5%;
+                    &.full {
+                        width: 99.3%;
+                    }
+                    &.meio {
+                        width: 49.4%;
+                    }
                 }
             }
             .right {
                 width: 50%;
+                @media screen and (max-width: @tablet) { 
+                    display: none;
+                }
                 .texto {
-                    height: 310px;
+                    height: 320px;
                     color: #000000;
                     font-family: @fontRoboto;
                     font-size: 16px;
@@ -386,16 +403,26 @@
                     }                 
                 }
                 img {
-                    margin: 0 1px 3px 0;
+                    margin-bottom: 0.5%;
+                    &.full {
+                        width: 99.3%;
+                    }
+                    &.meio {
+                        width: 49.4%;
+                    }
                 }
                 .texto-infra-bottom {
                     background-image: url("/assets/img/galeria10.png");
-                    padding: 56px 0 48px 0;
+                    background-position: bottom;
+                    padding: 56px 48px;
                     height: 309px;
+                    
+                    width: 99.3%;
                     .title {
                         font-size: 20px;
                         font-weight: 700;
                         font-family: @fontTahoma;
+                        width: 350px;
                     }
                     a {
                         color: #065CBE;
@@ -566,6 +593,9 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 60px 0;
+    @media screen and (max-width: @tablet) { 
+        background-size: auto 100%;
+    }
     .container-grid {
         .topo-parceiros-home {
             .divisao {
@@ -601,11 +631,10 @@
         .marcas {
             display: flex;
             justify-content: space-between;
-            @media screen and (max-width: @mobile) {  
-                // display: none;
-            }
-            @media screen and (max-width: @tablet) {  
-                // display: none;
+            @media screen and (max-width: @tablet) { 
+                display: flex;
+                flex-flow: wrap;
+                justify-content: center;
             }
             .item-marca {
                 background-color: #003A7C;
@@ -614,11 +643,18 @@
                 align-items: center;
                 height: 120px;
                 width: 19%;
-                @media screen and (max-width: @mobile) { 
-                    width: 50%;
+                @media screen and (max-width: @mobile) {
+                    min-width: 160px!important;
+                }                 
+                @media screen and (max-width: @tablet) { 
+                    min-width: 200px;
+                    margin: 5px;
                 }                
                 img {
                     max-height: 58px;
+                    @media screen and (max-width: @mobile) {
+                        max-height: 25px;
+                    }
                 }
             }           
         }
