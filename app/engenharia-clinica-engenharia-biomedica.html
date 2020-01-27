@@ -43,7 +43,7 @@
             }
 
             for(var i=0; i< data.professores.length; i++){
-                var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'><img src='https://www.politize.com.br/wp-content/uploads/2019/09/aposentadoria-de-professor-politize.jpg' class='thumb-professor'><div class='dados-professor'><p class='nome'>"+ data.professores[i].professor +"</p><p class='materia'>"+ data.professores[i].materia +"</p></div></div></div>";
+                var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'><img src='./assets/img/cursos/sem-foto.jpg' class='thumb-professor'><div class='dados-professor'><p class='nome'>"+ data.professores[i].professor +"</p><p class='materia'>"+ data.professores[i].materia +"</p></div></div></div>";
                 $(".json-professores").append(strPROFS);
             }
 
@@ -56,7 +56,7 @@
             $( "body" ).addClass(data.class);
 
             for(var i=0; i< 4; i++){
-                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><div class='item-cursos box-shadow-course'><a class='item-cursos' href='"+ data.cards[i].link +".html'><img src='"+ data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus[0].item +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div></div>";
+                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos box-shadow-course' href='"+ data.cards[i].link +".html'><img src='"+ data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus[0].item +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div<a>";
                 $('.json-cards').append(strCARDS);
             }
 
@@ -102,7 +102,7 @@
     <section class="content">
         <div class="background-image-top background-course-image">
             <div class="container-grid">
-                <h3>PÓS - GRADUAÇÃO</h3>
+                <h3>PÓS-GRADUAÇÃO</h3>
                 <h1 class="json-name-curso"></h1>
 
                 <a href="#" class="button-shadown color-course button-xg">Inscreva-se</a>
@@ -185,7 +185,7 @@
                         <div class="col-12">
                             <div class="coordernador">
                                 <div class="apresentacao-coordernador">
-                                    <img src="https://www.politize.com.br/wp-content/uploads/2019/09/aposentadoria-de-professor-politize.jpg" class="thumb-coordernador">
+                                    <img src="./assets/img/cursos/sem-foto.jpg" class="thumb-coordernador">
                                     <div class="dados-coordernador">
                                         <p class="nome json-coordenador"></p>
                                         <p class="materia">Matéria do professor</p>
@@ -274,9 +274,8 @@
                     <h4>Cursos</h4>
                     <div class="json-footer"></div>
                 </div>
-                <!--
                 <div class="col-12 col-md-6">
-                    <h4>Blog</h4>
+                    <!--<h4>Blog</h4>
                     <div class="link-footer">
                         <div class="item">
                             <a hred="/">Telecomunicações</a>
