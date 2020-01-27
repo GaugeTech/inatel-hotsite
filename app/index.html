@@ -3,28 +3,48 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">    
 
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/js.js"></script>
 
-    <script>
-        $.get( "./json/cards.json", function(data) {               
-            console.log(data)
-            $( "body" ).addClass(data.class);
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.get( "./json/cards.json", function(data) {               
+                console.log(data)
+                $( "body" ).addClass(data.class);
 
-            for(var i=0; i< data.cards.length; i++){
-                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos' href='"+ data.cards[i].link +".html'><img src='./assets/img/thumb-engenharia-redes.png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div>";
-                $('.json-cards').append(strCARDS);
-            }
+                for(var i=0; i< data.cards.length; i++){
+                    var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos' href='"+ data.cards[i].link +".html'><img src='./assets/img/thumb-engenharia-redes.png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div>";
+                    $('.json-cards').append(strCARDS);
+                }
 
-            for(var i=0; i< data.cards.length; i++){
-                var strFOOTER = "<p><a href='"+ data.cards[i].link +".html'>"+ data.cards[i].nome +"</a></p>";
-                $('.json-footer').append(strFOOTER);
-            }
-        });  
+                for(var i=0; i< data.cards.length; i++){
+                    var strFOOTER = "<p><a href='"+ data.cards[i].link +".html'>"+ data.cards[i].nome +"</a></p>";
+                    $('.json-footer').append(strFOOTER);
+                }
+            });  
+            
+            $(function() {
+                $('.link_scrool a').bind('click',function(event){
+                var $anchor = $(this);
+                
+                $('html, body, header').stop().animate({
+                                    scrollTop: ($($anchor.attr('href')).offset().top + -70)
+                                }, 2500,'easeInOutExpo');
+                
+                event.preventDefault();
+                });
+            });            
+        });
+        function modalOpen() {
+            $('body').find('.float-inscreva-se').toggleClass('closed');
+            $('body').find('.overlay').toggleClass('closed');
+            console.log('etes');
+        }          
+                
     </script>
 
     <title>Inatel</title>
@@ -59,7 +79,7 @@
                 <h1>Pós-graduação Inatel. Para você alcançar o próximo nível da sua carreira</h1>
 
                 <a href="#" class="button-shadown color-primary button-xg">Inscreva-se</a>
-                <a href="#" class="button-outline button-xg">Receba conteúdos exclusivos dos cursos </a>
+                <a href="#" class="button-outline button-xg" onClick="modalOpen()">Receba conteúdos exclusivos dos cursos </a>
             </div>
         </div>
     </section>
@@ -413,8 +433,24 @@
             <a href="#" class="button-shadown border-primary background-primary">Increva-se</a>
         </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <div class="float-inscreva-se closed">
+            <div class="topo">
+                <h4>Para receber os conteúdos exclusivos dos cursos de Pós-graduação Inatel, preencha os dados abaixo:</h4>
+                <div class="fechar" onClick="modalOpen()">
+                    Fechar <img src="./assets/img/fechar.svg" />
+                </div>
+            </div>
+
+            <div class="conteudo">
+                <div role="main" id="pos-graduacao-inatel-0c98e105f235b59b1851"></div>
+                <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+                <script type="text/javascript"> new RDStationForms('pos-graduacao-inatel-0c98e105f235b59b1851', 'UA-273753-15').createForm();</script>
+            </div>
+        </div>
+
+        <div class="overlay  closed" onClick="modalOpen()"></div>        
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>        
 </body>
 </html>

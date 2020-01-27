@@ -1,7 +1,7 @@
 $(document).ready(function () {
-
-    function modalOpen(nameclass) {
-        $('body').find(nameclass).toggleClass('closed');
+    function modalToggle() {
+        $('body').find('float-inscreva-se').toggleClass('closed');
+        $('body').find('overlay').toggleClass('closed');
+        console.log('teste');
     }
-
-});
+}); 
