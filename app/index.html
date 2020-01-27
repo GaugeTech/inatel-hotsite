@@ -16,7 +16,7 @@
             $( "body" ).addClass(data.class);
 
             for(var i=0; i< data.cards.length; i++){
-                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos' href='"+ data.cards[i].link +".html'><img src='./assets/img/thumb-engenharia-redes.png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div>";
+                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos' href='"+ data.cards[i].link +".html'><img src='"+ data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div>";
                 $('.json-cards').append(strCARDS);
             }
 
@@ -24,7 +24,8 @@
                 var strFOOTER = "<p><a href='"+ data.cards[i].link +".html'>"+ data.cards[i].nome +"</a></p>";
                 $('.json-footer').append(strFOOTER);
             }
-        });  
+        }); 
+
     </script>
 
     <title>Inatel</title>
@@ -40,13 +41,13 @@
                 </div>
                 <div class="col-12 col-xl-10 overflow-auto">
                     <div class="menu link_scrool">
-                        <a href="#cursos" class="menu-link">Cursos</a>
-                        <a href="#nossodiferenciais" class="menu-link">Nossos diferenciais</a>
-                        <a href="#depoimentos" class="menu-link">Depoimentos</a>
-                        <a href="#infraestrutura" class="menu-link">Infraestrutura</a>
-                        <a href="#instalacoes" class="menu-link">Instalações</a>
+                        <a class="menu-link" href="#cursos">Cursos</a>
+                        <a class="menu-link" href="#nossodiferenciais">Nossos diferenciais</a>
+                        <a class="menu-link" href="#depoimentos">Depoimentos</a>
+                        <a class="menu-link" href="#infraestrutura">Infraestrutura</a>
+                        <a class="menu-link" href="#instalacoes">Instalações</a>
                         <!-- <a href="" class="menu-link">Blog Inatel</a> -->
-                        <a href="#parceiras" class="menu-link">Parcerias</a>
+                        <a class="menu-link" href="#parceiras">Parcerias</a>
                     </div>
                 </div>
             </div>

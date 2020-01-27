@@ -1,65 +1,65 @@
 {
     "cards": [
         {
-            "imagem": "imagem",
+            "imagem": "./assets/img/cursos/engenharia-redes-sistemas-telecomunicacoes/thumb-engenharia-redes",
             "nome": "Engenharia de Redes e Sistemas de Telecomunicações",
-            "campus": "Santa Rita do Sapucaí/São Paulo/Rio de Janeiro",
+            "campus": [{"item":"Santa Rita do Sapucaí"}, {"item":"São Paulo"}, {"item":"Rio de Janeiro"}],
             "inicio": "Março/2020",
             "duracao": "24 meses",
             "link": "engenharia-redes-sistemas-telecomunicacoes"
         },
         {
-            "imagem": "imagem",
+            "imagem": "./assets/img/cursos/engenharia-clinica-engenharia-biomedica/thumb-engenharia-clinica",
             "nome": "Engenharia Clínica e Engenharia Biomédica",
-            "campus": "Santa Rita do Sapucaí/Belo Horizonte/Recife/Rio de Janeiro",
+            "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"Belo Horizonte"},{"item":"Recife"},{"item":"Rio de Janeiro"}],
             "inicio": "Março/2020",
             "duracao": "24 meses",
             "link": "engenharia-clinica-engenharia-biomedica"
         },
         {
-            "imagem": "imagem",
+            "imagem": "./assets/img/cursos/engenharia-sistemas-eletroeletronicos-automacao-controle-industrial/thumb-engenharia-sistemas",
             "nome": "Engenharia de Sistemas Eletroeletrônicos, Automação e Controle Industrial",
-            "campus": "Santa Rita do Sapucaí/Volta Redonda",
+            "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"Volta Redonda"}],
             "inicio": "Março/2020",
             "duracao": "24 meses",
             "link": "engenharia-sistemas-eletroeletronicos-automacao-controle-industrial"
         },
         {
-            "imagem": "imagem",
+            "imagem": "./assets/img/cursos/desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing/thumb-desenvolvimento",
             "nome": "Desenvolvimento de aplicações para dispositivos móveis e Cloud Computing",
-            "campus": "Santa Rita do Sapucaí",
+            "campus": [{"item":"Santa Rita do Sapucaí"}],
             "inicio": "Março/2020",
             "duracao": "24 meses",
             "link": "desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing"
         },
         {
-            "imagem": "imagem",
+            "imagem": "./assets/img/cursos/internet-das-coisas/thumb-iot",
             "nome": "Internet das Coisas (IoT)",
-            "campus": "São Paulo",
+            "campus": [{"item":"São Paulo"}],
             "inicio": "Março/2020",
             "duracao": "24 meses",
             "link": "internet-das-coisas"
         },
         {
-            "imagem": "imagem",
+            "imagem": "./assets/img/cursos/mba-gestao-empresarial-ambiente-tecnologico/thumb-mba",
             "nome": "MBA em Gestão Empresarial em Ambientes Tecnológicos",
-            "campus": "Santa Rita do Sapucaí/São Paulo",
+            "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"São Paulo"}],
             "inicio": "Março/2020",
             "duracao": "24 meses",
             "link": "mba-gestao-empresarial-ambiente-tecnologico"
         },
         {
-            "imagem": "imagem",
+            "imagem": "./assets/img/cursos/industria-4/thumb-industria",
             "nome": "Indústria 4.0",
-            "campus": "São Paulo/Santa Rita do Sapucaí",
+            "campus": [{"item":"São Paulo"},{"item":"Santa Rita do Sapucaí"}],
             "inicio": "Março/2020",
             "duracao": "24 meses",
             "link": "industria-4"
         },
         {
-            "imagem": "imagem",
+            "imagem": "./assets/img/cursos/design-interacao-artefatos-digitais/thumb-design",
             "nome": "Design de Interação para Artefatos Digitais",
-            "campus": "Santa Rita do Sapucaí",
+            "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"São Paulo"},{"item":"Rio de Janeiro"}],
             "inicio": "Março/2020",
             "duracao": "24 meses",
             "link": "design-interacao-artefatos-digitais"

@@ -2,7 +2,7 @@
     "titulo": "Engenharia de Sistemas Eletroeletrônicos, Automação e Controle Industrial",
     "nivel": "Pós-graduação",
     "class": "engenharia-sistemas-eletroeletronico-automacao-controle-industrial",
-    "campus": "Campus: Sta. Rita do Sapucaí / Volta Redonda ",
+    "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"Volta Redonda"}],
     "inicio": "Início: Mar/2020",
     "horario": "Horário: Sáb: 8h30 às 12h30 e 13h30 às 17h30",
     "duracao": "Duração: 24 meses",

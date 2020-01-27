@@ -2,7 +2,7 @@
     "titulo": "MBA em Gestão Empresarial em Ambiente Tecnológico",
     "nivel": "Pós-graduação",
     "class": "mba-gestao-empresarial-ambiente-tecnologico",
-    "campus": "Campus: Sta. Rita do Sapucaí / São Paulo",
+    "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"São Paulo"}],
     "inicio": "Início: Mar/2020",
     "horario": "Horário: Sáb: 8h às 12h e 13h às 17h",
     "duracao": "Duração: 24 meses",
