@@ -50,6 +50,43 @@
 
             $('.json-coordenador').text(data.coordenador[0].nome)
             $('.json-coordenador-descricao').text(data.coordenador[0].descricao);
+
+            // Criação tabelas
+            for(var j = 0; j < data.unidades.length; j++){
+                var strHEADER = "<div class='col-12 overflow-auto'><div class=''>"+ 
+                data.unidades[j].valores[0].cidade +"</div><table><tr><th>" + 
+                data.unidades[j].valores[0].desconto + "</th><th>" + 
+                data.unidades[j].valores[0].valor_curso + "</th><th>" + 
+                data.unidades[j].valores[0].valor_desconto + "</th><th><span>+ " + 
+                data.unidades[j].valores[0].desconto_um + "% de deconto</span>" + 
+                data.unidades[j].valores[0].matricula_opcao_um + "</th><th><span>+ " + 
+                data.unidades[j].valores[0].desconto_dois + "% de deconto</span>" + 
+                data.unidades[j].valores[0].matricula_opcao_tres + "</th><th><span>+ " + 
+                data.unidades[j].valores[0].desconto_tres + "% de deconto</span>" + 
+                data.unidades[j].valores[0].matricula_opcao_tres + "</th></tr>";
+
+                var strVALORES = '';
+                var strTABELA = strHEADER;
+
+                for(var i=1; i < data.unidades[j].valores.length; i++){         
+                    var strVALORES = "<tr><td>"+data.unidades[0].valores[i].primeira_coluna+"</td><td>"+
+                        data.unidades[j].valores[i].valor_curso+"</td><td>"+
+                        data.unidades[j].valores[i].valor_desconto+"</td><td>"+
+                        data.unidades[j].valores[i].valor_matricula_1+"</td><td>"+
+                        data.unidades[j].valores[i].valor_matricula_2+"</td><td>"+
+                        data.unidades[j].valores[i].valor_matricula_3+"</td></tr>";
+
+                        strTABELA = strTABELA.concat(strVALORES);
+                }
+
+            var strFOOTER = "</table></div>";
+            
+            strTABELA = strTABELA.concat(strFOOTER);
+            $('.json-valores').append(strTABELA);
+            }
+
+            // Fim criação tabelas
+
         });
 
         $.get( "./json/cards.json", function(data) {               
@@ -204,41 +241,9 @@
                 <div class="tab-pane valores fade" id="valores">
                     <div class="row">
                         <h2 class="col-12">Valores</h2>
-                        <div class="col-12 overflow-auto">
-                            <table>
-                                <tr>
-                                    <th>Descontos</th>
-                                    <th>Descontos</th>
-                                    <th>Descontos</th>
-                                    <th><span>+ 9% de deconto</span>Descontos</th>
-                                    <th><span>+ 7% de deconto</span>Descontos</th>
-                                    <th><span>+ 5% de deconto</span>Descontos</th>
-                                <tr>
-                                <tr>
-                                    <td>À vista (20% de desconto)</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                </tr>
-                                <tr>
-                                    <td>1+1 (10% de desconto)</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                </tr>
-                                <tr>
-                                    <td>24 vezes de R$ 1.140,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                    <td>R$ 27.360,00</td>
-                                </tr>                                                                    
-                        </div>
+                        
+                        <div class="json-valores"></div>
+
                         <div class="col-12">
                             <p class="alerta-valores">*Ex-alunos graduados pelo Inatel possuem 50% de desconto no curso. Para outras opções<br/>de desconto, entre em contato conosco.</p>
                             <div class="tel-contato">

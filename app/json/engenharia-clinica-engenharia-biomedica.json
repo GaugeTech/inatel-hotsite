@@ -153,6 +153,90 @@
         "materia": "Matéria do professor"
     }
 ],
+
+"unidades": [
+    {
+        "valores": [
+            {
+                "cidade": "Santa Rita do Sapucaí, Belo Horizonte e Rio de Janeiro",
+                "desconto": "Descontos",
+                "valor_curso": "Valor do curso",
+                "valor_desconto": "Valor com desconto",
+                "desconto_um": "9",
+                "matricula_opcao_um": "Matrícula até 15/12/19",
+                "desconto_dois": "7",
+                "matricula_opcao_dois": "Matrícula de 16/12/19 a 28/02/20",
+                "desconto_tres": "5",
+                "matricula_opcao_tres": "Matrícula após 01/03/20"
+            },
+            {
+                "primeira_coluna": "À vista (20% de desconto)",
+                "valor_curso": "R$ 24.840,00",
+                "valor_desconto": "R$ 19.872,00",
+                "valor_matricula_1": "R$ 18.083,52",
+                "valor_matricula_2": "R$ 18.480,96",
+                "valor_matricula_3": "R$ 18.878,40"
+            },
+            {
+                "primeira_coluna": "1+1 (10% de desconto)",
+                "valor_curso": "R$ 24.840,00",
+                "valor_desconto": "R$ 22.356,00",
+                "valor_matricula_1": "R$ 10.171,98",
+                "valor_matricula_2": "R$ 10.395,54",
+                "valor_matricula_3": "R$ 10.619,10"
+            },
+            {
+                "primeira_coluna": "24 vezes de R$ 1.140,00",
+                "valor_curso": "R$ 24.840,00",
+                "valor_desconto": "-",
+                "valor_matricula_1": "R$ 941,85",
+                "valor_matricula_2": "R$ 962,55",
+                "valor_matricula_3": "R$ 983,25"
+            }
+        ]
+    },
+    {
+        "valores": [
+            {
+                "cidade": "Recife",
+                "desconto": "Descontos",
+                "valor_curso": "Valor do curso",
+                "valor_desconto": "Valor com desconto",
+                "desconto_um": "9",
+                "matricula_opcao_um": "Matrícula até 15/12/19",
+                "desconto_dois": "7",
+                "matricula_opcao_dois": "Matrícula de 16/12/19 a 28/02/20",
+                "desconto_tres": "5",
+                "matricula_opcao_tres": "Matrícula após 01/03/20"
+            },
+            {
+                "primeira_coluna": "À vista (20% de desconto)",
+                "valor_curso": "R$ 27.360,00",
+                "valor_desconto": "R$ 21.888,00",
+                "valor_matricula_1": "R$ 19.918,08",
+                "valor_matricula_2": "R$ 20.355,84",
+                "valor_matricula_3": "R$ 20.793,60"
+            },
+            {
+                "primeira_coluna": "1+1 (10% de desconto)",
+                "valor_curso": "R$ 27.360,00",
+                "valor_desconto": "R$ 24.624,00",
+                "valor_matricula_1": "R$ 11.203,92",
+                "valor_matricula_2": "R$ 11.450,16",
+                "valor_matricula_3": "R$ 11.696,40"
+            },
+            {
+                "primeira_coluna": "24 vezes de R$ 1.140,00",
+                "valor_curso": "R$ 27.360,00",
+                "valor_desconto": "-",
+                "valor_matricula_1": "R$ 1.037,40",
+                "valor_matricula_2": "R$ 1.060,20",
+                "valor_matricula_3": "R$ 1.083,00"
+            }
+        ]
+    }
+],
+
 "principais-atividades-desenvolvidas": [
     {
         "imagem": "imagem",
