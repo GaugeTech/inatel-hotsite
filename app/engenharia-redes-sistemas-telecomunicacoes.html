@@ -29,38 +29,21 @@
 
             
             if(data.campus.length > 3){
-                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item + " / " + data.campus[2].item + "<span class=''> + "+ (data.campus.length-3) + "</span>");
-            }else if(data.campus.length == 3){
-                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item + " / " + data.campus[2].item);
-            }else if(data.campus.length == 2){
-                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item);
-            }else if(data.campus.length == 1){
-                $('.json-campus').html(data.campus[0].item);
-            }
-            
-
-            /*
-            if(data.campus.length > 3){
-                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item + " / " + data.campus[2].item + "<span class=''> + "+ (data.campus.length-3) + "</span>");
+                $('.json-campus').append(data.campus[0].item + " / " + 
+                data.campus[1].item + " / " + 
+                data.campus[2].item + "<span class=''> + "+ 
+                (data.campus.length-3) + "</span>");
             }else{
-                var campus = '';
                 for(var i=0; i < 3; i++){
-
-                    //console.log(data.campus[i].item);
-                    
-                    campus.concat(data.campus[i].item);
-
-                    console.log(campus);
-
+                    $('.json-campus').append(data.campus[i].item)
                     if(data.campus[i+1]){
-                        campus.concat(" / ");
+                        $('.json-campus').append(" / ")
                     }else{
-                        break;
+                        break
                     }
                 }
-                $('.json-campus').html(campus);
             }
-            */
+            
 
             $('.json-inicio').text(data.inicio);
             $('.json-horario').text(data.horario);
@@ -98,10 +81,8 @@
                 data.unidades[j].valores[0].matricula_opcao_tres + "</th><th><span>+ " + 
                 data.unidades[j].valores[0].desconto_tres + "% de deconto</span>" + 
                 data.unidades[j].valores[0].matricula_opcao_tres + "</th></tr>";
-
                 var strVALORES = '';
                 var strTABELA = strHEADER;
-
                 for(var i=1; i < data.unidades[j].valores.length; i++){         
                     var strVALORES = "<tr><td>"+data.unidades[0].valores[i].primeira_coluna+"</td><td>"+
                         data.unidades[j].valores[i].valor_curso+"</td><td>"+
@@ -112,13 +93,10 @@
 
                         strTABELA = strTABELA.concat(strVALORES);
                 }
-
-            var strFOOTER = "</table></div>";
-            
+            var strFOOTER = "</table></div>"; 
             strTABELA = strTABELA.concat(strFOOTER);
             $('.json-valores').append(strTABELA);
             }
-
             // Fim criação tabelas
 
         });

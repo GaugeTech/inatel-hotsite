@@ -24,13 +24,19 @@
             $('.json-sobre').html(data.sobre[0].descricao);
             
             if(data.campus.length > 3){
-                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item + " / " + data.campus[2].item + "<span class=''> + "+ (data.campus.length-3) + "</span>");
-            }else if(data.campus.length == 3){
-                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item + " / " + data.campus[2].item);
-            }else if(data.campus.length == 2){
-                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item);
-            }else if(data.campus.length == 1){
-                $('.json-campus').html(data.campus[0].item);
+                $('.json-campus').append(data.campus[0].item + " / " + 
+                data.campus[1].item + " / " + 
+                data.campus[2].item + "<span class=''> + "+ 
+                (data.campus.length-3) + "</span>");
+            }else{
+                for(var i=0; i < 3; i++){
+                    $('.json-campus').append(data.campus[i].item)
+                    if(data.campus[i+1]){
+                        $('.json-campus').append(" / ")
+                    }else{
+                        break
+                    }
+                }
             }
 
             $('.json-inicio').text(data.inicio);
