@@ -39,47 +39,47 @@
     ],
     "professores": [
         {
-            "imagem": "imagem",
+            "imagem": "alexandre-baratella",
             "professor": "Alexandre Baratella Lugli",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "ynoguti",
             "professor": "Carlos Alberto Ynoguti",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "diego-lemos",
             "professor": "Diego Aparecido Lemes",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "evandro",
             "professor": "Evandro Luiz Brandão Gomes",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "giovanni",
             "professor": "Giovanni Henrique Faria Floriano",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "joao-paulo-henriques",
             "professor": "João Paulo Carvalho Henrique",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "sem-foto",
             "professor": "Júlio Arlindo Pinto Azevedo",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "wanderson-saldanha",
             "professor": "Wanderson Saldanha",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "yvo-masseli",
             "professor": "Yvo Marcelo Chiaradia Masselli",
             "materia": "Matéria do professor"
         }

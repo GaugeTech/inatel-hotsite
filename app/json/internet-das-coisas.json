@@ -42,52 +42,52 @@
     ],
     "professores": [
         {
-            "imagem": "imagem",
+            "imagem": "alberti",
             "professor": "Antônio Marcos Alberti",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "ynoguti",
             "professor": "Carlos Alberto Ynoguti",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "daniel-andrade",
             "professor": "Daniel Andrade Nunes",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "sem-foto",
             "professor": "Daniel Mazzer",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "edson-gimenez",
             "professor": "Edson Josias Cruz Gimenez",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "estevan",
             "professor": "Estevan Marcelo Lopes",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "guilherme-aquino",
             "professor": "Guilherme Pedro Aquino",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "sem-foto",
             "professor": "Guilherme Rezende dos Santos",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "brito",
             "professor": "José Marcos Camara Brito",
             "materia": "Matéria do professor"
         },
         {
-            "imagem": "imagem",
+            "imagem": "sem-foto",
             "professor": "Lucas Jun Sakai",
             "materia": "Matéria do professor"
         }
