@@ -1,0 +1,304 @@
+@media screen and (max-width: 768px) {
+  .order-mobile-first {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .order-mobile-last {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+.container-grid {
+  width: 100%;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 1025px) {
+  .container-grid {
+    width: 1025px;
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .container-grid {
+    width: 1360px;
+    padding: 0 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.container-top {
+  width: 100%;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: -15px;
+  padding-right: -15px;
+}
+@media screen and (min-width: 1360px) {
+  .container-top {
+    width: 1360px;
+    padding: 0 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.home .color-primary {
+  color: #065CBE !important;
+}
+.home .background-primary {
+  background-color: #065CBE !important;
+}
+.home .background-white {
+  background-color: #FFF !important;
+}
+.home .background-primary-mobile {
+  background-color: #065CBE;
+}
+@media screen and (min-width: 1025px) {
+  .home .background-primary-mobile {
+    background-color: #FFF;
+  }
+}
+.home .border-primary {
+  border-color: #065CBE !important;
+}
+.design-interacao-artefatos-digitais {
+  padding-top: 65px;
+}
+.design-interacao-artefatos-digitais .color-course {
+  color: #CC2562 !important;
+}
+.design-interacao-artefatos-digitais .background-course {
+  background-color: #CC2562 !important;
+}
+.design-interacao-artefatos-digitais .box-shadow-course {
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #CC2562 !important;
+}
+.design-interacao-artefatos-digitais .background-course-mobile {
+  background-color: #CC2562;
+}
+@media screen and (min-width: 1025px) {
+  .design-interacao-artefatos-digitais .background-course-mobile {
+    background-color: #FFF;
+  }
+}
+.design-interacao-artefatos-digitais .background-course-image {
+  background-image: url(/assets/img/cursos/design-interacao-artefatos-digitais/banner-interna-design.png);
+}
+.design-interacao-artefatos-digitais .background-course-more {
+  background-image: url(/assets/img/cursos/design-interacao-artefatos-digitais/bg-cursos-interna.png);
+}
+.design-interacao-artefatos-digitais .border-course {
+  border-color: #CC2562 !important;
+}
+.engenharia-redes-sistemas-telecomunicacoes {
+  padding-top: 65px;
+}
+.engenharia-redes-sistemas-telecomunicacoes .color-course {
+  color: #EA2F00 !important;
+}
+.engenharia-redes-sistemas-telecomunicacoes .background-course {
+  background-color: #EA2F00 !important;
+}
+.engenharia-redes-sistemas-telecomunicacoes .box-shadow-course {
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #EA2F00 !important;
+}
+.engenharia-redes-sistemas-telecomunicacoes .background-course-mobile {
+  background-color: #EA2F00;
+}
+@media screen and (min-width: 1025px) {
+  .engenharia-redes-sistemas-telecomunicacoes .background-course-mobile {
+    background-color: #FFF;
+  }
+}
+.engenharia-redes-sistemas-telecomunicacoes .background-course-image {
+  background-image: url(/assets/img/cursos/engenharia-redes-sistemas-telecomunicacoes/engenharia-redes.png);
+}
+.engenharia-redes-sistemas-telecomunicacoes .background-course-more {
+  background-image: url(/assets/img/cursos/engenharia-redes-sistemas-telecomunicacoes/bg-outros-cursos-redes.png);
+}
+.engenharia-redes-sistemas-telecomunicacoes .border-course {
+  border-color: #EA2F00 !important;
+}
+.engenharia-clinica-engenharia-biomedica {
+  padding-top: 65px;
+}
+.engenharia-clinica-engenharia-biomedica .color-course {
+  color: #A220CB !important;
+}
+.engenharia-clinica-engenharia-biomedica .background-course {
+  background-color: #A220CB !important;
+}
+.engenharia-clinica-engenharia-biomedica .box-shadow-course {
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #A220CB !important;
+}
+.engenharia-clinica-engenharia-biomedica .background-course-mobile {
+  background-color: #A220CB;
+}
+@media screen and (min-width: 1025px) {
+  .engenharia-clinica-engenharia-biomedica .background-course-mobile {
+    background-color: #FFF;
+  }
+}
+.engenharia-clinica-engenharia-biomedica .background-course-image {
+  background-image: url(/assets/img/cursos/engenharia-clinica-engenharia-biomedica/engenharia-clinica.png);
+}
+.engenharia-clinica-engenharia-biomedica .background-course-more {
+  background-image: url(/assets/img/cursos/engenharia-clinica-engenharia-biomedica/bg-outros-cursos-eng-clinica.png);
+}
+.engenharia-clinica-engenharia-biomedica .border-course {
+  border-color: #A220CB !important;
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial {
+  padding-top: 65px;
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial .color-course {
+  color: #2E0096 !important;
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial .background-course {
+  background-color: #2E0096 !important;
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial .box-shadow-course {
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #2E0096 !important;
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial .background-course-mobile {
+  background-color: #2E0096;
+}
+@media screen and (min-width: 1025px) {
+  .engenharia-sistemas-eletroeletronico-automacao-controle-industrial .background-course-mobile {
+    background-color: #FFF;
+  }
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial .background-course-image {
+  background-image: url(/assets/img/cursos/engenharia-sistemas-eletroeletronicos-automacao-controle-industrial/engenharia-sistemas.png);
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial .background-course-more {
+  background-image: url(/assets/img/cursos/engenharia-sistemas-eletroeletronicos-automacao-controle-industrial/bg-outros-cursos-eng-sistemas.png);
+}
+.engenharia-sistemas-eletroeletronico-automacao-controle-industrial .border-course {
+  border-color: #2E0096 !important;
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing {
+  padding-top: 65px;
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .color-course {
+  color: #008394 !important;
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .background-course {
+  background-color: #008394 !important;
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .box-shadow-course {
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #008394 !important;
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .background-course-mobile {
+  background-color: #008394;
+}
+@media screen and (min-width: 1025px) {
+  .desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .background-course-mobile {
+    background-color: #FFF;
+  }
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .background-course-image {
+  background-image: url(/assets/img/cursos/desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing/desenvolvimento.png);
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .background-course-more {
+  background-image: url(/assets/img/cursos/desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing/bg-outros-cursos-desenvolvimento.png);
+}
+.desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .border-course {
+  border-color: #008394 !important;
+}
+.internet-das-coisas {
+  padding-top: 65px;
+}
+.internet-das-coisas .color-course {
+  color: #068CD4 !important;
+}
+.internet-das-coisas .background-course {
+  background-color: #068CD4 !important;
+}
+.internet-das-coisas .box-shadow-course {
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #068CD4 !important;
+}
+.internet-das-coisas .background-course-mobile {
+  background-color: #068CD4;
+}
+@media screen and (min-width: 1025px) {
+  .internet-das-coisas .background-course-mobile {
+    background-color: #FFF;
+  }
+}
+.internet-das-coisas .background-course-image {
+  background-image: url(/assets/img/cursos/internet-das-coisas/Iot.png);
+}
+.internet-das-coisas .background-course-more {
+  background-image: url(/assets/img/cursos/internet-das-coisas/bg-outros-cursos-iot.png);
+}
+.internet-das-coisas .border-course {
+  border-color: #068CD4 !important;
+}
+.mba-gestao-empresarial-ambiente-tecnologico {
+  padding-top: 65px;
+}
+.mba-gestao-empresarial-ambiente-tecnologico .color-course {
+  color: #3F930A !important;
+}
+.mba-gestao-empresarial-ambiente-tecnologico .background-course {
+  background-color: #3F930A !important;
+}
+.mba-gestao-empresarial-ambiente-tecnologico .box-shadow-course {
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #3F930A !important;
+}
+.mba-gestao-empresarial-ambiente-tecnologico .background-course-mobile {
+  background-color: #3F930A;
+}
+@media screen and (min-width: 1025px) {
+  .mba-gestao-empresarial-ambiente-tecnologico .background-course-mobile {
+    background-color: #FFF;
+  }
+}
+.mba-gestao-empresarial-ambiente-tecnologico .background-course-image {
+  background-image: url(/assets/img/cursos/mba-gestao-empresarial-ambiente-tecnologico/MBA.png);
+}
+.mba-gestao-empresarial-ambiente-tecnologico .background-course-more {
+  background-image: url(/assets/img/cursos/mba-gestao-empresarial-ambiente-tecnologico/bg-outros-cursos-mba.png);
+}
+.mba-gestao-empresarial-ambiente-tecnologico .border-course {
+  border-color: #3F930A !important;
+}
+.industria-4 {
+  padding-top: 65px;
+}
+.industria-4 .color-course {
+  color: #820073 !important;
+}
+.industria-4 .background-course {
+  background-color: #820073 !important;
+}
+.industria-4 .box-shadow-course {
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 #820073 !important;
+}
+.industria-4 .background-course-mobile {
+  background-color: #820073;
+}
+@media screen and (min-width: 1025px) {
+  .industria-4 .background-course-mobile {
+    background-color: #FFF;
+  }
+}
+.industria-4 .background-course-image {
+  background-image: url(/assets/img/cursos/industria-4/industria.png);
+}
+.industria-4 .background-course-more {
+  background-image: url(/assets/img/cursos/industria-4/bg-outros-cursos-industria.png);
+}
+.industria-4 .border-course {
+  border-color: #820073 !important;
+}

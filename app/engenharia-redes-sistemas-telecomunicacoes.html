@@ -27,6 +27,7 @@
             $('.json-horario').text(data.horario);
             $('.json-sobre').html(data.sobre[0].descricao);
 
+            
             if(data.campus.length > 3){
                 $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item + " / " + data.campus[2].item + "<span class=''> + "+ (data.campus.length-3) + "</span>");
             }else if(data.campus.length == 3){
@@ -36,6 +37,30 @@
             }else if(data.campus.length == 1){
                 $('.json-campus').html(data.campus[0].item);
             }
+            
+
+            /*
+            if(data.campus.length > 3){
+                $('.json-campus').html(data.campus[0].item + " / " + data.campus[1].item + " / " + data.campus[2].item + "<span class=''> + "+ (data.campus.length-3) + "</span>");
+            }else{
+                var campus = '';
+                for(var i=0; i < 3; i++){
+
+                    //console.log(data.campus[i].item);
+                    
+                    campus.concat(data.campus[i].item);
+
+                    console.log(campus);
+
+                    if(data.campus[i+1]){
+                        campus.concat(" / ");
+                    }else{
+                        break;
+                    }
+                }
+                $('.json-campus').html(campus);
+            }
+            */
 
             $('.json-inicio').text(data.inicio);
             $('.json-horario').text(data.horario);
@@ -47,7 +72,13 @@
             }
 
             for(var i=0; i< data.professores.length; i++){
-                var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'><img src='./assets/img/cursos/sem-foto.jpg' class='thumb-professor'><div class='dados-professor'><p class='nome'>"+ data.professores[i].professor +"</p><p class='materia'>"+ data.professores[i].materia +"</p></div></div></div>";
+                var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'>"+
+                "<img src='./assets/img/professores/"+
+                data.professores[i].imagem + 
+                ".jpg' class='thumb-professor'>"+
+                "<div class='dados-professor'><p class='nome'>"+ 
+                data.professores[i].professor +"</p><p class='materia'>"+ 
+                data.professores[i].materia +"</p></div></div></div>";
                 $(".json-professores").append(strPROFS);
             }
 

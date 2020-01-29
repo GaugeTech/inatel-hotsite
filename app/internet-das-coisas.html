@@ -44,7 +44,13 @@
             }
 
             for(var i=0; i< data.professores.length; i++){
-                var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'><img src='./assets/img/cursos/sem-foto.jpg' class='thumb-professor'><div class='dados-professor'><p class='nome'>"+ data.professores[i].professor +"</p><p class='materia'>"+ data.professores[i].materia +"</p></div></div></div>";
+                var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'>"+
+                "<img src='./assets/img/professores/"+
+                data.professores[i].imagem + 
+                ".jpg' class='thumb-professor'>"+
+                "<div class='dados-professor'><p class='nome'>"+ 
+                data.professores[i].professor +"</p><p class='materia'>"+ 
+                data.professores[i].materia +"</p></div></div></div>";
                 $(".json-professores").append(strPROFS);
             }
 
