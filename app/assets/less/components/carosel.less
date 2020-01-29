@@ -11,7 +11,47 @@
             padding: 0;
         }
     }
-    .navegacao-carousel {
+    .navegacao-infraestrutura-carousel {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        width: 320px;
+        margin: 0 auto;
+        .custom_paging {
+            display: none;
+        }
+        .previous-arrow {
+            background-color: #F0F0F0;
+            border-radius: 50%;
+            padding: 8px;
+            width: 32px;
+            height: 32px;
+            img {
+                width: 100%;
+            }
+        }
+        .next-arrow {
+            background-color: #F0F0F0;
+            border-radius: 50%;
+            padding: 8px;
+            width: 32px;
+            height: 32px;
+            img {
+                width: 100%;
+            }            
+        }
+        .count {
+            text-align: center;
+        }
+    }
+}
+
+
+.diferenciais-carousel {
+    width: 100%;
+    overflow: hidden;
+    .navegacao-diferenciais-carousel {
         width: 100%;
         display: flex;
         justify-content: space-between;

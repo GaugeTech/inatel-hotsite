@@ -4,8 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css">
     <script src="js/slick.min.js"></script>
-    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -50,52 +51,42 @@
                 $(element).find(".js-current-diferenciais").text(1);
             });
 
-            $('.diferenciais-item').slick({
+            $('.item-diferenciais').slick({
                 appendArrows: $('.navegacao-diferenciais-carousel')[0],
                 infinite: false,  
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: true,
                 slideOffset: 15,
-                cssEase: 'linear',
                 prevArrow:"<img class='previous-arrow slick-prev' src='../assets/img/arrow-previous.svg'>",
-                nextArrow:"<img class='next-arrow slick-next' src='../assets/img/next-arrow.svg'>",       
-                windowTimer: true,  
-                customPaging: (slider) => {
-                    $(slider.$slider).siblings('.diferenciais-counter').find('.js-total-contrast').text(slider.slideCount);
-                    return;
-                }             
+                nextArrow:"<img class='next-arrow slick-next' src='../assets/img/next-arrow.svg'>",           
+                dotsClass: 'custom_paging',        
             });    
             
-            $('.diferenciais-item').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-                $(event.target).closest('.infraestrutura-carousel').find('.js-current-diferenciais').text(nextSlide + 1);
-            });
+            $('.item-diferenciais').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                $(event.target).closest('.sistema-sistema-diferenciais-carousel').find('.js-current-diferenciais').text(nextSlide + 1);
+            });     
 
             ////
 
-            $(".products-counter").each(function (index, element) {
-                $(element).find(".js-current-products").text(1);
+            $(".infraestrutura-counter").each(function (index, element) {
+                $(element).find(".js-current-infraestrutura").text(1);
             });
 
             $('.foto-item').slick({
-                appendArrows: $('.navegacao-carousel')[0],
+                appendArrows: $('.navegacao-infraestrutura-carousel')[0],
                 infinite: false,  
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: true,
                 slideOffset: 15,
-                cssEase: 'linear',
                 prevArrow:"<img class='previous-arrow slick-prev' src='../assets/img/arrow-previous.svg'>",
-                nextArrow:"<img class='next-arrow slick-next' src='../assets/img/next-arrow.svg'>",       
-                windowTimer: true,  
-                customPaging: (slider) => {
-                    $(slider.$slider).siblings('.products-counter').find('.js-total-contrast').text(slider.slideCount);
-                    return;
-                }             
+                nextArrow:"<img class='next-arrow slick-next' src='../assets/img/next-arrow.svg'>",     
+                dotsClass: 'custom_paging',      
             });    
             
             $('.foto-item').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-                $(event.target).closest('.infraestrutura-carousel').find('.js-current-products').text(nextSlide + 1);
+                $(event.target).closest('.sistema-infraestrutura-carousel').find('.js-current-infraestrutura').text(nextSlide + 1);
             });            
         });
 
@@ -173,35 +164,34 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-12">
-                    <!-- <div class="diferenciais-carosel">
-                        <div class="diferenciais-item">
-                            <div class="item-diferenciais">
-                                <img src="./assets/img/team.svg" />
-                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+
+                    <div class="diferenciais-carousel">
+                        <div class="sistema-diferenciais-carousel">
+                            <div class="item-diferenciais">                                                                                                      
+                                <div>
+                                    <div class="item-diferenciais">
+                                        <!-- <img src="./assets/img/team.svg" /> -->
+                                        <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                                    </div>
+                                </div>  
+                                <div>
+                                    <div class="item-diferenciais">
+                                        <!-- <img src="./assets/img/team.svg" /> -->
+                                        <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                                    </div>
+                                </div>                                                             
                             </div>
-                            <div class="item-diferenciais">
-                                <img src="./assets/img/team.svg" />
-                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
-                            </div> 
-                            <div class="item-diferenciais">
-                                <img src="./assets/img/team.svg" />
-                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
-                            </div>     
-                            <div class="item-diferenciais">
-                                <img src="./assets/img/team.svg" />
-                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
-                            </div>                                                                                
+                            <div class="navegacao-diferenciais-carousel">
+                                <div class="count">
+                                    <span class="diferenciais-counter">
+                                        <span class="js-current-diferenciais"></span> Exibindo de <span>9</span>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="navegacao-diferenciais-carousel">
-                            <div class="count">
-                                <span class="diferenciais-counter">
-                                    <span class="js-current-diferenciais"></span> Exibindo de 4
-                                </span>
-                            </div>
-                        </div>                        
-                    </div> -->
-                    <div class="row">
-                    <!-- <div class="row nossos-diferenciais-mobile"> -->
+                    </div>
+
+                    <div class="row nossos-diferenciais-mobile">
                         <div class="col-md-6">
                             <div class="item-diferenciais">
                                 <img src="./assets/img/team.svg" />
@@ -254,7 +244,7 @@
             <div class="row lista-depoimentos">
                 <div class="col-12 col-md-4">
                     <div class="item-depoimentos">
-                        <img src="./assets/img/thumb-mba.png">
+                        <img src="./assets/img/andre.png">
                         <p class="texto">“O Inatel contribuiu muito para a capacitação técnica da NET. Os treinamentos e os cursos de Pós-Graduação In Company foram grandes diferenciais para o aperfeiçoamento de nossos colaboradores.”</p>
                         <p class="nome">André Luiz P. Sanchez</p>
                         <p class="cargo">Gerente Técnico da NET – Cluster Ribeirão Preto</p>
@@ -262,17 +252,17 @@
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="item-depoimentos">
-                        <img src="./assets/img/thumb-mba.png">
-                        <p class="texto">“O Inatel contribuiu muito para a capacitação técnica da NET. Os treinamentos e os cursos de Pós-Graduação In Company foram grandes diferenciais para o aperfeiçoamento de nossos colaboradores.”</p>
-                        <p class="nome">André Luiz P. Sanchez</p>
-                        <p class="cargo">Gerente Técnico da NET – Cluster Ribeirão Preto</p>
+                        <img src="./assets/img/rodolfo.png">
+                        <p class="texto">“A pós-graduação oferecida por esta instituição de vanguarda e respeitada dentro do cenário nacional está entre as melhores do país. O curso possui uma base teórica muito forte, ótimos profissionais, além de uma infraestrutura de laboratórios invejável. Eu recomendo!”</p>
+                        <p class="nome">RODOLFO MORE</p>
+                        <p class="cargo">Presidente da ABEClin – Associação Brasileira de Engenharia Clínica</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="item-depoimentos">
-                        <img src="./assets/img/thumb-mba.png">
-                        <p class="texto">“O Inatel contribuiu muito para a capacitação técnica da NET. Os treinamentos e os cursos de Pós-Graduação In Company foram grandes diferenciais para o aperfeiçoamento de nossos colaboradores.”</p>
-                        <p class="nome">André Luiz P. Sanchez</p>
+                        <img src="./assets/img/fernando.png">
+                        <p class="texto">“A Schweitzer Engineering Laboratories (SEL) realiza parcerias estratégicas com instituições que possuem tecnologia de ponta e profissionais especializados. A aliança com o Inatel visa suprir a demanda do mercado por mão de obra com capacitação de alto nível na área de automação.”</p>
+                        <p class="nome">Presidente da ABEClin – Associação Brasileira de Engenharia Clínica</p>
                         <p class="cargo">Diretor geral - Schweitzer Engineering Laboratories (SEL)</p>
                     </div>
                 </div>                                    
@@ -297,22 +287,22 @@
                     <p>• 	Teatro Inatel, um dos mais modernos do sul de Minas Gerais;</p>
                     <p>• 	Centro de competências para PD&I.</p>                    
                 </div>
-                <div class="foto-item">                                                   
-                    <img src="./assets/img/galeria1.png" style="margin: 0 5px;">                      
-                    <img src="./assets/img/galeria2.png" style="margin: 0 5px;">       
-                    <img src="./assets/img/galeria3.png" style="margin: 0 5px;">       
-                    <img src="./assets/img/galeria4.png" style="margin: 0 5px;">       
-                    <img src="./assets/img/galeria5.png" style="margin: 0 5px;">       
-                    <img src="./assets/img/galeria6.png" style="margin: 0 5px;">       
-                    <img src="./assets/img/galeria7.png" style="margin: 0 5px;">       
-                    <img src="./assets/img/galeria8.png" style="margin: 0 5px;">       
-                    <img src="./assets/img/galeria9.png" style="margin: 0 5px;">       
-                </div>
-                <div class="navegacao-carousel">
-                    <div class="count">
-                        <span class="products-counter">
-                            <span class="js-current-products"></span> Exibindo de 9
-                        </span>
+                <div class="sistema-infraestrutura-carousel">
+                    <div class="foto-item">                                                                                                      
+                        <img src="./assets/img/galeria3.png" style="margin: 0 5px;">       
+                        <img src="./assets/img/galeria4.png" style="margin: 0 5px;">       
+                        <img src="./assets/img/galeria5.png" style="margin: 0 5px;">       
+                        <img src="./assets/img/galeria6.png" style="margin: 0 5px;">       
+                        <img src="./assets/img/galeria7.png" style="margin: 0 5px;">       
+                        <img src="./assets/img/galeria8.png" style="margin: 0 5px;">       
+                        <img src="./assets/img/galeria9.png" style="margin: 0 5px;">       
+                    </div>
+                    <div class="navegacao-infraestrutura-carousel">
+                        <div class="count">
+                            <span class="infraestrutura-counter">
+                                <span class="js-current-infraestrutura"></span> Exibindo de <span>9</span>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
