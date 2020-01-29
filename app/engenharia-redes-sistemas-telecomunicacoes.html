@@ -56,15 +56,15 @@
 
             // Criação tabelas
             for(var j = 0; j < data.unidades.length; j++){
-                var strHEADER = "<div class='col-12 overflow-auto'><div class=''>"+ 
+                var strHEADER = "<div class='overflow-auto'><div class='tabela-cidade color-course'>"+ 
                 data.unidades[j].valores[0].cidade +"</div><table><tr><th>" + 
                 data.unidades[j].valores[0].desconto + "</th><th>" + 
                 data.unidades[j].valores[0].valor_curso + "</th><th>" + 
-                data.unidades[j].valores[0].valor_desconto + "</th><th><span>+ " + 
+                data.unidades[j].valores[0].valor_desconto + "</th><th><span class='color-course'>+ " + 
                 data.unidades[j].valores[0].desconto_um + "% de deconto</span>" + 
-                data.unidades[j].valores[0].matricula_opcao_um + "</th><th><span>+ " + 
+                data.unidades[j].valores[0].matricula_opcao_um + "</th><th><span class='color-course'>+ " + 
                 data.unidades[j].valores[0].desconto_dois + "% de deconto</span>" + 
-                data.unidades[j].valores[0].matricula_opcao_tres + "</th><th><span>+ " + 
+                data.unidades[j].valores[0].matricula_opcao_tres + "</th><th><span class='color-course'>+ " + 
                 data.unidades[j].valores[0].desconto_tres + "% de deconto</span>" + 
                 data.unidades[j].valores[0].matricula_opcao_tres + "</th></tr>";
 
@@ -97,7 +97,7 @@
             $( "body" ).addClass(data.class);
 
             for(var i=0; i< 4; i++){
-                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos box-shadow-course' href='"+ data.cards[i].link +".html'><img src='"+ data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus[0].item +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div<a>";
+                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos box-shadow-course' href='"+ data.cards[i].link +".html'><img src='"+ data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus[0].item +"<span class='color-course'>"+ data.cards[i].campusExtras +"</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div<a>";
                 $('.json-cards').append(strCARDS);
             }
 
@@ -248,7 +248,7 @@
                     <div class="row">
                         <h2 class="col-12">Valores</h2>
                         
-                        <div class="json-valores"></div>
+                        <div class="json-valores col-12"></div>
 
                         <div class="col-12">
                             <p class="alerta-valores">*Ex-alunos graduados pelo Inatel possuem 50% de desconto no curso. Para outras opções<br/>de desconto, entre em contato conosco.</p>

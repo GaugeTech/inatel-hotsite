@@ -4,11 +4,20 @@
 .infraestrutura-carousel {
     width: 100%;
     overflow: hidden;
+    display: none;
+    @media screen and (max-width: @mobile) { 
+        display: block;
+    }     
     .texto-mobile {
         padding-bottom: 40px;
         p {
             margin: 0;
             padding: 0;
+        }
+    }
+    .foto-item {
+        .slick-slide {
+            height: auto!important;
         }
     }
     .navegacao-infraestrutura-carousel {
@@ -51,7 +60,115 @@
 .diferenciais-carousel {
     width: 100%;
     overflow: hidden;
+    display: none;
+    @media screen and (max-width: @mobile) { 
+        display: block;
+    } 
+    .item-diferenciais-carousel {
+        background-color: @white;
+        border: 1px solid #F0F0F0;
+        padding: 24px 24px;
+        margin: 24px 0;
+        max-height: 316px;
+        text-align: left;
+        @media screen and (min-width: @desktop) { 
+            padding: 48px 24px;
+        }
+        img {
+            margin-bottom: 24px;
+        }
+    }
     .navegacao-diferenciais-carousel {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        width: 320px;
+        margin: 0 auto;
+        .custom_paging {
+            display: none;
+        }
+        .previous-arrow {
+            background-color: #F0F0F0;
+            border-radius: 50%;
+            padding: 8px;
+            width: 32px;
+            height: 32px;
+            img {
+                width: 100%;
+            }
+        }
+        .next-arrow {
+            background-color: #F0F0F0;
+            border-radius: 50%;
+            padding: 8px;
+            width: 32px;
+            height: 32px;
+            img {
+                width: 100%;
+            }            
+        }
+        .count {
+            text-align: center;
+        }
+    }
+}
+
+.depoimentos-carousel {
+    width: 100%;
+    overflow: hidden;
+    display: none;
+    @media screen and (max-width: @mobile) { 
+        display: block;
+    } 
+    .item-depoimentos-slick {
+        .slick-slide {
+            height: auto!important;
+        }       
+    }
+    .item-depoimentos-carousel {
+        background-color: #FFFFFF;
+        border: 1px solid #F0F0F0;
+        padding: 42px 32px 0 32px;
+        text-align: center;          
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .texto {
+            color: #000000;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 26px;
+            max-width: 336px;
+            min-height: 182px;
+            text-align: left; 
+            margin-top: 24px;                   
+        }
+        .nome {
+            color: #000000;
+            font-family: Tahoma;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+        }
+        .cargo {
+            color: #000000;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            max-width: 326px;
+            text-align: left;
+            min-height: 40px;
+        }
+    }
+    .navegacao-depoimentos-carousel {
         width: 100%;
         display: flex;
         justify-content: space-between;

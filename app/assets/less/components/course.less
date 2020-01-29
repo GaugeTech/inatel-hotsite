@@ -66,12 +66,56 @@
         .info-course {
             background: #F9F9F9;
             margin: 0 -15px;
-            padding: 20px 15px;
+            padding: 25px 15px;
             @media screen and (min-width: @tablet) {            
-                padding: 10px 40px;
+                padding: 25px 40px;
                 display: flex;
                 justify-content: space-between;
                 margin: 0 -40px;
+            }
+            .local {
+                background-image: url(/assets/img/maps-and-flags.svg);
+                background-repeat: no-repeat;
+                background-position: left center;
+                padding-left: 20px;
+                font-family: @fontRoboto;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
+            }
+            .init {
+                background-image: url(/assets/img/shuttle.svg);
+                background-repeat: no-repeat;
+                background-position: left center;
+                padding-left: 20px;
+                font-family: @fontRoboto;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
+            }
+            .hour {
+                background-image: url(/assets/img/alarm-clock.svg);
+                background-repeat: no-repeat;
+                background-position: left center;
+                padding-left: 20px;
+                font-family: @fontRoboto;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
+            }
+            .durability {
+                background-image: url(/assets/img/calendar.svg);
+                background-repeat: no-repeat;
+                background-position: left center;
+                padding-left: 20px;
+                font-family: @fontRoboto;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
             }
         }
         .nav {            
@@ -213,10 +257,17 @@
                 }
             }    
             .valores {
+                .tabela-cidade {
+                    border-bottom: 1px solid #F0F0F0;
+                    margin-top: 20px;
+                    font-weight: 700;
+                    padding-bottom: 15px;
+                    margin-bottom: 15px;                
+                }
                 table {
-                    width: 900px;
+                    width: 100%;
                     @media screen and (min-width: @tablet) {
-                        width: 100%;
+                        // width: 100%;
                     }
                     th {
                         color: #000000;
@@ -236,8 +287,7 @@
                             line-height: 20px;
                             text-align: left;      
                             position: absolute;
-                            margin-top: -20px;    
-                            width: 100%;                 
+                            margin-top: -20px;              
                         }
                     }
                     td {
@@ -368,6 +418,46 @@
                         line-height: 19px;
                         text-align: left;
                         margin-left: 10px;
+                        &:hover {
+                            .tooltip {
+                                opacity: 1;
+                            }
+                        }
+                        .tooltip {
+                            background-color: @black;                                
+                            color: @white;
+                            // opacity: 1;
+                            border-radius: 4px;
+                            box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.45);
+                            padding: 15px;        
+                            margin-left: 30%;
+                            margin-top: 10px;
+                            span {
+                                font-family: Roboto;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 25px;
+                                background-image: url(/assets/img/maps-and-flags-white.svg);
+                                background-repeat: no-repeat;
+                                background-position: left center;
+                                margin: 0;
+                                padding-left: 20px;
+                            }
+                            &:before {
+                                content: "";
+                                display: inline-block;
+                                vertical-align: middle;
+                                margin-right: 10px;
+                                width: 0; 
+                                height: 0; 
+                                margin: -20px 0 0 30px;
+                                position: absolute;
+                                border-left: 5px solid transparent;
+                                border-right: 5px solid transparent;
+                                border-bottom: 5px solid black;
+                              }
+                              
+                        }                        
                     }
                 }
             }

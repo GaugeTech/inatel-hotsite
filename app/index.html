@@ -23,11 +23,18 @@
                 console.log(data)
                 $( "body" ).addClass(data.class);
 
-
-                for(var i=0; i< data.cards.length; i++){
-                    var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos' href='"+ data.cards[i].link +".html'><img src='"+ data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus[0].item +"<span class='color-primary'>+4</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div>";
-                    $('.json-cards').append(strCARDS);
+                
+                for(var i=0; i < data.cards.length; i++){
+                    var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos' href='"+ data.cards[i].link 
+                    +".html'><img src='"+ data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome 
+                    +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus[0].item 
+                    +"<span class='color-primary json-campus'>"+ data.cards[i].campusExtras +"</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio 
+                    +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div>";
+                    
+                                      
+                    $('.json-cards').append(strCARDS);  
                 }
+
 
                 for(var i=0; i< data.cards.length; i++){
                     var strFOOTER = "<p><a href='"+ data.cards[i].link +".html'>"+ data.cards[i].nome +"</a></p>";
@@ -47,11 +54,33 @@
                 });
             });  
 
+            $(".depoimentos-counter").each(function (index, element) {
+                $(element).find(".js-current-depoimentos").text(1);
+            });
+
+            $('.item-depoimentos-slick').slick({
+                appendArrows: $('.navegacao-depoimentos-carousel')[0],
+                infinite: false,  
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                slideOffset: 15,
+                prevArrow:"<img class='previous-arrow slick-prev' src='../assets/img/arrow-previous.svg'>",
+                nextArrow:"<img class='next-arrow slick-next' src='../assets/img/next-arrow.svg'>",           
+                dotsClass: 'custom_paging',        
+            });    
+            
+            $('.item-depoimentos-slick').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                $(event.target).closest('.sistema-depoimentos-carousel').find('.js-current-depoimentos').text(nextSlide + 1);
+            });  
+
+            //
+
             $(".diferenciais-counter").each(function (index, element) {
                 $(element).find(".js-current-diferenciais").text(1);
             });
 
-            $('.item-diferenciais').slick({
+            $('.item-diferenciais-slick').slick({
                 appendArrows: $('.navegacao-diferenciais-carousel')[0],
                 infinite: false,  
                 slidesToShow: 1,
@@ -63,8 +92,8 @@
                 dotsClass: 'custom_paging',        
             });    
             
-            $('.item-diferenciais').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-                $(event.target).closest('.sistema-sistema-diferenciais-carousel').find('.js-current-diferenciais').text(nextSlide + 1);
+            $('.item-diferenciais-slick').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                $(event.target).closest('.sistema-diferenciais-carousel').find('.js-current-diferenciais').text(nextSlide + 1);
             });     
 
             ////
@@ -167,24 +196,37 @@
 
                     <div class="diferenciais-carousel">
                         <div class="sistema-diferenciais-carousel">
-                            <div class="item-diferenciais">                                                                                                      
+                            <div class="item-diferenciais-slick">                                                                                                      
                                 <div>
-                                    <div class="item-diferenciais">
-                                        <!-- <img src="./assets/img/team.svg" /> -->
+                                    <div class="item-diferenciais-carousel">
+                                        <img src="./assets/img/goal.svg" />
                                         <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
                                     </div>
                                 </div>  
                                 <div>
-                                    <div class="item-diferenciais">
-                                        <!-- <img src="./assets/img/team.svg" /> -->
-                                        <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                                    <div class="item-diferenciais-carousel">
+                                        <img src="./assets/img/target.svg" />
+                                        <p>O Inatel está há mais de 20 anos oferecendo pós-graduação e MBAs com foco total na
+                                            sua carreira.</p>
                                     </div>
-                                </div>                                                             
+                                </div>    
+                                <div>
+                                    <div class="item-diferenciais-carousel">
+                                        <img src="./assets/img/win.svg" />
+                                        <p>Instituto colecionador de cases, com profissionais renomados em grandes empresas como: Facebook, Ericsson, Cisco, AirBnB, entre outras.</p>
+                                    </div>
+                                </div>    
+                                <div>
+                                    <div class="item-diferenciais-carousel">
+                                        <img src="./assets/img/team.svg" />
+                                        <p>Cursos gerenciados pelo Inatel Competence Center (ICC), que atende a diversas empresas, em variados setores, aproximando você do mercado de trabalho.</p>
+                                    </div>
+                                </div>                                                                                                                             
                             </div>
                             <div class="navegacao-diferenciais-carousel">
                                 <div class="count">
                                     <span class="diferenciais-counter">
-                                        <span class="js-current-diferenciais"></span> Exibindo de <span>9</span>
+                                        <span class="js-current-diferenciais"></span> Exibindo de <span>4</span>
                                     </span>
                                 </div>
                             </div>
@@ -194,26 +236,27 @@
                     <div class="row nossos-diferenciais-mobile">
                         <div class="col-md-6">
                             <div class="item-diferenciais">
-                                <img src="./assets/img/team.svg" />
+                                <img src="./assets/img/goal.svg" />
                                 <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="item-diferenciais">
-                                <img src="./assets/img/team.svg" />
-                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                                <img src="./assets/img/target.svg" />
+                                <p>O Inatel está há mais de 20 anos oferecendo pós-graduação e MBAs com foco total na
+                                    sua carreira.</p>
                             </div>                            
                         </div>
                         <div class="col-md-6">
                             <div class="item-diferenciais">
-                                <img src="./assets/img/team.svg" />
-                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                                <img src="./assets/img/win.svg" />
+                                <p>Instituto colecionador de cases, com profissionais renomados em grandes empresas como: Facebook, Ericsson, Cisco, AirBnB, entre outras.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="item-diferenciais">
                                 <img src="./assets/img/team.svg" />
-                                <p>Grade curricular de referência para você subir de nível, cada vez mais e manter sua carreira em sintonia com o seu futuro.</p>
+                                <p>Cursos gerenciados pelo Inatel Competence Center (ICC), que atende a diversas empresas, em variados setores, aproximando você do mercado de trabalho.</p>
                             </div>
                         </div>                                                                                    
                     </div>
@@ -241,6 +284,45 @@
                 <h4>Depoimentos</h4>
                 <h2>O que os ex alunos do Inatel tem a dizer</h2>
             </div>
+
+            <div class="depoimentos-carousel">
+                <div class="sistema-depoimentos-carousel">
+                    <div class="item-depoimentos-slick">                                                                                                      
+                        <div>
+                            <div class="item-depoimentos-carousel">
+                                <img src="./assets/img/andre.png">
+                                <p class="texto">“O Inatel contribuiu muito para a capacitação técnica da NET. Os treinamentos e os cursos de Pós-Graduação In Company foram grandes diferenciais para o aperfeiçoamento de nossos colaboradores.”</p>
+                                <p class="nome">André Luiz P. Sanchez</p>
+                                <p class="cargo">Gerente Técnico da NET – Cluster Ribeirão Preto</p>
+                            </div>
+                        </div>  
+                        <div>
+                            <div class="item-depoimentos-carousel">
+                                <img src="./assets/img/rodolfo.png">
+                                <p class="texto">“A pós-graduação oferecida por esta instituição de vanguarda e respeitada dentro do cenário nacional está entre as melhores do país. O curso possui uma base teórica muito forte, ótimos profissionais, além de uma infraestrutura de laboratórios invejável. Eu recomendo!”</p>
+                                <p class="nome">RODOLFO MORE</p>
+                                <p class="cargo">Presidente da ABEClin – Associação Brasileira de Engenharia Clínica</p>
+                            </div>
+                        </div>    
+                        <div>
+                            <div class="item-depoimentos-carousel">
+                                <img src="./assets/img/fernando.png">
+                                <p class="texto">“A Schweitzer Engineering Laboratories (SEL) realiza parcerias estratégicas com instituições que possuem tecnologia de ponta e profissionais especializados. A aliança com o Inatel visa suprir a demanda do mercado por mão de obra com capacitação de alto nível na área de automação.”</p>
+                                <p class="nome">Presidente da ABEClin – Associação Brasileira de Engenharia Clínica</p>
+                                <p class="cargo">Diretor geral - Schweitzer Engineering Laboratories (SEL)</p>
+                            </div>
+                        </div>                                                                                                                                
+                    </div>
+                    <div class="navegacao-depoimentos-carousel">
+                        <div class="count">
+                            <span class="depoimentos-counter">
+                                <span class="js-current-depoimentos"></span> Exibindo de <span>3</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row lista-depoimentos">
                 <div class="col-12 col-md-4">
                     <div class="item-depoimentos">
