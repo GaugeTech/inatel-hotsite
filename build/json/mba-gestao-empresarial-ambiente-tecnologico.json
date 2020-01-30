@@ -1,98 +1,125 @@
 {
-    "titulo": "Design de Interação para artefatos digitais",
+    "titulo": "MBA em Gestão Empresarial em Ambiente Tecnológico",
     "nivel": "Pós-graduação",
-    "class": "design-interacao-artefatos-digitais",
-    "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"São Paulo"},{"item":"Rio de Janeiro"}],
+    "class": "mba-gestao-empresarial-ambiente-tecnologico",
+    "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"São Paulo"}],
     "inicio": "Início: Mar/2020",
-    "horario": "Horário: Sáb: 8h30 às 12h30 e 13h30 às 17h30",
+    "horario": "Horário: Sáb: 8h às 12h e 13h às 17h",
     "duracao": "Duração: 24 meses",
     "sobre": [
         {
-            "descricao": "<p>O curso de especialização em Design de Interação para Artefatos Digitais promove competências para a pesquisa, ideação, prototipação, análise e desenvolvimento de soluções digitais interativas, com base em práticas de Design Centrado no Usuário e o emprego eficaz de Metodologias de Design voltados à concepção de inovações com alto grau de usabilidade.</p><p>Ao se formar neste curso, você poderá atuar em centenas de áreas diferentes, sobretudo com as diversas formas de tecnologias existentes atualmente.  Neste contexto, trabalhar um profissional com características fundamentais ligadas ao dinamismo, versatilidade, eficiência e alta capacidade é uma premissa que está presente na concepção da grade curricular do curso de Design de Interação para Artefatos Digitais.</p>",
+            "descricao": "<p>Prepare-se para gerenciar ambientes cada vez mais dinâmicos nas empresas de tecnologia! No MBA Inatel, você terá uma ampla visão da gestão em meio às mudanças trazidas pela Transformação Digital, inclusive nos aspectos econômicos, financeiros e estratégicos. O curso traz professores experientes e profissionais de destaque em grandes empresas. Aproveite o curso para desenvolver um excelente networking e aprender os mais novos modelos de gerenciamento corporativo!</p>",
             "imagem": "imagem"
         }
     ],
     "conteudo": [
-        {"item": "Design Centrado no Usuário"},
-        {"item": "Design Thinking"},
-        {"item": "Pitch e Apresentação de Projetos"},
-        {"item": "Metodologia de Design"},
-        {"item": "UI Design - User Interface Design"},
-        {"item": "IoT, Playable e SmartCities"},
-        {"item": "Inovação e Geração de Novos Negócios"},
-        {"item": "Prototipação"},
-        {"item": "Gamificação"},
-        {"item": "Sociedade, Tecnologia e Tendências"},
-        {"item": "Testes com Usuários"},
-        {"item": "Capacitação de Recursos para Financiamento da Inovação"},
-        {"item": "Liderança Adaptativa"},
-        {"item": "Usabilidade e Acessibilidade"},
+        {"item": "Engenharia Econômica"},
+        {"item": "Gestão de Projetos"},
+        {"item": "Contabilidade e Custos"},
+        {"item": "Gestão de Pessoas e Organizações"},
+        {"item": "Tópicos Especiais I"},
+        {"item": "Economia Empresarial"},
+        {"item": "Empreendedorismo"},
+        {"item": "Finanças Corporativas"},
+        {"item": "Tópicos Especiais II"},
+        {"item": "Gestão de Marketing"},
+        {"item": "Gestão e Transformação Estratégica de Empresas Orientadas à Inovação"},
+        {"item": "Modelos Quantitativos para Tomada de Decisão"},
+        {"item": "Gestão do Conhecimento e Inovação"},
+        {"item": "Gerenciamento de Tecnologia e o Ambiente de Negócios"},
+        {"item": "Gerenciamento Estratégico de Tecnologia e Inovação"},
+        {"item": "Novas Tecnologias e Novos Negócios"},
         {"item": "Metodologia Científica"}
     ],
     "coordenador": [
         {
             "imagem": "imagem",
-            "nome": "Prof. Mestre Luiz Francisco Alves de Araujo",
+            "nome": "Prof. André Luis da Rocha Abbade",
             "cargo": "Coordenador do curso",
-            "descricao": "É doutorando em Design pela Universidade Federal de Pernambuco na área de artefatos digitais, possui mestrado (2015) e graduação em Design (1994) pela mesma instituição. É coordenador do curso de Bacharelado em Design da CESAR School e também atua como coordenador do curso de especialização em Design de Interação para Artefatos Digitais na mesma instituição. Atuou como coordenador do Curso Técnico de Nível Médio de Multimídia/Artes para Jogos Digitais na Escola Técnica Estadual Cícero Dias - Programa NAVE, e também coordenou a especialização em Design de Interação na Faculdade Guararapes."
+            "descricao": "Atualmente ocupa também os cargos de: Coordenador do Curso Superior de Tecnologia em Gestão de Telecomunicações e Gerente de Educação Continuada no Inatel Competence Center. Principais áreas de atuação: Comunicações Ópticas, Empreendedorismo e Engenharia Econômica."
         }
     ],
     "professores": [
         {
-            "id": null,
-            "imagem": "sem-foto",
-            "professor": "Eduardo José Gonçalves de Oliveira",
+            "id": 1,
+            "imagem": "andre-abbade",
+            "professor": "André Luís Rocha Abbade",
             "materia": "Matéria do professor"
         },
         {
-            "id": null,
-            "imagem": "sem-foto",
-            "professor": "Luiz Francisco Alves de Araujo",
+            "id": 2,
+            "imagem": "alberti",
+            "professor": "Antônio Marcos Alberti",
             "materia": "Matéria do professor"
         },
         {
-            "id": null,
-            "imagem": "sem-foto",
-            "professor": "Marcello Caldas Bressan",
+            "id": 74,
+            "imagem": "breno-gontijo",
+            "professor": "Breno Gontijo Tavares",
             "materia": "Matéria do professor"
         },
         {
-            "id": null,
-            "imagem": "sem-foto",
-            "professor": "Leonardo Carneiro da Cunha de S. Lima",
+            "id": 5,
+            "imagem": "ynoguti",
+            "professor": "Carlos Alberto Ynoguti",
             "materia": "Matéria do professor"
         },
         {
-            "id": null,
+            "id": 75,
             "imagem": "sem-foto",
-            "professor": "Ricardo André de Lima Peters",
+            "professor": "Edson Ricardo Barbero",
             "materia": "Matéria do professor"
         },
         {
-            "id": null,
-            "imagem": "sem-foto",
-            "professor": "Helda Barros",
+            "id": 76,
+            "imagem": "eduardo-zanin",
+            "professor": "Eduardo Esteves Zanin",
             "materia": "Matéria do professor"
         },
         {
-            "id": null,
-            "imagem": "sem-foto",
-            "professor": "Erika Cavalcanti Madeira Campos",
+            "id": 72,
+            "imagem": "brito",
+            "professor": "Jose Marcos Camara Brito",
             "materia": "Matéria do professor"
         },
         {
-            "id": null,
+            "id": 77,
             "imagem": "sem-foto",
-            "professor": "Tamires Serra",
+            "professor": "Leonardo Rezende Liao",
             "materia": "Matéria do professor"
         },
         {
-            "id": null,
+            "id": 20,
+            "imagem": "luciano-leonel",
+            "professor": "Luciano Leonel Mendes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 78,
+            "imagem": "rogerio-abranches",
+            "professor": "Rogério Abranches da Silva",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 79,
+            "imagem": "valeria-celloto",
+            "professor": "Valéria dos Anjos Celloto",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 80,
+            "imagem": "vinicius-montgomery",
+            "professor": "Vinícius Antônio Montgomery de Miranda",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 81,
             "imagem": "sem-foto",
-            "professor": "Renata Santos de Souza",
+            "professor": "Vinícius Soares da Silveira",
             "materia": "Matéria do professor"
         }
     ],
+
     "unidades": [
         {
             "valores": [
@@ -137,7 +164,7 @@
         {
             "valores": [
                 {
-                    "cidade": "Rio de Janeiro e São Paulo",
+                    "cidade": "São Paulo",
                     "desconto": "Descontos",
                     "valor_curso": "Valor do curso",
                     "valor_desconto": "Valor com desconto",
@@ -175,18 +202,47 @@
             ]
         }
     ],
-    "principais-atividades-desenvolvidas": [
+
+    "principaisAtividadesDesenvolvidas": [
         {
             "imagem": "imagem",
-            "descricao": "Desenvolvimento de artefatos digitais interativos da análise inicial, sua implementação e análise estratégica dos projetos."
+            "descricao": "Gestão de Projetos"
         },
         {
             "imagem": "imagem",
-            "descricao": "Organização e planejamento de projetos de artefatos digitais, tanto sobre os processos envolvidos como também sobre gestão de pessoas envolvidas na iniciativa."
+            "descricao": "Gestão de Pessoas e Organizações"
         },
         {
             "imagem": "imagem",
-            "descricao": "Utilização de metodologias de design, abordagens de Design Thinking e design."
+            "descricao": "Economia Empresarial"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Empreendedorismo"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gestão de Marketing"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gestão e Transformação Estratégica de Empresas Orientadas à Inovação"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gestão do Conhecimento e Inovação"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gerenciamento de Tecnologia e o Ambiente de Negócios"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gerenciamento Estratégico de Tecnologia e Inovação"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Novas Tecnologias e Novos Negócios"
         }
     ]
 }

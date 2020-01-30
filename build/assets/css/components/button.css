@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+.button-shadown {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  max-height: 80px;
+  padding: 10px;
+  background: #FFF;
+  border-color: #FFF;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 10px 40px;
+  box-shadow: -2px 3px 10px 0 rgba(0, 0, 0, 0.23), inset 0 -4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.button {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  max-height: 80px;
+  padding: 10px;
+  border-color: #FFF;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 10px 40px;
+}
+.button-outline {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  max-height: 80px;
+  padding: 10px;
+  border-color: #FFF;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 10px 40px;
+}
+.button-xg {
+  padding: 20px 40px;
+}

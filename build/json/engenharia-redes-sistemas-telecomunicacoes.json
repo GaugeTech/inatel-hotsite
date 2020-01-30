@@ -1,0 +1,327 @@
+{
+    "titulo": "Engenharia de Redes e Sistemas de Telecomunicações",
+    "nivel": "Pós-graduação",
+    "class": "engenharia-redes-sistemas-telecomunicacoes",
+    "campus": [{"item":"Santa Rita do Sapucaí"}, {"item":"São Paulo"}, {"item":"Rio de Janeiro"}],
+    "inicio": "Início: Mar/2020",
+    "horario": "Horário: Sáb: 8h às 12h e 13h às 17h",
+    "duracao": "Duração: 24 meses",
+    "sobre": [
+        {
+            "descricao": "<p>Este é o curso de maior tradição do Inatel, com mais de 50 turmas formadas na modalidade regular (aberto ao público) e In Company (para empresas). A especialização tem grade 100% técnica e prepara os alunos para atuarem com excelência nas áreas de redes e sistemas de telecomunicações. Capacite-se para atuação na operação, análise e projetos de sistemas rádio-digital, comunicação por satélite, sistemas de comunicações óticas, redes de telecomunicações, redes de acesso e transporte, sistemas de transmissão digital, etc. Além da excelente infraestrutura e expertise do Inatel, os participantes têm a oportunidade de desenvolver um excelente networking nas aulas.</p>",
+            "imagem": "imagem"
+        }
+    ],
+    "conteudo": [
+        {"item": "Introdução à Teoria da Informação: Codificação de Fonte e Canal"},
+        {"item": "Modulação Digital"},
+        {"item": "Fundamentos de Antenas e Propagação"},
+        {"item": "Sistemas Radioenlaces Digitais – Terrestre"},
+        {"item": "Sistemas Radioenlaces Digitais – Satélite"},
+        {"item": "Fundamentos de Comunicações Móveis"},
+        {"item": "Técnicas de Diversidade e Transmissão com Múltiplas Portadoras"},
+        {"item": "Padrões de Comunicações Móveis"},
+        {"item": "Comunicações Ópticas"},
+        {"item": "Redes Ópticas"},
+        {"item": "Televisão Digital"},
+        {"item": "Introdução às Redes de Telecomunicações"},
+        {"item": "Redes de Acesso, Redes Telefônicas"},
+        {"item": "Redes de Transporte"},
+        {"item": "Redes Locais e Metropolitanas"},
+        {"item": "Redes IP"},
+        {"item": "Redes Frame Relay, ATM, MPLS e GMPLS"},
+        {"item": "Análise de Desempenho e Dimensionamento de Redes de Telecomunicações"},
+        {"item": "Segurança em Redes de Telecomunicações"},
+        {"item": "Gerência de Redes"},
+        {"item": "Redes Multimídia e Qualidade de Serviço"},
+        {"item": "NGN"},
+        {"item": "Tópicos Especiais"},
+        {"item": "Metodologia Científica"}
+    ],
+    "coordenador": [
+        {
+            "imagem": "imagem",
+            "nome": "Prof. Estevan Marcelo Lopes",
+            "cargo": "Coordenador do curso",
+            "descricao": "Atualmente é professor adjunto dos cursos de graduação e pós-graduação, atuando também como coordenador adjunto dos cursos de Pós-Graduação de Redes e Sistemas de Telecomunicações, Tv Digital e IPTV e Eletrônica Avançada da Fundação Instituto Nacional de Telecomunicações (Inatel). Professor assistente da Universidade do Vale do Sapucaí (UNIVÁS)."
+        }
+    ],
+
+    "professores": [
+        {
+            "id": 0,
+            "imagem": "sem-foto",
+            "professor": "Alexandre Carvalho Ferreira",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 1,
+            "imagem": "andre-abbade",
+            "professor": "André Luís Rocha Abbade",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 2,
+            "imagem": "alberti",
+            "professor": "Antônio Marcos Alberti",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 3,
+            "imagem": "arismar",
+            "professor": "Arismar Cerqueira Sodré Júnior",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 4,
+            "imagem": "bruno-monteiro",
+            "professor": "Bruno Oliveira Monteiro",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 5,
+            "imagem": "ynoguti",
+            "professor": "Carlos Alberto Ynoguti",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 6,
+            "imagem": "carlos-augusto",
+            "professor": "Carlos Algusto Rocha",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 7,
+            "imagem": "carlos-nazareth",
+            "professor": "Carlos Nazareth Motta Marins",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 8,
+            "imagem": "sem-foto",
+            "professor": "Carlos Roberto dos Santos",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 9,
+            "imagem": "daniel-andrade",
+            "professor": "Daniel Andrade Nunes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 10,
+            "imagem": "edson-gimenez",
+            "professor": "Edson Josias Cruz Gimenez",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 11,
+            "imagem": "estevan",
+            "professor": "Estevan Marcelo Lopes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 12,
+            "imagem": "evandro",
+            "professor": "Evandro Luiz Brandão Gomes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 13,
+            "imagem": "fabiano-valias",
+            "professor": "Fabiano Valias de Carvalho",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 14,
+            "imagem": "guilherme-aquino",
+            "professor": "Guilherme Pedro Aquino",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 15,
+            "imagem": "guilherme-marcondes",
+            "professor": "Guilherme Augusto Barucke Marcondes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 16,
+            "imagem": "sem-foto",
+            "professor": "Guilherme Rezende dos Santos",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 17,
+            "imagem": "justino",
+            "professor": "José Antônio Justino Ribeiro",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 18,
+            "imagem": "sem-foto",
+            "professor": "Juliano Silveira Ferreira",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 19,
+            "imagem": "sem-foto",
+            "professor": "José Marcos Câmara Brito",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 20,
+            "imagem": "luciano-leonel",
+            "professor": "Luciano Leonel Mendes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 21,
+            "imagem": "sem-foto",
+            "professor": "Leonardo Luciano de Almeida Maia",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 22,
+            "imagem": "marcelo-carneiro",
+            "professor": "Marcelo Carneiro de Paiva",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 23,
+            "imagem": "sem-foto",
+            "professor": "Mário Ferreira Silva Junior",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 24,
+            "imagem": "rausley",
+            "professor": "Rauley Adriano Amaral de Souza",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 25,
+            "imagem": "rinaldo",
+            "professor": "Rinaldo Duarte Teixeira de Carvalho",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 26,
+            "imagem": "sem-foto",
+            "professor": "Tiago Reis Rufino Marins",
+            "materia": "Matéria do professor"
+        }
+    ],
+    "unidades": [
+        {
+            "valores": [
+                {
+                    "cidade": "Santa Rita do Sapucaí",
+                    "desconto": "Descontos",
+                    "valor_curso": "Valor do curso",
+                    "valor_desconto": "Valor com desconto",
+                    "desconto_um": "9",
+                    "matricula_opcao_um": "Matrícula até 15/12/19",
+                    "desconto_dois": "7",
+                    "matricula_opcao_dois": "Matrícula de 16/12/19 a 28/02/20",
+                    "desconto_tres": "5",
+                    "matricula_opcao_tres": "Matrícula após 01/03/20"
+                },
+                {
+                    "primeira_coluna": "À vista (20% de desconto)",
+                    "valor_curso": "R$ 24.840,00",
+                    "valor_desconto": "R$ 19.872,00",
+                    "valor_matricula_1": "R$ 18.083,52",
+                    "valor_matricula_2": "R$ 18.480,96",
+                    "valor_matricula_3": "R$ 18.878,40"
+                },
+                {
+                    "primeira_coluna": "1+1 (10% de desconto)",
+                    "valor_curso": "R$ 24.840,00",
+                    "valor_desconto": "R$ 22.356,00",
+                    "valor_matricula_1": "R$ 10.171,98",
+                    "valor_matricula_2": "R$ 10.395,54",
+                    "valor_matricula_3": "R$ 10.619,10"
+                },
+                {
+                    "primeira_coluna": "24 vezes de R$ 1.140,00",
+                    "valor_curso": "R$ 24.840,00",
+                    "valor_desconto": "-",
+                    "valor_matricula_1": "R$ 941,85",
+                    "valor_matricula_2": "R$ 962,55",
+                    "valor_matricula_3": "R$ 983,25"
+                }
+            ]
+        },
+        {
+            "valores": [
+                {
+                    "cidade": "Rio de Janeiro e São Paulo",
+                    "desconto": "Descontos",
+                    "valor_curso": "Valor do curso",
+                    "valor_desconto": "Valor com desconto",
+                    "desconto_um": "9",
+                    "matricula_opcao_um": "Matrícula até 15/12/19",
+                    "desconto_dois": "7",
+                    "matricula_opcao_dois": "Matrícula de 16/12/19 a 28/02/20",
+                    "desconto_tres": "5",
+                    "matricula_opcao_tres": "Matrícula após 01/03/20"
+                },
+                {
+                    "primeira_coluna": "À vista (20% de desconto)",
+                    "valor_curso": "R$ 33.120,00",
+                    "valor_desconto": "R$ 26.496,00",
+                    "valor_matricula_1": "R$ 24.111,36",
+                    "valor_matricula_2": "R$ 24.641,28",
+                    "valor_matricula_3": "R$ 25.171,20"
+                },
+                {
+                    "primeira_coluna": "1+1 (10% de desconto)",
+                    "valor_curso": "R$ 33.120,00",
+                    "valor_desconto": "R$ 29.808,00",
+                    "valor_matricula_1": "R$ 13.562,64",
+                    "valor_matricula_2": "R$ 13.860,72",
+                    "valor_matricula_3": "R$ 14.158,80"
+                },
+                {
+                    "primeira_coluna": "24 vezes de R$ 1.140,00",
+                    "valor_curso": "R$ 33.120,00",
+                    "valor_desconto": "-",
+                    "valor_matricula_1": "R$ 1.255,80",
+                    "valor_matricula_2": "R$ 1.283,40",
+                    "valor_matricula_3": "R$ 1.311,00"
+                }
+            ]
+        }
+    ],
+
+    "principaisAtividadesDesenvolvidas": [
+        {
+            "imagem": "imagem",
+            "descricao": "Gerenciamento de Sistemas digitais"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gestão da Comunicação por satélite"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gestão de Sistemas de comunicações móveis"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gerenciamento Sistemas de comunicações ópticas"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Administração de Redes de computadores em ambiente local e metropolitano"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Gestão de Redes de comutação de pacotes e um amplo universo temático"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Domínio de Tecnologias WCDMA, LTE, WiMAX, TV Digital, IPTV e VoIP"
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "titulo": "Engenharia de Sistemas Eletroeletrônicos, Automação e Controle Industrial",
+    "nivel": "Pós-graduação",
+    "class": "engenharia-sistemas-eletroeletronico-automacao-controle-industrial",
+    "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"Volta Redonda"}],
+    "inicio": "Início: Mar/2020",
+    "horario": "Horário: Sáb: 8h30 às 12h30 e 13h30 às 17h30",
+    "duracao": "Duração: 24 meses",
+    "sobre": [
+        {
+            "descricao": "<p>O curso tem como diferenciais o volume de aulas práticas e a infraestrutura laboratorial que dispõe de equipamentos e dispositivos compatíveis com os utilizados no meio industrial. A estrutura curricular foi concebida de forma a contemplar técnicas e métodos para a solução de problemas práticos no controle e supervisão de processos industriais de uma organização. Você vai adquirir uma visão ampla e multidisciplinar em Sistemas Eletroeletrônicos, de Automação e Controle Industrial.</p>",
+            "imagem": "imagem"
+        }
+    ],
+    "conteudo": [
+        {"item": "Metodologia Científica"},
+        {"item": "Instalações Elétricas"},
+        {"item": "Sistemas de Controle Dinâmicos aplicados à Automação"},
+        {"item": "Eletrônica Industrial"},
+        {"item": "Acionamento de Máquinas Elétricas"},
+        {"item": "Programação para microcontroladores"},
+        {"item": "Microcontroladores aplicados à Automação"},
+        {"item": "Sistemas Hidro-Pneumáticos para Automação"},
+        {"item": "Instrumentação Industrial"},
+        {"item": "Informática Industrial I"},
+        {"item": "Informática Industrial II"},
+        {"item": "Redes Industriais I"},
+        {"item": "Redes Industriais II"},
+        {"item": "Sistemas Inteligentes para Automação Industrial"},
+        {"item": "Sistemas Dinâmicos a Eventos Discretos"}
+    ],
+    "coordenador": [
+        {
+            "imagem": "imagem",
+            "nome": "Prof. Dr. Yvo Marcelo Chiaradia Masselli",
+            "cargo": "Coordenador do curso",
+            "descricao": "Atualmente é professor adjunto da graduação e Pós Graduação, além de coordenador do curso de Pós Graduação em Automação Industrial do INATEL. Possui artigos publicados no Brasil e no exterior."
+        }
+    ],
+    "professores": [
+        {
+            "id": 45,
+            "imagem": "alexandre-baratella",
+            "professor": "Alexandre Baratella Lugli",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 5,
+            "imagem": "ynoguti",
+            "professor": "Carlos Alberto Ynoguti",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 55,
+            "imagem": "diego-lemos",
+            "professor": "Diego Aparecido Lemes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 12,
+            "imagem": "evandro",
+            "professor": "Evandro Luiz Brandão Gomes",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 58,
+            "imagem": "giovanni",
+            "professor": "Giovanni Henrique Faria Floriano",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 37,
+            "imagem": "joao-paulo-henriques",
+            "professor": "João Paulo Carvalho Henrique",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 59,
+            "imagem": "sem-foto",
+            "professor": "Júlio Arlindo Pinto Azevedo",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 50,
+            "imagem": "wanderson-saldanha",
+            "professor": "Wanderson Saldanha",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": 53,
+            "imagem": "yvo-masseli",
+            "professor": "Yvo Marcelo Chiaradia Masselli",
+            "materia": "Matéria do professor"
+        }
+    ],
+
+    "unidades": [
+        {
+            "valores": [
+                {
+                    "cidade": "Santa Rita do Sapucaí e Volta Redonda",
+                    "desconto": "Descontos",
+                    "valor_curso": "Valor do curso",
+                    "valor_desconto": "Valor com desconto",
+                    "desconto_um": "9",
+                    "matricula_opcao_um": "Matrícula até 15/12/19",
+                    "desconto_dois": "7",
+                    "matricula_opcao_dois": "Matrícula de 16/12/19 a 28/02/20",
+                    "desconto_tres": "5",
+                    "matricula_opcao_tres": "Matrícula após 01/03/20"
+                },
+                {
+                    "primeira_coluna": "À vista (20% de desconto)",
+                    "valor_curso": "R$ 24.840,00",
+                    "valor_desconto": "R$ 19.872,00",
+                    "valor_matricula_1": "R$ 18.083,52",
+                    "valor_matricula_2": "R$ 18.480,96",
+                    "valor_matricula_3": "R$ 18.878,40"
+                },
+                {
+                    "primeira_coluna": "1+1 (10% de desconto)",
+                    "valor_curso": "R$ 24.840,00",
+                    "valor_desconto": "R$ 22.356,00",
+                    "valor_matricula_1": "R$ 10.171,98",
+                    "valor_matricula_2": "R$ 10.395,54",
+                    "valor_matricula_3": "R$ 10.619,10"
+                },
+                {
+                    "primeira_coluna": "24 vezes de R$ 1.140,00",
+                    "valor_curso": "R$ 24.840,00",
+                    "valor_desconto": "-",
+                    "valor_matricula_1": "R$ 941,85",
+                    "valor_matricula_2": "R$ 962,55",
+                    "valor_matricula_3": "R$ 983,25"
+                }
+            ]
+        }
+    ],
+
+    "principaisAtividadesDesenvolvidas": [
+        {
+            "imagem": "imagem",
+            "descricao": "Modelar e analisar o comportamento dinâmico de equipamentos e processos industriais, como passo prévio à adoção de uma estratégia de controle;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Selecionar a instrumentação requerida para a automação e controle de equipamentos e processos industriais;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Projetar e implementar estratégias de controle para equipamentos e processos industriais;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Avaliar, em situações reais, a viabilidade econômica e técnica das possíveis alternativas de automação;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Dominar os fundamentos das tecnologias e métodos empregados no campo da instrumentação, automação e controle;"
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Conhecer e operar sistemas micro controlados para aplicações em automação e controle."
+        }
+    ]
+}

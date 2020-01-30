@@ -1,0 +1,300 @@
+{
+    "titulo": "Engenharia Clínica e Engenharia Biomédica",
+    "nivel": "Pós-graduação",
+    "class": "engenharia-clinica-engenharia-biomedica",
+    "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"Belo Horizonte"},{"item":"Recife"},{"item":"Rio de Janeiro"}],
+    "inicio": "Início: Mar/2020",
+    "horario": "Horário: Sáb: 8h30 às 12h30 e 13h30 às 17h30",
+    "duracao": "Duração: 24 meses",
+"sobre": [
+    {
+        "descricao": "<p>O curso de Especialização em Engenharia Clínica e Engenharia Biomédica do Inatel tem por objetivo formar profissionais das áreas de Ciências Exatas e de Saúde, desenvolvendo os conhecimentos técnicos, científicos e práticas gerenciais destes profissionais para atuarem na área de tecnologias médicas. Ao finalizar o curso, você poderá atuar tanto em estabelecimentos assistenciais de saúde (EAS), quanto em empresas e centros de pesquisas do ramo de equipamentos odonto-médico-hospitalares. Aplique conhecimentos de engenharia, computação, anatomia, fisiologia, entre outros, para o aprimoramento de técnicas, recursos, processos e serviços para a área da saúde.</p>",
+        "imagem": "imagem"
+    }
+],
+"conteudo": [
+    {"item": "Introdução à Eletricidade e Eletrônica"},
+    {"item": "Anatomia e Fisiologia Humana I"},
+    {"item": "Tecnologias em Equipamentos de Imagem"},
+    {"item": "Tecnologias em Imagens Médicas"},
+    {"item": "Normas Regulamentadoras"},
+    {"item": "Engenharia Clínica I"},
+    {"item": "Engenharia Clínica II"},
+    {"item": "Processo de Avaliação e de Certificação da Qualidade dos Serviços de Saúde"},
+    {"item": "Normas de Segurança e Desempenho Aplicadas a Equipamentos Médicos e Odontológicos"},
+    {"item": "Regulamentação para Fabricação de Equipamentos em Conformidade com os Organismos de Regulamentação Nacionais"},
+    {"item": "Processamento Digital de Sinais Biomédicos"},
+    {"item": "Biomateriais"},
+    {"item": "Bioestatística"},
+    {"item": "Metodologia Científica"},
+    {"item": "Automação e Instrumentação Hospitalar"},
+    {"item": "Metrologia Médica"},
+    {"item": "Gestão em Engenharia Clínica"},
+    {"item": "Tecnologias Móveis para Saúde IoT"},
+    {"item": "Arquitetura Hospitalar"},
+    {"item": "Interação da Radiação com o Tecido Biológico"},
+    {"item": "Tecnologias em Equipamentos Médico - Hospitalares I"},
+    {"item": "Tecnologias em Equipamentos Médico-Hospitalares II"},
+    {"item": "Anatomia e Fisiologia Humana II"},
+    {"item": "Organização Hospitalar"}
+],
+"coordenador": [
+    {
+        "imagem": "imagem",
+        "nome": "Prof. Fabiano Valias de Carvalho",
+        "cargo": "Coordenador do curso",
+        "descricao": "Possui graduação em Engenharia Elétrica, com ênfase em Telecomunicações e Eletrônica pelo Instituto Nacional de Telecomunicações - Inatel (1995) e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá - Unifei (2002). Atualmente é coordenador no Inatel do curso de Graduação em Engenharia Biomédica, desde 2010, tendo participado da criação e da implantação desse curso. Coordena o Centro de Desenvolvimento e Transferência de Tecnologia Assistiva do Inatel - CDTTA. Atua nas áreas de eletrônica digital e analógica, sistemas microcontrolados, redes de dados, processamento digital de sinais biomédicos e tecnologia assistiva."
+    }
+],
+"professores": [
+    {
+        "id": 27,
+        "imagem": "adriano-sallum",
+        "professor": "Adriano Gonçalves Sallum",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 28,
+        "imagem": "antonio-marcos-de-souza",
+        "professor": "Antônio Marcos de Souza",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 29,
+        "imagem": "sem-foto",
+        "professor": "Bruno Nunes Bono",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 30,
+        "imagem": "sem-foto",
+        "professor": "Bernardo Augusto Chaves Dória",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 31,
+        "imagem": "sem-foto",
+        "professor": "Camila Mendonça de Moraes",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 5,
+        "imagem": "ynoguti",
+        "professor": "Carlos Alberto Ynoguti",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 32,
+        "imagem": "egidio",
+        "professor": "Egidio Raimundo Neto",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 33,
+        "imagem": "elisa-carneiro",
+        "professor": "Elisa Rennó Carneiro Dester",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 13,
+        "imagem": "fabiano-valias",
+        "professor": "Fabiano Valias de Carvalho",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 34,
+        "imagem": "felipe-emanoel",
+        "professor": "Felipe Emanoel Chaves",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 35,
+        "imagem": "francisco-costa",
+        "professor": "Francisco Eduardo de Carvalho Costa",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 36,
+        "imagem": "sem-foto",
+        "professor": "Jefferson Davis Pena Cária",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 37,
+        "imagem": "joao-paulo-henriques",
+        "professor": "João Paulo Carvalho Henriques",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 38,
+        "imagem": "sem-foto",
+        "professor": "Kássio André Lacerda",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 39,
+        "imagem": "karina-mokarzel",
+        "professor": "Karina Perez Mokarzel Carneiro",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 23,
+        "imagem": "sem-foto",
+        "professor": "Mário Ferreira Silva Junior",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 40,
+        "imagem": "sem-foto",
+        "professor": "Marcelo de Almeida Duarte",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 41,
+        "imagem": "sem-foto",
+        "professor": "Marcelo de Moraes Antunes",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 42,
+        "imagem": "sem-foto",
+        "professor": "Patrícia de Azambuja",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 43,
+        "imagem": "romulo-volpato",
+        "professor": "Romulo Mota Volpato",
+        "materia": "Matéria do professor"
+    },
+    {
+        "id": 44,
+        "imagem": "sem-foto",
+        "professor": "Viviane Viana Silva",
+        "materia": "Matéria do professor"
+    }
+],
+
+"unidades": [
+    {
+        "valores": [
+            {
+                "cidade": "Santa Rita do Sapucaí, Belo Horizonte e Rio de Janeiro",
+                "desconto": "Descontos",
+                "valor_curso": "Valor do curso",
+                "valor_desconto": "Valor com desconto",
+                "desconto_um": "9",
+                "matricula_opcao_um": "Matrícula até 15/12/19",
+                "desconto_dois": "7",
+                "matricula_opcao_dois": "Matrícula de 16/12/19 a 28/02/20",
+                "desconto_tres": "5",
+                "matricula_opcao_tres": "Matrícula após 01/03/20"
+            },
+            {
+                "primeira_coluna": "À vista (20% de desconto)",
+                "valor_curso": "R$ 24.840,00",
+                "valor_desconto": "R$ 19.872,00",
+                "valor_matricula_1": "R$ 18.083,52",
+                "valor_matricula_2": "R$ 18.480,96",
+                "valor_matricula_3": "R$ 18.878,40"
+            },
+            {
+                "primeira_coluna": "1+1 (10% de desconto)",
+                "valor_curso": "R$ 24.840,00",
+                "valor_desconto": "R$ 22.356,00",
+                "valor_matricula_1": "R$ 10.171,98",
+                "valor_matricula_2": "R$ 10.395,54",
+                "valor_matricula_3": "R$ 10.619,10"
+            },
+            {
+                "primeira_coluna": "24 vezes de R$ 1.140,00",
+                "valor_curso": "R$ 24.840,00",
+                "valor_desconto": "-",
+                "valor_matricula_1": "R$ 941,85",
+                "valor_matricula_2": "R$ 962,55",
+                "valor_matricula_3": "R$ 983,25"
+            }
+        ]
+    },
+    {
+        "valores": [
+            {
+                "cidade": "Recife",
+                "desconto": "Descontos",
+                "valor_curso": "Valor do curso",
+                "valor_desconto": "Valor com desconto",
+                "desconto_um": "9",
+                "matricula_opcao_um": "Matrícula até 15/12/19",
+                "desconto_dois": "7",
+                "matricula_opcao_dois": "Matrícula de 16/12/19 a 28/02/20",
+                "desconto_tres": "5",
+                "matricula_opcao_tres": "Matrícula após 01/03/20"
+            },
+            {
+                "primeira_coluna": "À vista (20% de desconto)",
+                "valor_curso": "R$ 27.360,00",
+                "valor_desconto": "R$ 21.888,00",
+                "valor_matricula_1": "R$ 19.918,08",
+                "valor_matricula_2": "R$ 20.355,84",
+                "valor_matricula_3": "R$ 20.793,60"
+            },
+            {
+                "primeira_coluna": "1+1 (10% de desconto)",
+                "valor_curso": "R$ 27.360,00",
+                "valor_desconto": "R$ 24.624,00",
+                "valor_matricula_1": "R$ 11.203,92",
+                "valor_matricula_2": "R$ 11.450,16",
+                "valor_matricula_3": "R$ 11.696,40"
+            },
+            {
+                "primeira_coluna": "24 vezes de R$ 1.140,00",
+                "valor_curso": "R$ 27.360,00",
+                "valor_desconto": "-",
+                "valor_matricula_1": "R$ 1.037,40",
+                "valor_matricula_2": "R$ 1.060,20",
+                "valor_matricula_3": "R$ 1.083,00"
+            }
+        ]
+    }
+],
+
+"principaisAtividadesDesenvolvidas": [
+    {
+        "imagem": "imagem",
+        "descricao": "Participar da definição, do planejamento e da incorporação de tecnologias no ambiente odonto-médico-hospitalar."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Aplicar tecnologias de ponta para beneficiar as atividades ligadas à área da saúde."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Aprimorar os processos no EAS, visando favorecer os cuidados dispensados aos pacientes e a otimização de recursos."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Administrar departamentos que envolvam tecnologias médicas."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Produzir e desenvolver equipamentos e tecnologias médicas para terapia, diagnóstico e monitoração de pacientes."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Participar da definição, do planejamento e da incorporação de tecnologias no ambiente odonto-médico-hospitalar."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Gerenciar o parque tecnológico do EAS."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Aprimorar os processos no EAS, visando favorecer os cuidados dispensados aos pacientes e a otimização de recursos."
+    },
+    {
+        "imagem": "imagem",
+        "descricao": "Administrar departamentos que envolvam tecnologias médicas."
+    }
+]
+
+}
