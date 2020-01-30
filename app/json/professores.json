@@ -1,0 +1,544 @@
+{
+    "professores": [
+        {
+            "imagem": "sem-foto",
+            "professor": "Alexandre Carvalho Ferreira",
+            "materia": "Matéria do professor",
+            "descricao": "Alexandre Carvalho Ferreira concluiu o Mestrado em Telecomunicações pelo Instituto Nacional de Telecomunicações em 2008. É graduado em Engenharia Elétrica modalidade Eletrônica com ênfase em Telecomunicações também pelo Instituto Nacional de Telecomunicações em 2004. Trabalha desde 2007 no Inatel Competence Center como Especialista em Sistemas no desenvolvimento de Hardware e Software Embarcado utilizando FPGAs ( Field-Programmable Gate Array ) e micro controladores."
+        },
+        {
+            "imagem": "andre-abbade",
+            "professor": "André Luís Rocha Abbade",
+            "materia": "Matéria do professor",
+            "descricao": "Coordenador do MBA em Gestão Empresarial em Ambiente Tecnológico, Coordenador do Curso Superior de Tecnologia em Gestão de Telecomunicações e Gerente da Educação Continuada do Inatel Competence Center. Tem experiência na área de Engenharia Elétrica, com ênfase em Comunicações Ópticas."
+        },
+        {
+            "imagem": "alberti",
+            "professor": "Antônio Marcos Alberti",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pela Universidade Federal de Santa Maria (1996), mestrado em Engenharia Elétrica pela Universidade Estadual de Campinas (1998) e doutorado em Engenharia Elétrica pela Universidade Estadual de Campinas (2003). Atualmente é professor adjunto da Fundação Instituto Nacional de Telecomunicações. Tem experiência na área de Engenharia Elétrica, com ênfase em Telecomunicações, atuando principalmente nos seguintes temas: tecnologias emergentes e redes futuras."
+        },
+        {
+            "imagem": "arismar",
+            "professor": "Arismar Cerqueira Sodré Júnior",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Possui Graduação em Engenharia Elétrica pela Universidade Federal da Bahia (2001), Mestrado em Engenharia Elétrica pela Universidade Estadual de Campinas (2002), Ph.D. em Engenharia de Telecomunicações pela Scuola Superiore Sant´Anna - Itália e University of Bath - Inglaterra (2006) e Pós-Doutorado em Engenharia Elétrica pela UNICAMP (2009). Trabalha atualmente como Professor Adjunto IV do Instituto Nacional de Telecomunicações (INATEL). De Março de 2009 a Agosto de 2011, foi Professor concursado da UNICAMP na área de Telecomunicações.</p><p>Por diversas vezes foi Invited Researcher de universidades renomeadas internacionalmente, tais como University of Oulu-Finlândia (2017), Technical University of Denmark-Dinamarca (2013), Max Planck Institute- Alemanha (2010), University of Bath - Inglaterra (2004, 2005 e 2007) e Scuola Superiore Sant´Anna - Itália (2015 e 2017). As suas principais áreas de pesquisa são: Antenas e Radares, Redes 5G, Fotônica de Micro-ondas, Sistemas Rádio sobre Fibra (RoF), Comunicações Ópticas e Óptica Não-linear. Arismar tem 10 patentes, 19 produtos transferidos para a indústria e 232 artigos publicados em periódicos e congressos internacionais e nacionais.</p>"
+        },
+        {
+            "imagem": "bruno-monteiro",
+            "professor": "Bruno Oliveira Monteiro",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Elétrica modalidade eletrônica pelo Instituto Nacional de Telecomunicações (2000) e mestrado em Telecomunicações pelo Instituto Nacional de Telecomunicações (2006), Especialização (Lato Sensu) em Engenharia Biomédica (2014). Atualmente é professor integral, Coordenador do Nesp - Núcleo de Estágio e Serviços Profissionais do Inatel, Coordenador da Fetin Internacional e representante do Inatel no CREA-MG como conselheiro e coordenador adjundo da CEEE/CREA-MG. Atua principalmente nos seguintes temas: Rede de Transporte, NG-SDH, OTN, GFP, LCAS, VCat, Green IT."
+        },
+        {
+            "imagem": "ynoguti",
+            "professor": "Carlos Alberto Ynoguti",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pela Universidade de São Paulo (1991), mestrado em Engenharia Elétrica pela Universidade de São Paulo (1995), doutorado em Engenharia Elétrica pela Universidade Estadual de Campinas (2000) e pós-doutorado pela Universidade Estadual de Campinas (2001). Atualmente é Professor Adjunto do Instituto Nacional de Telecomunicações e Membro de corpo editorial das Telecomunicações (Santa Rita do Sapucaí) (1516-2338). Tem experiência na área de Engenharia Elétrica, com ênfase em Telecomunicações. Atuando principalmente nos seguintes temas: processamento digital de sinais, processamento de voz, reconhecimento de fala."
+        },
+        {
+            "imagem": "carlos-augusto",
+            "professor": "Carlos Algusto Rocha",
+            "materia": "Matéria do professor",
+            "descricao": "Carlos Augusto Rocha, concluiu o Mestrado em Telecomunicações pelo Instituto Nacional de Telecomunicações - Inatel. Graduado em Engenharia Elétrica, atualmente é responsável pela Pró-diretoria de Desenvolvimento de Tecnologias e Inovação e, leciona a disciplina de Eletrônica Analógica II (Amplificadores Operacionais) do Curso de Engenharia de Telecom e Engenharia Biomédica e também a Disciplina de Eletrônica Digital I (Portas Lógicas e Circuitos Combinacionais) nos cursos de Tecnologia em Gestão e Tecnologia em Automação Industrial. É professor do curso de pós-graduação latu sensu na disciplina de TV Digital. Possui diversos trabalhos de pesquisas e inovação realizados sob sua gerência e coordenação, atuando principalmente nos seguintes temas: Comunicação Digital, TV Digital, Automação Industrial, Transferência de Tecnologia, Gestão da Inovação, entre outros."
+        },
+        {
+            "imagem": "carlos-nazareth",
+            "professor": "Carlos Nazareth Motta Marins",
+            "materia": "Matéria do professor",
+            "descricao": "Doutor em Engenharia Elétrica pela Faculdade de Engenharia Elétrica e de Computação da (UNICAMP) Departamento de Semicondutores, Instrumentos e Fotônica em 2010. Mestre em Telecomunicações, pelo INATEL em 2004, com dissertação na área de comunicação via satélite. Graduado em Engenharia Elétrica, ênfase em Eletrônica e Telecomunicações, pelo INATEL, em 1994. Técnico em Eletrônica pela ETE-FMC de Santa Rita do Sapucaí-MG em 1989. Vice-diretor e Pró-diretor de Graduação do Inatel. Membro da Diretoria de Ensino da SET. Professor dos cursos de Engenharia e de Tecnologia do INATEL. Consultor do ICC (Inatel Competence Center) em projetos para empresas nas áreas de telecomunicações e eletrônica. Foi professor da ETE-FMC, no Curso de Técnico de Eletrônica, de 1991 a 1999 e Engenheiro de desenvolvimento de produtos para empresa Linear Equipamentos Eletrônicos S.A. (Hitachi Kokusai Linear Equipamentos Eletrônicos S.A.) de 1994 a 2004."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Carlos Roberto dos Santos",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica, com ênfase em Eletrônica e Telecomunicações pelo Instituto Nacional de Telecomunicações (1984), mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (1997) e doutorado em Engenharia Elétrica pela Universidade Estadual de Campinas (2006). Atualmente é professor titular do Instituto Nacional de Telecomunicações. Tem experiência na área de Engenharia Elétrica, com ênfase em Sistemas de Telecomunicações e Telemática, atuando principalmente nos seguintes temas: Redes ATM, Redes de Pacote, Sinalização, Sistemas de Comutação e Controle e Automação."
+        },
+        {
+            "imagem": "daniel-andrade",
+            "professor": "Daniel Andrade Nunes",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Nascido em Santa Rita do Sapucaí em 1973, formado como Técnico em Eletrônica na Escola Técnica de Eletrônica Francisco Moreira da Costa em 1992 e graduado em Engenharia elétrica em 1998 pelo INATEL - Instituto Nacional de Telecomunicações. Trabalhou 5 anos na multinacional Ericsson como instrutor técnico e gerente de projetos, principalmente na área de sistemas celular no planejamento, otimização e desenvolvimento de cursos para sistemas AMPS, DAMS, CDMA e GSM, em 13 países da America Latina, Estados Unidos, Europa e África.</p><p>Obteve o grau de Mestre em Telecomunicações, também pelo INATEL em agosto de 2007. É professor dos programas de graduação e pós-graduação em matérias relativas a comunicações móveis e transmissão digital no INATEL, além de já ter ministrado cursos nas áreas de planejamento e otimização para sistemas GSM, WCDMA, LTE, WiFI e WiMAX pelo ICC - Inatel Competence Center. Integrou o corpo de pesquisadores do Centro de Referência em Radiocomunicações (CRR) do Inatel.</p>"
+        },
+        {
+            "imagem": "edson-gimenez",
+            "professor": "Edson Josias Cruz Gimenez",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Possui graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (1987), especialização em Informática Gerencial pela Faculdade de Administração e Informática (1994), especialização em Educação Matemática pela Pontifícia Universidade Católica de Campinas (1987) e mestrado em Telecomunicações pelo Instituto Nacional de Telecomunicações (2004).</p><p>Professor adjunto do Inatel, coordenador do CST em Redes de Computadores, no Inatel, e instrutor CCNA (Cisco Systems). Possui ainda as seguintes certificações: CCNA e CCAI (Cisco Systems), HCNE (Huawei-3Com) e CCTT (Fluke Networks). Tem experiência na área de Engenharia de Telecomunicações, com ênfase em Sistemas de Comunicação e Redes de Telecomunicações.</p>"
+        },
+        {
+            "imagem": "estevan",
+            "professor": "Estevan Marcelo Lopes",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Doutor em Engenharia Elétrica pela Universidade Estadual de Campinas (UNICAMP) (2013). Mestre em Engenharia de Telecomunicações pela Fundação Instituto Nacional de Telecomunicações (Inatel) (2002), Especialista em Engenharia de Telecomunicações pela Universidade Norte do Paraná (UNOPAR) (1999), Graduado em Engenharia Elétrica pela Fundação Instituto Nacional de Telecomunicações (Inatel) (1992), Curso de extensão em Engenharia Biomédica na Jade University of Applied Science em Wilhelmshaven - Alemanha (2012). Curso de extensão em Simulação de Sistemas de Comunicação na Universidade de Virginia Tech - EUA (2005).</p><p>Atualmente é professor adjunto dos cursos de graduação e pós-graduação, atuando também como coordenador adjunto dos cursos de Pós-Graduação de Redes e Sistemas de Telecomunicações, Tv Digital e IPTV e Eletrônica Avançada da Fundação Instituto Nacional de Telecomunicações (Inatel). Professor assistente da Universidade do Vale do Sapucaí (UNIVÁS).</p><p>Atuou como chefe de departamento do curso de Sistemas de Informação da UNIVAS no período de 2006 até 2009. Em 2005, participou do projeto de modulação inovadora MI-SBTVD. Possui diversos artigos apresentados em congressos nacionais e internacionais. Tem experiência na área de Engenharia Elétrica, atuando principalmente nos seguintes segmentos: filtragem adaptativa, comunicação digital, equalização, televisão digital e canais de comunicação. No período de 2007 até 2009 foi coordenador do projeto de implantação dos cursos de tecnologia em Redes de Computadores e Automação Industrial do Inatel. Coordenou o curso de Eletrônica do Instituto Politécnico de Londrina (IPOLON) no período de 1995 a 2000.</p>"
+        },
+        {
+            "imagem": "evandro",
+            "professor": "Evandro Luiz Brandão Gomes",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Pós-graduado em Informática Gerencial e graduado em Tecnologia em Processamento de Dados pela FAI - Centro de Ensino Superior em Gestão, Tecnologia e Educação (1985). Possui curso de nível médio em eletrônica pela Escola Técnica de Eletrônica 'FMC'. Atualmente é professor assistente da Fundação Instituto Nacional de Telecomunicações (Inatel) e professor assistente da FAI - Centro de Ensino Superior em Gestão, Tecnologia e Educação.</p><p>Tem experiência nas áreas de: Linguagens de Programação, Arquitetura de Computadores, Sistemas Operacionais, Redes de Computadores, Protocolos de Comunicação, Eletrônica Digital, Microprocessadores / Microcontroladores, Segurança de TI e Auditoria de TI. Possui certificação de instrutor de treinamentos em redes e equipamentos de comunicação de dados pela Huawei Technologies.</p>"
+        },
+        {
+            "imagem": "fabiano-valias",
+            "professor": "Fabiano Valias de Carvalho",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica com Ênfase em Telecomunicações e Eletrônica pelo Instituto Nacional de Telecomunicações - Inatel (1995) e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá - Unifei (2002). Atualmente é coordenador no Inatel do curso de Graduação em Engenharia Biomédica, desde 2010, tendo participado da criação e da implantação desse curso. Coordena o Centro de Desenvolvimento e Transferência de Tecnologia Assistiva do Inatel - CDTTA. Atua nas áreas de eletrônica digital e analógica, sistemas microcontrolados, redes de dados, processamento digital de sinais biomédicos e tecnologia assistiva."
+        },
+        {
+            "imagem": "guilherme-aquino",
+            "professor": "Guilherme Pedro Aquino",
+            "materia": "Matéria do professor",
+            "descricao": "Doutor em engenharia elétrica pela Universidade Federal de Itajubá (UNIFEI). Mestre em engenharia de telecomunicações pelo Instituto Nacional de Telecomunicações (Inatel). Atualmente é professor no Inatel na área de redes de telecomunicações. Também atua como pesquisador no Centro de Referência em Radiocomunicações (CRR), desenvolvendo pesquisas na área de múltiplo acesso não ortogonal e sistemas eficientes de sensoriamento espectral cooperativo. Também é coordenador do laboratório de segurança cibernética do Inatel."
+        },
+        {
+            "imagem": "guilherme-marcondes",
+            "professor": "Guilherme Augusto Barucke Marcondes",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica Ênfase Em Eletrônica e Telecom (1991) e Mestrado em Telecomunicações pelo Instituto Nacional de Telecomunicações (2005) e Doutorado em Engenharia de Produção pela Universidade Federal de Itajubá (2016). Possui também especialização em administração pela FEA/USP (1999) e é certificado como PMP pelo PMI. Atualmente é professor titular, coordenador dos cursos de Engenharia de Computação e de Engenharia de Software, Pró-Diretor de Graduação, Vice-Diretor e membro do conselho diretor do Instituto Nacional de Telecomunicações. Foi membro do conselho diretor da Fundação Instituto Nacional de Telecomunicações de 2005 a 2018. Atuou como professor convidado do mestrado profissional da UnB em telecomunicações. Experiência de mais de 20 anos na área de P&D em projetos na área de tecnologia da informação e nas áreas de gerência de projetos e de negócios."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Guilherme Rezende dos Santos",
+            "materia": "Matéria do professor",
+            "descricao": "Tem experiência na área de Ciência da Computação, com ênfase em Segurança em Redes de Computadores."
+        },
+        {
+            "imagem": "justino",
+            "professor": "José Antônio Justino Ribeiro",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia de Operação em Telecomunicações pelo Instituto Nacional de Telecomunicações (1969), graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (1973), mestrado em Engenharia Eletrônica pelo Instituto Tecnológico de Aeronáutica (1980), doutorado em Engenharia Eletrônica e Computação pelo Instituto Tecnológico de Aeronáutica (1998), curso técnico profissionalizante pela Escola Técnica de Eletrônica Francisco Moreira da Costa (1966), ensino fundamental primeiro grau pelo Ginásio Santo Antônio (1962) e ensino médio segundo grau pela Escola Técnica de Eletrônica Francisco Moreira da Costa (1965). Atualmente é professor titular do Instituto Nacional de Telecomunicações, professor titular da Universidade Federal de Itajubá, professor titular da Escola Técnica de Eletrônica Francisco Moreira da Costa, Revisor de periódico das Telecomunicações (Santa Rita do Sapucaí), Revisor de periódico da IEEE Latin America Transaction e Revisor de periódico da Journal of Applied Soft Computing. Tem experiência na área de Engenharia Elétrica, com ênfase em Telecomunicações. Atuando principalmente nos seguintes temas: Microondas, Modulação eletro óptica, Guias ópticos, Processamento de sinais ópticos."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Juliano Silveira Ferreira",
+            "materia": "Matéria do professor",
+            "descricao": "Possui os títulos de Mestre em Telecomunicações (Inatel 2009) e Engenheiro Eletricista (Inatel 2002). É funcionário da Fundação Instituto Nacional de Telecomunicações desde 2004 onde atua com pesquisa e desenvolvimento de projetos. Ministra matérias relacionadas à TV Digital e dispositivos lógicos programáveis nos cursos de pós-graduação do Inatel."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "José Marcos Câmara Brito",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Possui graduação em Engenharia Elétrica ênfases em Eletrônica e Telecomunicações pela Fundação Instituto Nacional de Telecomunicações (1986), mestrado em Engenharia Elétrica pela Universidade Estadual de Campinas (Unicamp) (1998) e doutorado em Engenharia Elétrica pela Universidade Estadual de Campinas (2003). Atualmente é professor titular do Instituto Nacional de Telecomunicações (Inatel). Atuou em várias posições administrativas no Inatel, incluindo: coordenador de laboratórios, gerente geral do centro de desenvolvimento de projetos, coordenador de pós-graduação, vice-diretor e pró-diretor de pós-graduação e pesquisa. Foi um dos fundadores da Revista Telecomunicações, editada pelo Inatel, da qual foi editor.</p><p>Tem experiência na área de Engenharia Elétrica, com ênfase em Redes de Telecomunicações, atuando principalmente nos seguintes temas: redes de telecomunicações, comunicações sem fio, análise de desempenho de redes, comunicações digitais e controle de erro.</p><p>"
+        },
+        {
+            "imagem": "luciano-leonel",
+            "professor": "Luciano Leonel Mendes",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Luciano Leonel Mendes possui os títulos de Bacharel em Engenharia Elétrica e Mestre em Telecomunicações pelo Instituto Nacional de Telecomunicações (Inatel), obtidos em 2001 e 2003, respectivamente. Ele concluiu o Doutorado em Engenharia Elétrica pela Universidade Estadual de Campinas (Unicamp) em 2007. Desde 2001 é professor do Instituto Nacional de Telecomunicações, onde atua no ensino de graduação e pós-graduação, além de ter ocupado os cargos de gerente técnico do Laboratório de Desenvolvimento de Hardware e coordenador do Curso de Mestrado de Telecomunicações.</p><p>Foi coordenador de diversos projetos de pesquisa e desenvolvimento, merecendo destaque aqueles voltados para TV Digital com apoio da Finep e RNP. Entre 2013 e 2015, executou um projeto de pós-doutorado, com o apoio do CNPq, na Vodafone Chair Mobile Communications Systems, localizada na Technische Universität Dresden, Alemanha, na área de esquemas de modulação digital para a quinta geração de redes móveis celulares. Hoje ele coordena as atividades de pesquisa do Centro de Referência em Radiocomunicações (CRR), sendo o responsável pelas pesquisas em 5G neste projeto. Além disso, coordena a Comissão de Pesquisa e Casos de Uso do Projeto 5G Brasil, hospedado pela Telebrasil. Suas principais áreas de atuação são comunicações móveis, radiodifusão digital e modulações com múltiplas portadoras.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Leonardo Luciano de Almeida Maia",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Mestre em Telecomunicações pelo Instituto Nacional de Telecomunicações - INATEL (2016). Pós-graduado em Redes e Sistemas de Telecomunicações pelo Instituto Nacional de Telecomunicações - INATEL (2011) e graduado em Engenharia Elétrica modalidade Eletrônica (Especificidade em Telecomunicações) pelo mesmo instituto (2000). Também, formou-se como Técnico em Eletrônica pela Escola Técnica de Eletrônica 'Francisco Moreira da Costa' (1994).</p><p>Atualmente é gerente técnico de implementação lógica de redes móveis celulares (Design + integração + Tuning/Otimização). Possui 19 anos de experiência na área de Engenharia Elétrica, com ênfase em Telecomunicações tendo ministrado vários cursos sobre projetos de antenas, propagação das ondas eletromagnéticas, sistemas de rádio digital (UHF, SHF e EHF), planejamento de redes de rádio digital, comunicações via satélite e VSAT, redes de telecomunicações dentre outros; para várias operadoras de telecomunicações no Brasil e exterior além de outras empresas como Petrobrás, Banco do Brasil, Vale e etc.</p><p>Por 7 anos foi Assessor de Relações Internacionais no INATEL e atua como professor da referida instituição nos cursos de graduação e pós-graduação em engenharia, principalmente na área de comunicações sem fio (Rádio Digital e Satélite). Trabalha também como gerente de projetos e consultor na área de telecomunicações no Brasil e exterior. Um dos projetos mais relevantes, que gerencia desde 2007, é o projeto de concepção de uma instituição de ensino superior em engenharia em Angola que consiste nos estudos, implantação e desenvolvimento do Instituto Superior para as Tecnologias de Informação e Comunicação - ISUTIC localizado em Luanda, instituição dedicada ao ensino de engenharia de telecomunicações e computação, pesquisa e extensão. O trabalho desenvolvido pela equipe do INATEL consiste no projeto institucional, pedagógico e financeiro incluindo a implementação do ISUTIC com diversos laboratórios de ensino, pesquisa, e ensaios e calibração com assessoria durante o primeiro ciclo de formação. Esse projeto é patrocinado diretamente pelo Ministério das Telecomunicações e Tecnologias de Informação - MTTI da República de Angola.</p>"
+        },
+        {
+            "imagem": "marcelo-carneiro",
+            "professor": "Marcelo Carneiro de Paiva",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Marcelo Carneiro de Paiva nasceu em Ipameri, GO, em 30 de março de 1979. Recebeu o título de Técnico em Eletrônica pela ETE 'FMC' (Escola Técnica de Eletrônica 'Francisco Moreira da Costa') em 1998. Recebeu os títulos de engenheiro elétrico modalidade telecomunicações e mestre em telecomunicações pelo Instituto Nacional de Telecomunicações (Inatel) em 2003 e 2009, respectivamente. Suas principais áreas de atuação são comunicação digital, comunicação móvel e TV Digital. Participou de projetos de pesquisa com fomento da FINEP, sendo que merece destaque o projeto TRTVD, onde atuou desenvolvendo sistemas de transmissão de TV Digital compatível com o SBTVD (Sistema Brasileiro de TV Digital) e o projeto MI-SBTVD, onde atuou no desenvolvimento de uma nova solução para o subsistema de modulação para o SBTVD.</p><p>Atualmente gerencia o Laboratório de Desenvolvimento de Hardware do ICC (Inatel Competence Center) onde desenvolve soluções microcontroladas para sistemas de controle, configuração e monitoramento remoto, soluções com lógica programável utilizando VHDL e FPGAs e soluções de Radiofrequência. Também atua como professor da disciplina de Sinais e Sistemas no curso de Graduação em Engenharia Elétrica e da disciplina de Modulação Digital no curso de pós-graduação em Engenharia de Redes e Sistemas, ambos do Instituto Nacional de Telecomunicações.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Mário Ferreira Silva Junior",
+            "materia": "Matéria do professor",
+            "descricao": "Mário Ferreira Silva Jr é engenheiro, formado em julho de 2008 como Engenheiro Eletricista na modalidade Eletrônica com Ênfase em Telecomunicações pelo Instituto Nacional de Telecomunicações e em 2012 recebeu o título de Especialista em Engenharia de Redes e Sistemas de Telecomunicações pelo mesmo Instituto. Atualmente é Gerente Adjunto de Educação Continuada do Inatel Competence Center, sendo responsável por cursos de Extensão Presencial, Ensino a Distância, Capacitação Corporativa, Consultoria e Preparatórios para Certificações. É professor do curso de Pós Graduação em Engenharia de Redes e Sistemas de Telecomunicações do Inatel e especialista em Redes de Dados, TCP/IP, NGN, Voz e Vídeo sobre IP, Redes de Acesso, Redes convergente e Cidades Digitais."
+        },
+        {
+            "imagem": "rausley",
+            "professor": "Rauley Adriano Amaral de Souza",
+            "materia": "Matéria do professor",
+            "descricao": "<p>É Pesquisador 'Produtividade em Pesquisa Nível 2' do CNPq e Professor Titular do Inatel. Possui graduação em Engenharia Elétrica pelo Inatel - Instituto Nacional de Telecomunicações (1994), Mestrado em Engenharia Elétrica pelo Inatel (2002) e Doutorado em Engenharia Elétrica pela Unicamp - Universidade Estadual de Campinas (2009). Atualmente é professor titular do Inatel.</p><p>Atuou por seis anos como coordenador adjunto para o programa de pós-graduação Lato Sensu do Inatel. Atuou como professor adjunto da Faculdade de Medicina de Itajubá. Já publicou artigos em revistas do IEEE e em congressos internacionais. É membro da Câmara de Assessoramento de Arquitetura e Engenharias - TEC da Fapemig. Tem experiência na área de Engenharia Elétrica, com ênfase em Telecomunicações, atuando principalmente na área de comunicações sem fio. Tem experiência na indústria nas áreas produtiva e de suprimentos. Suas pesquisas incluem aspectos gerais sobre Transmissão Digital, Comunicação Móvel e canais com desvanecimento. Seu mais recente interesse situa-se em técnicas de sensoriamento espectral para sistemas de Rádio Cognitivo. Revisor de vários periódicos.</p>"
+        },
+        {
+            "imagem": "rinaldo",
+            "professor": "Rinaldo Duarte Teixeira de Carvalho",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Pós-graduado em Engenharia Biomédica pelo Instituto Nacional de Telecomunicações - Inatel (2008) e graduado em Engenharia Elétrica (com ênfase em Telecomunicações) pelo mesmo instituto (1993). Cursou 6 disciplinas no curso de mestrado do Inatel na área de telecomunicações. Possui mais de 24 anos de experiência na área de Telecomunicações, onde já trabalhou em operadoras de telefonia e fornecedores de equipamentos.</p><p>É professor do Inatel desde o ano de 2000, nos cursos de graduação e pós-graduação nas áreas de telecomunicações e engenharia biomédica, ministrando disciplinas de telefonia fixa comutada, sistemas celulares, gerenciamento de redes, sistemas de sinalização, redes de acesso, introdução a eletrônica, interação da radiação não-ionizante com o tecido biológico e tecnologias de imagem médica nos equipamentos de ressonância magnética, ultrassom, raio X e tomógrafo.</p><p>Ocupa o cargo de Gerente de Educação Continuada do Inatel Competence Center e atua também como gerente de projetos e consultor na área de telecomunicações. Desde 2002 desenvolve atividades de gestão e planejamento na administração dos cursos de extensão para alunos de graduação e também para o mercado de TIC coordenando uma equipe de instrutores. É conselheiro do CREA-MG (gestão 2013-2018). Foi legislador na Câmara Municipal de Santa Rita do Sapucaí/MG entre 2013-2016.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Tiago Reis Rufino Marins",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Tiago Reis Rufino Marins possui os títulos de Mestre em Telecomunicações e Engenheiro Elétrico modalidade Eletrônica com ênfase em Telecomunicações pelo Instituto Nacional de Telecomunicações - INATEL, obtidos nos anos de 2012 e 2007 respectivamente. Atualmente é doutorando na Universidade Estadual de Campinas - UNICAMP.</p><p>Atua como professor da graduação e pós-graduação do Instituto Nacional de Telecomunicações, onde ministra disciplina voltada à comunicação digital. Também atua como pesquisador no Centro de Referência em Radiocomunicações - CRR do Inatel. É um dos integrantes da equipe responsável por desenvolver o MODEM de referência para a 5ª geração de comunicações móveis.</p>"
+        },
+        {
+            "imagem": "adriano-sallum",
+            "professor": "Adriano Gonçalves Sallum",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia de Elétrica, modalidade Eletrônica, com ênfase em Telecomunicações pelo Instituto Nacional de Telecomunicações (2004). Pós-graduado em Engenharia Clínica no Instituto Israelita de Ensino e Pesquisa Albert Einstein, IIEPAE, São Paulo, Brasil. Tem experiência na área de Engenharia Clínica, Eletrônica e gestão de tecnologias médico-hospitalares."
+        },
+        {
+            "imagem": "antonio-marcos-de-souza",
+            "professor": "Antônio Marcos de Souza",
+            "materia": "Matéria do professor",
+            "descricao": "Possui mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (2005). Atualmente é professor adjunto do Instituto Nacional de Telecomunicações, atuando em cursos de graduação de engenharia elétrica e Pós-graduação em Engenharia Biomédica. Tem experiência na área de engenharia elétrica, com ênfase em teoria eletromagnética, propagação de ondas, linhas de transmissão e micro-ondas, atuando principalmente nos seguintes temas: eletromagnetismo, equipamentos eletromédicos e compatibilidade eletromagnética."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Bruno Nunes Bono",
+            "materia": "Matéria do professor",
+            "descricao": "Cursando DOUTORADO na UFMG em Ciência da Informação, com previsão de término em dez/2020. Mestre em Administração na Fundação Pedro Leopoldo, com ênfase em Gestão de Riscos na área Hospitalar. Possui graduação em ENGENHARIA ELÉTRICA pela Universidade Católica de Pelotas (1987). Tem experiência na área de Engenharia de Produção, com ênfase em ENGENHARIA DA QUALIDADE. Especialização em Sistemas Industriais na UNIFEI/MG. Especialização em Engª da Qualidade PUC/MG (1992). Diretor Técnico da Bono Consultoria. Auditor líder NBR ISO 9001 e Avaliador ONA."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Bernardo Augusto Chaves Dória",
+            "materia": "Matéria do professor",
+            "descricao": "Tem experiência na área de radiologia, com ênfase em física das radiações."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Bernardo Augusto Chaves Dória",
+            "materia": "Matéria do professor",
+            "descricao": "Tem experiência na área de radiologia, com ênfase em física das radiações."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Camila Mendonça de Moraes",
+            "materia": "Matéria do professor",
+            "descricao": "Professora Adjunta da Universidade Federal do Rio de Janeiro (UFRJ), área de Enfermagem Médico-cirúrgica. Doutora em Enfermagem, EERP-USP (2014). Mestre em Enfermagem, EERP-USP (2009). Especialista em Engenharia Biomédica, INATEL (2010). Especialista em Enfermagem Médico-cirúrgica, UNIFESP (2005). Graduação em Enfermagem USP (2003). Autora da Escala de avaliação de risco para o desenvolvimento de lesões decorrentes do posicionamento cirúrgico do paciente (ELPO). Pesquisadora do Grupo de Estudos, Pesquisa e Extensão em prática baseada evidências (GEPEVI) integrante do grupo Pesquisa Integrada em Saúde da UFRJ. Membro da Sociedade Brasileira de Enfermeiros de Centro Cirúrgico, Recuperação Pós-anestésica e Central de Materiais e Esterilização (SOBECC). Membro da Association of PeriOperative Registered Curses (AORN). Revisora dos periódicos: Revista da Escola de Enfermagem da USP, Revista Acta Paulista, Revista Brasileira de Enfermagem, Revista Estima, International Biomedical Engineering and Clinical Science e European Journal of Cancer Care."
+        },
+        {
+            "imagem": "egidio",
+            "professor": "Egídio Raimundo Neto",
+            "materia": "Matéria do professor",
+            "descricao": "Possui Graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (12/2011) e Mestrado em Telecomunicações, também pelo Instituto Nacional de Telecomunicações (03 / 2014). Trabalha atualmente como Professor do Instituto Nacional de Telecomunicações nos cursos de Engenharia e Tecnologia e também como Professor na FAEX - Faculdade de Extrema nos cursos de Engenharia e Tecnologia. As principais áreas de interesse são: Redes Industriais, Sistemas de Comunicação de Tempo Crítico para Automação, Internet das Coisas para Indústria (IoT), Sistemas de Comunicação de 5a. Geração, Manufatura Avançada, Sistemas de Controle Clássico, Discreto e Moderno, Robótica e SmartGrid."
+        },
+        {
+            "imagem": "elisa-carneiro",
+            "professor": "Elisa Rennó Carneiro Dester",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Fisioterapia pela Universidade Gama Filho (1999) e mestrado em Ciências da Motricidade Humana pela Universidade Castelo Branco (2003). Tem experiência na área de Ciências da Saúde atuando como professora nos seguintes temas: Anatomia Humana, Fisiologia Humana, Engenharia de Reabilitação e Fisioterapia aplicada à Saúde da Mulher. Vem desenvolvendo pesquisas nas áreas de Saúde da Mulher, Tecnologias Assistivas, Engenharia Biomédica e Biomecânica."
+        },
+        {
+            "imagem": "elisa-carneiro",
+            "professor": "Elisa Rennó Carneiro Dester",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Fisioterapia pela Universidade Gama Filho (1999) e mestrado em Ciências da Motricidade Humana pela Universidade Castelo Branco (2003). Tem experiência na área de Ciências da Saúde atuando como professora nos seguintes temas: Anatomia Humana, Fisiologia Humana, Engenharia de Reabilitação e Fisioterapia aplicada à Saúde da Mulher. Vem desenvolvendo pesquisas nas áreas de Saúde da Mulher, Tecnologias Assistivas, Engenharia Biomédica e Biomecânica."
+        },
+        {
+            "imagem": "felipe-emanoel",
+            "professor": "Felipe Emanoel Chaves",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Física Bacharelado pela Universidade Federal de Itajubá (2007) e Mestrado em Física e Matemática Aplicada pela Universidade Federal de Itajubá (2009). Doutor em Matemática Pura pela Universidade Estadual de Campinas. Tem experiência na área de Matemática, com ênfase em Sistemas Dinâmicos Suaves, Sistemas Dinâmicos não Suaves, Simetrias em Sistemas Dinâmicos e Mecânica celeste."
+        },
+        {
+            "imagem": "francisco-costa",
+            "professor": "Francisco Eduardo de Carvalho Costa",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Graduação em Ciências Biológicas pela Universidade Federal da Paraíba (2001), mestrado (2003) e doutorado (2008) em Biotecnologia pela Universidade de São Paulo e pós-doutorado em Microbiologia Aplicada pela Universidade Estadual de São Paulo.</p><p>Experiência na área de Microbiologia, atuando principalmente nos seguintes temas: endofíticos, solubilização de fosfato, biofilme, promoção de crescimento em plantas, fermentação, enzimas e biopolímeros. As demais áreas de atuação são: microbiologia aplicada e desenvolvimento de projetos tecnológicos. Atualmente, professor e pesquisador do Instituto Nacional de Telecomunicações (INATEL) e proprietário e mestre cervejeiro da Pós-Doc Bebidas Artesanais Ltda (empresa incubada na Incubadora Municipal de Empresas de Santa Rita do Sapucaí).</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Jefferson Davis Pena Cária",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Possui graduação em Engenharia Elétrica, modalidade Eletrônica, ênfase em Telecomunicações (2002) e curso de Suplementação em Engenharia Biomédica pelo Instituto Nacional de Telecomunicações (INATEL) de Santa Rita do Sapucaí (MG). Pós-graduado em Qualidade e Produtividade pela Universidade Federal de Itajubá, Qualidade Hospitalar pela Escola de Saúde Pública de Minas Gerais - ESP-MG e em Engenharia Clínica/Biomédica pelo INATEL. Mestre em Ciências e Técnicas Nucleares, título obtido em junho de 2010, pelo Departamento de Engenharia Nuclear da Universidade Federal de Minas Gerais.</p><p>Atualmente exerce o cargo de Gerente de Engenharia do Hospital Madre Teresa de Belo Horizonte - MG. Responsável pelas áreas de Engenharia Clínica, Engenharia Civil e de Manutenção Geral, atuando na gestão de equipe multiprofissional composta por engenheiros, arquitetos e técnicos. Atua na negociação com fornecedores, elaboração e análise de contratos, e assessoria à direção na tomada de decisões sobre infraestrutura e avaliação de novas tecnologias na instituição. Exerceu cargo de Engenheiro Eletrônico e Engenheiro Clínico no Hospital das Clínicas da Universidade Federal de Minas Gerais de janeiro de 2006 a 2015, atuando nos processos de especificação para a aquisição de equipamentos médicos, coordenação e gestão da manutenção do parque tecnológico do hospital, participante dos grupos focados no processo de Acreditação Hospitalar (ONA e JCI) além de desenvolver treinamento aos usuários técnicos.</p><p>Coordenou o Setor de Engenharia Clínica do Hospital Metropolitano Dr. Célio de Castro (Hospital Metropolitano do Barreiro), sendo responsável pela gestão de todo parque tecnológico de equipamentos medico assistências e gases medicinais. Leciona no curso de Pós-graduação em Engenharia Clínica/Biomédica do Instituto Nacional de telecomunicações (INATEL). Leciona na Faculdade Pitágoras nos cursos de Engenharia Elétrica, Engenharia de Automação Industrial Engenharia Mecânica e Ciências da Computação. Lecionou na Faculdade UNI-BH, no curso de Engenharia Elétrica. Lecionou da Universidade FUMEC - BH, no curso de Engenharia Biomédica. Lecionou na Faculdade Anhanguera de Belo Horizonte nos Cursos Superiores de Tecnologia em Mecatrônica Industrial e de Tecnologia em Eletrotécnica Industrial. Também lecionou nos Cursos Técnicos em Eletrônica da ETE FMC (Santa Rita do Sapucaí-MG), CEFET - BH (Curso Técnico em Equipamentos Biomédicos), SENAI (Pouso Alegre - MG), Polimig (BH) e Utramig (BH). Atua nos temas: Engenharia Clínica/Biomédica, Gestão de Parque Tecnológico Hospitalar, Acreditação Hospitalar e assuntos relacionados a Eletrônica.</p><p>"
+        },
+        {
+            "imagem": "joao-paulo-henriques",
+            "professor": "João Paulo Carvalho Henriques",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (2006), especialização em docência do ensino superior e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (2014). Atualmente é professor dos cursos de graduação e pós-graduação do Instituto Nacional de Telecomunicações. Tem experiência na área de Engenharia Elétrica, com ênfase em Automação Eletrônica de Processos Elétricos e Industriais, atuando principalmente nos seguintes temas: automação e controle de processos, supervisão de sistemas de automação, controlador lógico programável e identificação de sistemas."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Kássio André Lacerda",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Graduado em Química - Licenciatura Plena - pela Fundação Universidade de Itaúna (2002) e mestre em Ciência e Tecnologia das Radiações Minerais e Materiais pelo Centro de Desenvolvimento da Tecnologia Nuclear/Comissão Nacional de Energia Nuclear - CDTN/CNEN, síntese e caracterização de biocerâmicas (2005). Doutor em Engenharia de Materiais pela Rede Temática em Engenharia de Materiais - REDEMAT (UFOP - CETEC - UEMG) com ênfase em Compósitos (2010), Pós-doutor em Engenharia de materiais pela Universidade Federal de Minas Gerais - UFMG, processamento de blendas e polímeros, de origem sintética e natural (2012).</p><p>Tem experiência na área de Química e Engenharia de Materiais, principalmente nos seguintes temas: Síntese e caracterização de biocerâmicas à base de hidroxiapatita com aplicações biomédicas. Síntese, caracterização, processamento de polímeros termoplásticos e termofixo para a produção de compósitos hierárquicos nanoestruturados (fibras de carbono, nanotubos de carbono, nanocristais, nanopartículas) com aplicações nas indústrias: aeroespacial, petroquímica, química, eletroeletrônico, automotiva, naval, embalagens, têxteis e outros segmentos. Atua como docente em instituições acadêmicas e de pesquisa nas áreas correlatas a Química, bem como em Ciência, Tecnologia e Engenharia de Materiais. Atualmente coordena o Curso de Engenharia Química da Universidade FUMEC.</p>"
+        },
+        {
+            "imagem": "karina-mokarzel",
+            "professor": "Karina Perez Mokarzel Carneiro",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (1990) e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (2001). Atualmente é professor adjunto do INATEL - Instituto Nacional de Telecomunicações, professor da FWB - Faculdade Wenceslau Braz, membro do comitê de ética em pesquisa - cep - FMIt- Faculdade de Medicina de Itajubá e professor da FMIt- Faculdade de Medicina de Itajubá. Atua principalmente nas seguintes disciplinas: Física, Álgebra, Geometria, Metodologia Científica, Cálculo Numérico e Bioestatística. É organizadora do Sefitel - Seminário de Física do Inatel."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Marcelo de Almeida Duarte",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Marcelo de Almeida Duarte concluiu o Doutorado em Engenharia Biomédica no Programa de Engenharia Biomédica, COPPE/UFRJ em 2015 e Pós-Doutorado na mesma área e Programa em 2018. É professor Adjunto do Curso de Graduação em Engenharia Elétrica da UniCarioca e Professor da Fundação de Apoio à Escola Técnica. Trabalhou por 13 anos como Professor do Curso de Engenharia Elétrica na Universidade Gama Filho e por 3 anos como Professor do Curso Superior de Tecnologia em Automação Industrial da Faculdade SENAI Rio. É autor dos livros 'Eletrônica Analógica Básica', publicado em 2017 pela LTC (Grupo Gen), e 'Corruptos desde Criancinha', publicado em 2007 pelo Armazém Digital.</p><p>Além desses livros, publicou 1 capítulo de livro, 19 artigos em periódicos especializados e 28 trabalhos em anais de eventos. Participou de 18 eventos sobre tecnologia no Brasil. Orientou 20 trabalhos de conclusão de curso e 5 projetos de iniciação científica nas áreas de Engenharia Biomédica e Engenharia Elétrica. Atua nas áreas de Engenharia Elétrica/Eletrônica, Engenharia Biomédica e Automação Industrial. Em seu currículo Lattes, os termos mais frequentes na contextualização da produção científica, tecnológica e artístico-cultural são: Ultrassom, Meios Homogêneos, Processamento de Sinais e Imagens, Segmentação de Microcalcificações, Mamografia, Câncer de Mama, Reverberação, Fisioterapia, Avaliação de Equipamentos e Engenharia Clínica.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Marcelo de Moraes Antunes",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Projeto, Uso e Manutenção de Equipamentos Médico-Hospitalares pela Faculdade de Tecnologia de Sorocaba (2001). Atualmente é consultor de assuntos regulatórios da SQR Consulting, onde assessora fabricantes de produtos para a saúde na ação a leis e normas. Marcelo também coordena ou participa de diversos comitês de normalização na área de produtos para a saúde da ABNT e representa o Brasil como expert brasileiro indicado em diversas comissões de normalização da ISO e IEC. Atua também como professor no curso de pós-graduação em Engenharia Biomédica no INATEL."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Patrícia de Azambuja",
+            "materia": "Matéria do professor",
+            "descricao": "Professora da Universidade Fumec e Faminas-BH em cursos de graduação e pós-graduação. Mestranda em Neurociências na UFMG. Especialização em Engenharia Biomédica e Engenharia Clínica (INATEL). Possui título de proficiência em Anatomia Humana pela Sociedade Brasileira de Anatomia (2014), graduação em Ciências Biológicas pela Universidade Federal de Minas Gerais (2000). Tem experiência na área de Morfologia, com ênfase em Anatomia Humana e Neuro-anatomia, atuando principalmente nos seguintes temas: lesão cerebral e reabilitação."
+        },
+        {
+            "imagem": "romulo-volpato",
+            "professor": "Romulo Mota Volpato",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (1990) e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (2004). Doutorado em Engenharia Elétrica na Universidade Federal de Itajubá (2012). Atualmente é professor da Fundação Instituto Nacional de Telecomunicações. Tem experiência na área de Engenharia Elétrica, com ênfase em Instrumentação Eletrônica, atuando principalmente nos seguintes temas: MICROELETRÔNICA, RFID, Sensores implantados, perda de retorno, automatização de medições, interferência eletromagnética, labview e compatibilidade eletromagnética."
+        },
+        {
+            "imagem": "romulo-volpato",
+            "professor": "Romulo Mota Volpato",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (1990) e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (2004). Doutorado em Engenharia Elétrica na Universidade Federal de Itajubá (2012). Atualmente é professor da Fundação Instituto Nacional de Telecomunicações. Tem experiência na área de Engenharia Elétrica, com ênfase em Instrumentação Eletrônica, atuando principalmente nos seguintes temas: MICROELETRÔNICA, RFID, Sensores implantados, perda de retorno, automatização de medições, interferência eletromagnética, labview e compatibilidade eletromagnética."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Viviane Viana Silva",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Química pela Universidade Federal de Minas Gerais (1983), mestrado em Química pela Universidade Federal de Minas Gerais (1990) e doutorado em Química pela Universidade Federal de Minas Gerais (1998). Atua como docente e pesquisador nas áreas de Química de Materiais, Engenharia Biomédica e Nanotecnologia, com ênfase em Biomateriais, engenharia de tecidos e sistemas de liberação controlada"
+        },
+        {
+            "imagem": "alexandre-baratella",
+            "professor": "Alexandre Baratella Lugli",
+            "materia": "Matéria do professor",
+            "descricao": "Possui curso técnico em eletrônica pela Escola Técnica de Eletrônica 'Francisco Moreira da Costa' (1999), graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (2004), mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (2007) e doutorado em Engenharia Elétrica pela Universidade Federal de Itajubá (2013). Atualmente, é coordenador de cursos superiores em Controle e Automação (Engenharia e Tecnologia) do Instituto Nacional de Telecomunicações (INATEL) e professor de curso superior do Instituto Nacional de Telecomunicações (INATEL). Tem experiência na área de Engenharia Elétrica, com ênfase em Controle de Processos Eletrônicos, Retroalimentação, atuando principalmente nos seguintes temas: redes industriais, ethernet, meios físicos, instrumentação industrial, atuadores industriais e controladores industriais. Atuou como coordenador e gestor de projetos em automação industrial pela empresa Sense Eletrônica."
+        },
+        {
+            "imagem": "fabio-lollo",
+            "professor": "Fabio de Lollo",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pela Universidade Estadual Paulista Júlio de Mesquita Filho (1997), especialização em Proteção de Sistemas Elétricos pela Universidade Federal de Itajubá (2004) e especialização em Automação de Sistemas Elétricos pelo Instituto Nacional de Telecomunicações (2013). Atualmente é engenheiro especialista da Schweitzer Engineering Laboratories Comercial. Tem experiência na área de Engenharia Elétrica, com ênfase em Sistemas Elétricos de Potência."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Geraldo R. P. Rocha",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pela Universidade Estadual Paulista Júlio de Mesquita Filho (2001). Tem experiência na área de Engenharia Elétrica, com ênfase em Sistemas Elétricos de Potência."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "José Geraldo Paiva",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pela Universidade Federal de Itajubá (1985) e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (1995). Gerente da Divisão de Operação da Transmissão (COS) da Companhia Paulista de Força e Luz - CPFL."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Ricardo Abboud",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica pela Universidade Federal de Uberlândia (1992). Tem experiência na área de Engenharia Elétrica, com ênfase em Medição, Controle e Proteção de Sistemas Elétricos de Potência."
+        },
+        {
+            "imagem": "wanderson-saldanha",
+            "professor": "Wanderson Saldanha",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Trabalha com pesquisa e desenvolvimento desde 1996, com larga experiência no gerenciamento de projetos, capacitação de profissionais e na gestão de pessoas e recursos. Atualmente está como professor responsável pelas disciplinas de Sistemas Hidropneumáticos para Automação e Instrumentação Industrial no curso de Pós-Graduação em Engenharia de Sistemas Eletroeletrônicos, Automação e Controle Industrial no Instituto Nacional de Telecomunicações - INATEL.</p><p>Também pelo INATEL, está responsável pelas disciplinas de Introdução à Engenharia, Sistemas Elétricos, Instrumentação Industrial e Sistemas Hidropneumáticos no curso Superior de Tecnologia em Automação Industrial e no curso de Engenharia de Controle e Automação, além de estar como coordenador geral da Feira Tecnológica do INATEL - FETIN.</p><p>Atua ainda como professor responsável pelas disciplinas de Automação e Controle Industrial e Eletrônica Industrial na Escola Técnica de Eletrônica Francisco Moreira da Costa (ETEFMC). Formado como técnico em eletrônica pela Escola Técnica de Eletrônica Francisco Moreira da Costa (ETEFMC) (1995), graduado em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações - INATEL (2000), pós-graduado em Docência do Ensino Superior pelo Centro de Ensino Superior em Gestão, Tecnologia e Educação - FAI (2012) e Mestre em Engenharia Elétrica na área de Automação e Sistemas Elétricos Industriais pela Universidade Federal de Itajubá - UNIFEI (2016). Realiza pesquisas e desenvolvimentos através da orientação de trabalhos práticos para mostras acadêmicas anuais, trabalhos para conclusão de curso e projetos do programa de iniciação científica.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Wellington Oliveira",
+            "materia": "Matéria do professor",
+            "descricao": "Aluno do curso de Especialização em Automação de Sistemas Elétricos pelo Instituto Nacional de Telecomunicações com previsão de conclusão em Dezembro de 2015. É Especialista em Sistemas de Distribuição pela Faculdade de Tecnologia SENAI - CIMATEC (2014). Possui graduação em Engenharia Elétrica pela Faculdade de Ciência e Tecnologia da Bahia (2007) e curso técnico pela Escola de Engenharia Eletromecânica da Bahia (2001). Atua na área de automação de sistemas elétricos de potência desde o ano de 2001 e possui uma vasta experiência nas fases de projetos, Testes de Aceitação em Fábrica, Testes de Aceitação em Campo, suporte e manutenção. Pertenceu ao quadro de colaboradores da Cia de Eletricidade da Bahia (Coelba) de 2001 a 2012 e hoje faz parte do quadro de funcionários da Schweitzer Engineering Laboratories."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Yona Lopes",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Doutora em Computação e mestra em Engenharia de Telecomunicações pela Universidade Federal Fluminense (UFF). Cursou período sanduíche do Doutorado na UCSC (University of California, Santa Cruz), EUA. Possui graduação em Engenharia Elétrica - Ênfase em Telecomunicações - pelo Centro Universitário da Cidade (2010 - CR 9.5) e curso-técnico-profissionalizante em Telecomunicações pela Fundação de Apoio à Escola Técnica do Estado do Rio de Janeiro (2005). No doutorado recebeu o prêmio FAPERJ NOTA DEZ (destacado desempenho acadêmico), obtendo coeficiente de rendimento 9.7.</p><p>Atualmente, faz pós-doutorado na área de computação aplicada ao setor elétrico. É docente do INFNET e professora convidada do INATEL (Instituto Nacional de Telecomunicações) no curso de Especialização em Automação de Sistemas Elétricos. Na Schweitzer Engineering Laboratories é docente convidada dos cursos de Automação de Subestações, IEC 61850 e Redes de Alta Confiabilidade para Subestações Elétricas. Trabalha como consultora na área de automação de sistemas elétricos desde 2011. Trabalhou na Oi S/A como engenheira e técnica, na Engenharia de Projetos de Redes e no Centro de Controle e Operação. Atuou como tutora no CEDERJ. Tem experiência na área de Automação de Subestações, Sistemas de Telecomunicações, Redes de Computadores, Smart Grids, IEC 61850 e Redes Definidas por Software (SDN).</p>"
+        },
+        {
+            "imagem": "yvo-masseli",
+            "professor": "Yvo Marcelo Chiaradia Masselli",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Prof. Dr. Yvo Marcelo Chiaradia Masselli: graduado em Engenharia Elétrica, ênfase em Eletrônica e Telecomunicações, pelo INATEL (2002). Mestrado em Engenharia da Energia, área de Eletrônica aplicada a Sistemas Elétricos de Potência, pela Universidade Federal de Engenharia de Itajubá - UNIFEI (2005). Doutorado em Engenharia Elétrica, área de Eletrônica aplicada a Sistemas Elétricos de Potência, pela Universidade Federal de Engenharia de Itajubá - UNIFEI (2009) e membro do Grupo de Pesquisas em Inteligência Artificial (GAIA). Atuou como professor, coordenador técnico e vice-diretor do Centro de Educação Profissional de Itajubá (2003-2005). Coordenou por quatro anos (2005-2009) o curso superior de Tecnologia em Automação Industrial e por um ano (2009-2010) o curso de Sistemas de Informação da Fundação de Ensino e Pesquisa de Itajubá - FEPI, onde atua como docente. Atuou também como docente no curso de MBA em Tecnologia da Informação do Centro Universitário Salesiano de Lorena/SP (UNISAL).</p><p>Atualmente é professor adjunto da graduação e pós-graduação do INATEL, coordenador do curso de pós-graduação em Automação Industrial do Inatel. É professor visitante na Universidade Jade (www.jade-hs.de) - Alemanha, onde ministra anualmente o curso: 'Artificial Intelligence and Biomedical Engineering'. Possui artigos publicados no Brasil e no exterior.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Ana Letícia Gomes Gonçalves",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Possui mestrado em Eletrônica Aplicada pelo Instituto Tecnológico de Aeronáutica (2008), pós-graduação em Docência do Ensino Superior (2006), graduação em Engenharia Elétrica Modalidade Eletrônica Ênfase. Atualmente é professora no Instituto Nacional de Telecomunições - Inatel, professora titular da Escola Técnica de Eletrônica Francisco Moreira da Costa (mantida pela Fundação Dona Mindoca Rennó) e consultora de desenvolvimento de projetos.</p><p>Tem experiência na área de Engenharia Elétrica, com ênfase em Circuitos Eletrônicos, atuando principalmente nos seguintes temas: desenvolvimento de software embarcado em diversas plataformas (ARM, Blackfin, MSP430, 8051, PIC, TMS55C02) para aplicações de comunicação de dados, processamento digital de sinais, sistemas de aquisição de dados, equipamentos médicos, dispositivos de controle em geral e kits didáticos.</p>"
+        },
+        {
+            "imagem": "diego-lemos",
+            "professor": "Diego Aparecido Lemes",
+            "materia": "Matéria do professor",
+            "descricao": "Pós-graduando em Gestão Estratégica de Pessoas na FAI; Pós Graduado em Engenharia de Sistemas Eletrônicos, Automação e Controle Industrial pelo Instituto Nacional de Telecomunicações - InateL; Graduado em Tecnologia em Automação Industrial pelo Fundação de Ensino e Pesquisa de Itajubá - FEPI; Gestor de Produção na SENSE ELETRÔNICA, com experiência em liderança de equipes, ferramentas de gestão (Lean manufacturing), e experiência na área de redes industriais e controle de processos discretos e contínuos; Também atua como professor nos cursos de graduação e pós-graduação em Automação Industrial, onde ministra as disciplinas de laboratório de Máquinas e Eletrônica de Potência do Instituto Nacional de Telecomunicações – Inatel."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Edielson Prevato Frigieri",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Edielson P. Frigieri é professor auxiliar no departamento de Engenharia da Computação no Instituto Nacional de Telecomunicações (INATEL). Sua pesquisa concentra-se na aplicação da inteligência artificial e processamento de sinal digital para o monitoramento de processos de usinagem e solucionar problemas de otimização determinísticos e estocásticos provenientes de redes de comunicação.</p><p>Edielson P. Frigieri recebeu o grau de bacharel em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (INATEL), Santa Rita do Sapucaí, MG, Brasil, em 2006; o diploma de mestrado pela Universidade Federal de Itajubá (UNIFEI), Itajubá, MG, Brasil, em 2013; e o diploma de doutorado, pela mesma instituição, em dezembro de 2016. Entre setembro de 2015 e agosto de 2016, atuou como professor visitante no Centro de Otimização e Aprendizagem Estatística (OSL) na Northwestern University, realizando pesquisas relacionadas à otimização de redes de comunicação.</p>"
+        },
+        {
+            "imagem": "evandro",
+            "professor": "Evandro Luiz Brandão Gomes",
+            "materia": "Matéria do professor",
+            "descricao": "Pós-graduado em Informática Gerencial e graduado em Tecnologia em Processamento de Dados pela FAI - Centro de Ensino Superior em Gestão, Tecnologia e Educação (1985). Possui curso de nível médio em eletrônica pela Escola Técnica de Eletrônica 'FMC'. Atualmente é professor assistente da Fundação Instituto Nacional de Telecomunicações (Inatel) e professor assistente da FAI - Centro de Ensino Superior em Gestão, Tecnologia e Educação. Tem experiência nas áreas de: Linguagens de Programação, Arquitetura de Computadores, Sistemas Operacionais, Redes de Computadores, Protocolos de Comunicação, Eletrônica Digital, Microprocessadores / Microcontroladores, Segurança de TI e Auditoria de TI. Possui certificação de instrutor de treinamentos em redes e equipamentos de comunicação de dados pela Huawei Technologies."
+        },
+        {
+            "imagem": "giovanni",
+            "professor": "Giovanni Henrique Faria Floriano",
+            "materia": "Matéria do professor",
+            "descricao": "Graduado em Engenharia Elétrica - ênfase em Eletrotécnica (1983-1988) e especialização em Sistemas Industriais (1989) pela Universidade Federal de Itajubá (1988). Especialização em Educação Matemática Comparada (2013) e Mestrado em Telecomunicações (2016) pelo Inatel - Instituto Nacional de Telecomunicações, de Santa Rita do Sapucaí. Atualmente é professor adjunto V do Inatel. Tem experiência na área de estudos elétricos (fluxo de cargas, curto circuito e fluxo harmônico) e máquinas elétricas."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Júlio Arlindo Pinto Azevedo",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Possui graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (Inatel - 1994) e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (UNIFEI - (2001). Tem experiência na área de Engenharia Elétrica, atuando na área de automação industrial com desenvolvimento de produtos para instrumentação industrial e com certificação nacional e internacional para equipamentos de automação industrial.</p><p>Atua também como professor nos cursos de graduação e pós-graduação em automação industrial do Inatel, com as disciplinas de Redes Industriais e Instalações elétricas industriais, Normas e certificações industriais. Atual coordenador da Comissão de Estudos do COBEI (Comitê Brasileiro de Eletricidade, Eletrônica, Telecomunicações e Iluminação), que atua na criação de normas ABNT NBR IEC para áreas classificadas.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Daniel Mazzer",
+            "materia": "Matéria do professor",
+            "descricao": "Graduado em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (Inatel) em 2004 e Mestre em Telecomunicações, também pelo Inatel, em 2016. Possui artigos científicos publicados em congressos e revistas nacionais e internacionais. Foi empresário de 2004 a 2013, atualmente é especialista em sistemas no Inatel Competence Center, liderando projetos de hardware e software embarcado. Possui interesse nas áreas de sistemas embarcados, Machine-To-Machine (M2M), Internet of Things (IoT), sensoriamento espectral, comunicação sem fio, data analytics, plataformas web-services, áudio, processamento digital de sinais (DSP), e sistemas embarcados."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Daniela Edvana Costa de Almeida",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação - FAI Faculdade de Administração e Informática (2010) e pós graduação em Arquitetura de Software (2014). É pós-graduada em Engenharia Web - Unifei (2012). Tem experiência na área de Ciência da Computação, com ênfase em Sistemas de Informação, Banco de Dados, Desenvolvimento de Sistemas em Java e Engenharia de Software."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Ednardo David Segura",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Possui pós-graduação em Engenharia Web - UNIFEI - Universidade Federal de Itajubá (2008) e graduação em Ciência da Computação - FAI - Faculdade de Administração e Informática (2006).</p><p>Atualmente é especialista de sistemas no Inatel Competence Center e professor colaborador da - Univás - Universidade do Vale do Sapucaí. Tem experiência na área de desenvolvimento de software para web com as linguagens de programação Java e PHP. Atua principalmente com as seguintes tecnologias: HTML/XHTML/HTML5, CSS, JavaScript / DOM / Ajax, Wordpress, SVN e Expressões Regulares.<p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Elton Barbosa Rodrigues",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Sistemas de Informação pela FAI - Centro de Ensino Superior em Gestão, Tecnologia e Educação (2010). Tem experiência na área de Ciência da Computação, com ênfase em Sistemas de Informação, atuando principalmente nos seguintes temas: Softwares Web-Based, Banco de Dados, Padrões Web."
+        },
+        {
+            "imagem": "felipe-andery",
+            "professor": "Felipe Andery Reis",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Doutorando e Mestre em Ciência e Tecnologia da Computação pela Universidade Federal de Itajubá (UNIFEI) em 2014, bacharel em Engenharia da Computação pelo Instituto Nacional de Telecomunicações (INATEL) em 2010 e técnico em Eletrônica com ênfase em Automação Industrial pela Escola Técnica de Eletrônica (ETE - FMC) em 2004. Atualmente é professor dos cursos de Pós-graduação em Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing, e também em Internet das Coisas do Inatel e Especialista de Sistemas no Inatel Competence Center (ICC).</p><p>Possui experiência nas áreas de desenvolvimento e testes de software (aplicações web e mobile). Possui bons conhecimentos em Linguagem C, C# e Java. Possui pesquisas voltadas para a área de Inteligência Artificial envolvendo redes neurais e algoritmos de otimização. Tem interesse nas seguintes áreas: Inteligência artificial, Internet das Coisas, cloud computing.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Márcio Emílio Cruz Vono de Azevedo",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica Modalidade Eletrônica pelo Instituto Nacional de Telecomunicações (1999) e mestrado em Ciência e Tecnologia da Computação pela Universidade Federal de Itajubá (2012). Atualmente é especialista em Sistemas do Instituto Nacional de Telecomunicações, Professor da Universidade do Vale do Sapucaí e Sócio Proprietário da TM Tecnologia da Informação Ltda."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Paulo César Siécola",
+            "materia": "Matéria do professor",
+            "descricao": "Mestre em Ciência da Computação pelo Instituto de Matemática e Estatística da Universidade de São Paulo. Possui graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações - INATEL (2005). Atualmente é Especialista em Sistemas Sênior do Inatel Competence Center, professor em cursos de Pós-Graduação no INATEL. Tem experiência em desenvolvimento de software em C, Java e Swift, atuando principalmente nos seguintes temas: desenvolvimento para dispositivos móveis (Android e iOS), desenvolvimento Web, sistemas embarcados, sistemas computacionais, análise de protocolos de redes de computadores, desenvolvimento de aplicações para GNU/Linux embarcado. Possui bons conhecimentos em programação orientada a objetos e linguagem C, Java e Swift."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Phyllipe de Souza Lima Francisco",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia de Telecomunicações pelo Instituto Nacional de Telecomunicações (2011) e mestrado em Ciência e Tecnologia da Computação pela Universidade Federal de Itajubá (2016). Doutorando em Computação Aplicada pelo Instituto Nacional de Pesquisas Espaciais com pesquisa na área de: MSR (Mining Software Repository), metadados, engenharia de software empírica. Atualmente é professor de curso de pós-graduação do Instituto Nacional de Telecomunicações, atuando principalmente nos seguintes temas: Game Design e Desenvolvimento de Jogos com Unity."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Roberto Ribeiro Rocha",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Mestre em Ciência e Tecnologia da Informação na Universidade Federal de Itajubá - UNIFEI (2013). Especialista em Produção de Software Livre pela Universidade Federal de Lavras - UFLA (2006). Graduado em Ciência da Computação pela Faculdade de Administração e Informática - FAI (2002). Foi analista de sistemas - Liveware Tecnologia a Serviço Ltda e Megatron Fios e Cabos Especiais. Foi professor no Instituto Nacional de Telecomunicações (INATEL) de 2014 a 2016. Atualmente é professor e coordenador do curso de Sistemas de Informação da Universidade do Vale do Sapucaí - UNIVÁS.</p><p>Disciplinas já ministradas: Sistemas Distribuídos, Estrutura de Dados, Engenharia de Software, Banco de Dados, Laboratório de Programação (C, Java, Java EE e Android), Inteligência Artificial e Orientação de Projetos. Tem experiência em arquitetura, desenvolvimento, build, testes e implantação de sistemas corporativos JEE, software livre, linux e Android.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Rodrigo Pimenta Carvalho",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação (Bacharelado) em Ciência da Computação pela Universidade Federal de Minas Gerais (1997) e Mestrado em Engenharia de Telecomunicações e Redes pelo Instituto Nacional de Telecomunicações (2008). É especialista em sistemas de software do Instituto Nacional de Telecomunicações desde 1997 e professor de pós-graduação no mesmo instituto desde 2013 na área de sistemas para dispositivos móveis. Tem experiência na área de Ciência da Computação, com ênfase em banco de dados, web services, proxy SIP (OpenSIPS), PABX virtual (Asterisk), systema de mensageria (RabbitMQ), linguagens de programação para desktop e mobile, AWS Cloud Computing, AWS IoT e sistemas de Telecomunicações, atuando principalmente nos seguintes temas: desenvolvimento de software para sistemas em telecomunicações e desenvolvimento de software para várias outras áreas. De 1998 a 2014 trabalhou desenvolvendo software didático para a área de Saúde, em Bioquímica, atuando em empresa própria."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Rodrigo Luís de Faria",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Sistemas de Informação pela Universidade do Vale do Sapucaí (2010) e Pós-graduação em Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing pelo Inatel (2016). Atualmente é Especialista em Sistemas do Instituto Nacional de Telecomunicações e professor no curso de graduação na UNIVAS. Tem experiência na área de desenvolvimento de software em Java, principalmente voltado pra WEB."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Anderson Daniel Soares",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Anderson Daniel Soares recebeu o título de Técnico em Eletrônica pela ETE FMC (Escola Técnica de Eletrônica Francisco Moreira da Costa) em 2000. Em julho 2005 recebeu o título de engenheiro elétrico, modalidade eletrônica com ênfase em telecomunicações pelo Inatel (Instituto Nacional de Telecomunicações).</p><p>Durante a graduação, atuou como monitor dos laboratórios de computação I e de eletrônica digital. Entre agosto de 2005 e novembro de 2006 esteve em Bournemouth, Inglaterra, fazendo um curso de aperfeiçoamento na língua Inglesa. Em dezembro de 2012 recebeu o título de mestre em Telecomunicações, defendendo a dissertação em Comunicação Digital. Atualmente está atuando profissionalmente no ICC (Inatel Competence Centre), com desenvolvimento de hardware.</p>"
+        },
+        {
+            "imagem": "brito",
+            "professor": "José Marcos Camara Brito",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia Elétrica ênfases em Eletrônica e Telecomunicações pela Fundação Instituto Nacional de Telecomunicações (1986), mestrado em Engenharia Elétrica pela Universidade Estadual de Campinas (Unicamp) (1998) e doutorado em Engenharia Elétrica pela Universidade Estadual de Campinas (2003). Atualmente é professor titular do Instituto Nacional de Telecomunicações (Inatel). Atuou em várias posições administrativas no Inatel, incluindo: coordenador de laboratórios, gerente geral do centro de desenvolvimento de projetos, coordenador de pós-graduação, vice-diretor e pró-diretor de pós-graduação e pesquisa. Foi um dos fundadores da Revista Telecomunicações, editada pelo Inatel, da qual foi editor. Tem experiência na área de Engenharia Elétrica, com ênfase em Redes de Telecomunicações, atuando principalmente nos seguintes temas: redes de telecomunicações, comunicações sem fio, análise de desempenho de redes, comunicações digitais e controle de erro."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Lucas Jun Sakai",
+            "materia": "Matéria do professor",
+            "descricao": "Possui mestrado (2016) e graduação em engenharia de telecomunicações (2011) pelo Instituto Nacional de Telecomunicações (INATEL). Formado como técnico em eletrônica com ênfase em automação industrial (2005) pela 'Escola Técnica de Eletrônica - Francisco Moreira da Costa' ETE FMC. Tem experiência na área de sistemas embarcados como programador em linguagem C, atuando principalmente nos seguintes temas: IoT, redes de dispositivos sem fio e automação residencial."
+        },
+        {
+            "imagem": "breno-gontijo",
+            "professor": "Breno Gontijo Tavares",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Faz pós-doutorado na Georgia State University (USA), Doutor em Engenharia de Produção pela Universidade Federal de Itajubá (2018), Mestre em Engenharia de Produção pela Universidade Federal de Itajubá (2015), Certificado PSM-Professional Scrum Master pelo Scrum.org-USA (2013), Certificado PMI-RMP-Risk Management Professional pelo PMI - USA (2012).</p><p>Graduado em Administração de Empresas pela Universidade Federal de Lavras (2011), pós-graduado em Engenharia de Produção pelo Instituto de Educação Tecnológica (2010), Certificado PMP-Project Management Professional pelo PMI - USA (2009), pós-graduado em Melhoria de Processo de Software pela Universidade Federal de Lavras (2008), pós-graduado em Informática pela Universidade Federal de Minas Gerais (2004), graduado em Ciência da Computação pela Universidade de Alfenas (2002). Atual gerente de Tecnologia da Informação e Comunicação do Instituto Nacional de Telecomunicações.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Edson Ricardo Barbero",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Possui graduação em Engenharia de Produção pela Universidade de São Paulo (1999) e Doutorado (2008) e Mestrado (2003) em Administração pela Faculdade de Economia, Administração e Contabilidade da USP. Na atividade docente é professor do programa de Mestrado Profissional (MPA) da Fundação Escola de Comércio Álvares Penteado (Fecap) (na instituição desde 2004 e no MPA desde 2011, quando da inauguração do programa). Até 2018 havia orientado mais de 15 dissertações de Mestrado. Nesta mesma instituição é, ainda, coordenador do Centro de Empreendedorismo, Inovação e Proatividade e docente da Graduação e Pós-Graduação Lato Sensu. Ainda na FECAP é membro do Conselho de Curadores e do Conselho Universitário. Foi também coordenador dos cursos PG Lato Sensu da FECAP durante 4 anos. Além da FECAP, é também docente convidado de diversos programas de MBA da Fundação Instituto de Administração (FIA, desde 2001). Nesta IES recebeu mais de 30 prêmios como melhor docente e foi paraninfo de muitas turmas de MBA. Também na FIA atua como consultor de empresas, por meio da iniciativa Rede Evolue. Ainda como docente de MBA convidado, atua na Saint Paul Escola de Negócios, Esalq-USP e Unifesp. Lecionou também na Universidade Mackenzie por 4 anos. Como experiência acadêmica internacional, foi aluno e também 'guest speaker' por três ocasiões de 'summer courses' da University of La Verne (Califórnia, EUA). Participou como estudante do Simpósio de Educação Empreendedora do Babson College (2018) e de diversos outros cursos promovidos por universidades internacionais. No tocante à língua estrangeira, leciona cursos de longa duração em Inglês na graduação da Fecap. Atuou como docente convidado na disciplina 'Managing for Stakeholders' no PPGA da FEA-USP, disciplina ministrada em Inglês. No campo das ações executivas e consultivas foi gerente sênior de Inteligência de Mercado da Marco Consultora (2008-2013) e Diretor da Praxian Business and Marketing Specialists (2000-2008).</p><p>Nestas empresas desenvolveu projetos para: Samsung, Microsoft, Guardian do Brasil, Intel, LG, Dell, Rabobank, KAO Brands, Jaguar Land Rover, Google, Consulado Americano, Sorrident´s entre muitas outras. Como dito acima, colabora, atualmente, como Consultor Sênior da Rede Evolue da Fundação Instituto de Administração, iniciativa de apoio a médias empresas em Estratégia Empresarial. Também na FIA e Saint Paul leciona em diversos programas 'in-company' para, inclusive, o nível de executivos em empresas como Unilever, Totvs, Itaú, Bradesco, Pernambucanas, Volkswagen, Metlife e dezenas de outras. Atuou também como consultor líder no Senac-SP em três projetos relevantes em educação executiva. Foi também Diretor da Associação Nacional de MBAs (Anamba) e estagiário da Siemens (1994) e SAP (1999). No campo das pesquisas acadêmicas, é parecerista de três revistas acadêmicas nacionais (inclusive RBGN, A2) e de congressos como o Enanpad, Enangrad, Egepe e Semead. No SEMEAD da FEA-USP é líder do tema 'Stakeholders'. No Enangrad, é líder do tema 'Estratégia'. Seus interesses de pesquisa são Administração Estratégica com ênfase na visão de Stakeholders. Como temática secundária, se interessa pelo tema 'Empreendedorismo'. No quadriênio 2013-2016 fez 160 pontos Quali. É autor de 10 capítulos de livro.</p>"
+        },
+        {
+            "imagem": "eduardo-zanin",
+            "professor": "Eduardo Esteves Zanin",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Administração - FAI - Centro de Ensino Superior em Gestão, Tecnologia e Educação (2010), graduação em Direito pela Universidade José do Rosário Vellano (2004) e mestrado em Administração pela Universidade Federal de Lavras (2016). Atualmente é professor e especialista em empreendedorismo do Instituto Nacional de Telecomunicações, sendo responsável pelos programas Crowd Vale da Eletrônica e de pré-incubação."
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Leonardo Rezende Liao",
+            "materia": "Matéria do professor",
+            "descricao": "Mestre em Engenharia de Produção pela Universidade Federal de Itajubá (2015), pós-graduado em Gerenciamento de Projetos pela Fundação Getúlio Vargas (2011), Certificado PMP-Project Management Professional pelo PMI - USA (2011), graduado em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (2006). Atual gerente de Desenvolvimento de Software, gerente do Escritório de Gerenciamento de Projetos e coordenador do curso de Gestão de Projetos do Inatel Competence Center."
+        },
+        {
+            "imagem": "rogerio-abranches",
+            "professor": "Rogério Abranches da Silva",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Atualmente é coordenador do Núcleo Educacional de Empreendedorismo e Inovação do Instituto Nacional de Telecomunicações (Inatel) e professor de cursos de graduação e pós-graduação da instituição. É Mestre em Educação (com pesquisa concentrada na Pedagogia Universitária e Educação Empreendedora) pela Universidade do Vale do Sapucaí (UNIVÁS) e Bacharel em Administração de Empresas pelo Centro de Ensino Superior em Gestão, Tecnologia e Educação (FAI).</p><p>Possui mais de 20 anos de experiência profissional, tanto na indústria como na academia. Na indústria, atuou por 6 anos na área de Gestão da Qualidade. Na academia, foi gestor do Programa de Incubação de Empresas, Startups e Projetos do Inatel por 6 anos e desde 2006 coordena o Núcleo de Empreendedorismo e Inovação (NEmp) da Instituição.</p><p>Foi por vários anos professor de empreendedorismo e inovação de outras Instituições, dentre estas, da Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE), que foi a 1ª Escola Técnica da América Latina. Atualmente também ministra cursos de empreendedorismo e gestão da inovação na Business School do Inatel.</p><p>É membro do Conselho de Tecnologia e Inovação da FIEMG e, a convite do MCTIC, integra o Grupo de Trabalho do Programa Nacional de Apoio às Incubadoras de empresas e Parques Tecnológicos (PNI). Já coordenou diversos projetos no campo da pesquisa e da inovação, oriundos de várias Agências de Fomento do país, como: CNPq, FINEP, BDMG, FAPEMIG, SECTES - MG e SEBRAE. Foi presidente da Rede Minera de Inovação (RMI) por um período de 4 anos e já ministrou palestras em várias regiões do país.</p>"
+        },
+        {
+            "imagem": "valeria-celloto",
+            "professor": "Valéria dos Anjos Celloto",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Psicologia pela Universidade de Taubaté (1985). É professora da Disciplina Desenvolvimento Organizacional do Instituto Nacional de Telecomunicações – Inatel e coordenadora de Recursos Humanos - Leucotron Telecom. Tem experiência nas áreas de Administração e Psicologia Organizacional, com ênfase em Administração de Recursos Humanos."
+        },
+        {
+            "imagem": "vinicius-montgomery",
+            "professor": "Vinícius Antônio Montgomery de Miranda",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Possui graduação em Engenharia Elétrica pela Universidade Federal de Itajubá (1990), mestrado em Engenharia de Produção pela Universidade Federal de Itajubá (1998) e especialização em Gerência Financeira e Controladoria - MBA Unitau (2003). Atualmente é professor do Instituto Nacional de Telecomunicações (Inatel) e do Centro de Ensino Superior em Gestão, Tecnologia e Educação (FAI).</p><p>Atua na Pós-Graduação em diversas Instituições de Ensino no Sul de Minas Gerais. Tem experiência na área de Administração, com ênfase em Administração Financeira, atuando principalmente nos seguintes temas: economia e finanças, administração financeira e administração das organizações. É palestrante e consultor de Empresas.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Vinícius Soares da Silveira",
+            "materia": "Matéria do professor",
+            "descricao": "<p>MBA em Marketing pela FGV (2012), com formação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (2002). Certificado ITIL Foundation Certificate in IT Service Management. Atualmente é professor e empreendedor nas áreas de treinamento, consultoria e desenvolvimento de software.</p><p>Fundador do portal AiNews Network e da Mais a.i., empreendimentos relacionados a Inteligência Artificial. Experiente e atuante nos seguintes temas: Inovação, Desenvolvimento de produtos e serviços, Gestão de Portfólio, Marketing, Vendas, Telefonia IP, Comunicações Unificadas, Telecomunicações e Inteligência Artificial.</p>"
+        },
+        {
+            "imagem": "sem-foto",
+            "professor": "Raphael Cardoso",
+            "materia": "Matéria do professor",
+            "descricao": "Graduado em Design Industrial com especializações em inovação e negócios. Atuou como agente de Inovação pelo Sebrae na região de São José dos Campos - SP. Tem experiência na área de projetos de inovação, com ênfase em gestão da inovação. Atualmente integra o time do Núcleo de Empreendedorismo do Inatel, atuando na implantação do Laboratório Aberto de Criatividade e Inovação da Instituição."
+        },
+        {
+            "imagem": "marcelo-carneiro",
+            "professor": "Marcelo Vinícius Cysneiros Aragão",
+            "materia": "Matéria do professor",
+            "descricao": "Possui graduação em Engenharia de Computação pelo Instituto Nacional de Telecomunicações (2014) e mestrado em Ciência e Tecnologia da Computação pela Universidade Federal de Itajubá (2018). Atualmente é professor auxiliar e coordenador de curso no Instituto Nacional de Telecomunicações. Tem experiência na área de Ciência da Computação, com ênfase em Aprendizado de Máquina."
+        },
+        {
+            "imagem": "renzo",
+            "professor": "Renzo Paranaiba Mesquita",
+            "materia": "Matéria do professor",
+            "descricao": "Graduado em Engenharia da Computação pelo Instituto Nacional de Telecomunicações (2010); Pós-graduado em Engenharia WEB pela Universidade Federal de Itajubá (2012); Mestre em Ciência e Tecnologia da Computação pela Universidade Federal de Itajubá (2017); Possui experiência profissional em desenvolvimento de software utilizando a plataforma JAVA e diferentes tipos de banco de dados. Hoje atua como docente do curso de Engenharia de Computação do Inatel ministrando as disciplinas de Algoritmos e Estruturas de Dados 2, Bancos de Dados, Programação Orientada a Objetos em Java e Python, Linguagens de Programação e Compiladores, Sistemas Operacionais, Introdução aos Sistemas Distribuídos e Trabalho de Conclusão de Curso (TCC). Docente em dois cursos de pós-graduação do Inatel: Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing, e também no curso de Indústria 4.0."
+        },
+        {
+            "imagem": "renzo",
+            "professor": "Renzo Paranaiba Mesquita",
+            "materia": "Matéria do professor",
+            "descricao": "Graduado em Engenharia da Computação pelo Instituto Nacional de Telecomunicações (2010); Pós-graduado em Engenharia WEB pela Universidade Federal de Itajubá (2012); Mestre em Ciência e Tecnologia da Computação pela Universidade Federal de Itajubá (2017); Possui experiência profissional em desenvolvimento de software utilizando a plataforma JAVA e diferentes tipos de banco de dados. Hoje atua como docente do curso de Engenharia de Computação do Inatel ministrando as disciplinas de Algoritmos e Estruturas de Dados 2, Bancos de Dados, Programação Orientada a Objetos em Java e Python, Linguagens de Programação e Compiladores, Sistemas Operacionais, Introdução aos Sistemas Distribuídos e Trabalho de Conclusão de Curso (TCC). Docente em dois cursos de pós-graduação do Inatel: Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing, e também no curso de Indústria 4.0."
+        },
+        {
+            "imagem": "sem-fot",
+            "professor": "Rogério Adas Pereira Vitalli",
+            "materia": "Matéria do professor",
+            "descricao": "<p>Engenheiro Mecatrônico pela Universidade Paulista (São Paulo - 2005) e Mestre em Robótica Industrial pelo Instituto Tecnológico de Aeronáutica - ITA (2009 - São José dos Campos) em Mecatrônica e Sistemas Aeroespaciais (EAM-S). Linha de Pesquisa: Robótica Industrial. Foi Professor e Orientou alunos na Universidade Paulista (UNIP) e na Universidade Bandeirante de São Paulo (UNIBAN). Trabalhou com grupos de pesquisa do Instituto de Estudos Avançados (IEAv), Centro Técnico Aeroespacial (CTA), Faculdade de Engenharia de Guaratinguetá (UNESP-FEG) e Faculdade de Engenharia Mecânica (UNICAMP-FEM).</p><p>Tem experiência na área de Mecatrônica, atuando principalmente nos seguintes temas: Robótica Industrial, Modelagem e Simulação de Manipuladores Robóticos, Cinemática Direta, Cinemática Inversa e Jacobianos. Foi responsável pela Divisão de Pesquisa e Treinamento da Motoman Robótica do Brasil e pelo Departamento de Projetos e Desenvolvimento da Kuka Roboter do Brasil. Atualmente é Diretor Executivo do I.A.R. (Instituto Avançado de Robótica), Robotista Perito pela KUKA ROBOTER em Augsburg (Alemanha), Examinador Titular da Câmara Brasil-Alemanha (AHK) para o comitê de Mecatrônica e Robótica Industrial e presta Serviço de Consultoria em Inovação, Montadoras Automotivas, Pólos Industriais, Universidades e Faculdades.</p><p>"
+        }
+    ]
+}
