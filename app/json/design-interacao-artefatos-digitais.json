@@ -39,46 +39,55 @@
     ],
     "professores": [
         {
+            "id": 0,
             "imagem": "sem-foto",
             "professor": "Eduardo José Gonçalves de Oliveira",
             "materia": "Matéria do professor"
         },
         {
+            "id": 2,
             "imagem": "sem-foto",
             "professor": "Luiz Francisco Alves de Araujo",
             "materia": "Matéria do professor"
         },
         {
+            "id": 3,
             "imagem": "sem-foto",
             "professor": "Marcello Caldas Bressan",
             "materia": "Matéria do professor"
         },
         {
+            "id": 0,
             "imagem": "sem-foto",
             "professor": "Leonardo Carneiro da Cunha de S. Lima",
             "materia": "Matéria do professor"
         },
         {
+            "id": 0,
             "imagem": "sem-foto",
             "professor": "Ricardo André de Lima Peters",
             "materia": "Matéria do professor"
         },
         {
+            "id": 0,
             "imagem": "sem-foto",
             "professor": "Helda Barros",
             "materia": "Matéria do professor"
         },
         {
+            "id": 0,
             "imagem": "sem-foto",
             "professor": "Erika Cavalcanti Madeira Campos",
             "materia": "Matéria do professor"
         },
         {
+            "id": 0,
             "imagem": "sem-foto",
             "professor": "Tamires Serra",
             "materia": "Matéria do professor"
         },
         {
+            "id": 0,
             "imagem": "sem-foto",
             "professor": "Renata Santos de Souza",
             "materia": "Matéria do professor"
@@ -166,7 +175,7 @@
             ]
         }
     ],
-    "principais-atividades-desenvolvidas": [
+    "principaisAtividadesDesenvolvidas": [
         {
             "imagem": "imagem",
             "descricao": "Desenvolvimento de artefatos digitais interativos da análise inicial, sua implementação e análise estratégica dos projetos."

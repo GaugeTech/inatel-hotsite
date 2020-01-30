@@ -166,10 +166,28 @@
                 font-weight: 700;
                 line-height: 26px;
                 text-align: left;
+                margin-bottom: 16px;
             }
             .sobre-o-curso {
                 img {
                     width: 100%;
+                }
+                .principais-habilidades {
+                    .item-habilidades {
+                        display: flex;
+                        margin: 20px 0;
+                        .numero {
+                            color: #B7B7B7;
+                            font-size: 46px;
+                            font-weight: 100;
+                            margin-right: 15px;
+                            margin-top: -12px;
+                        }
+                        .texto {
+                            font-weight: 400;
+                            font-size: 16px;
+                        }
+                    }
                 }
             }    
             .conteudo {
@@ -235,6 +253,8 @@
                     border: 1px solid #F0F0F0;
                     display: flex;
                     align-items: center;
+                    margin-bottom: 20px;
+                    cursor: pointer;
                     .thumb-professor {
                         border-radius: 50%;
                         width: 80px;
@@ -266,6 +286,7 @@
                 }
                 table {
                     width: 100%;
+                    border-bottom: 2px solid @black;
                     @media screen and (min-width: @tablet) {
                         // width: 100%;
                     }

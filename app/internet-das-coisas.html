@@ -1,5 +1,13 @@
 <html lang="pt-BR">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TJPTMG8');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1,maximum-scale=1"/>
 
@@ -48,6 +56,11 @@
             for(var i=0; i< data.conteudo.length; i++){
                 var strHTL = "<div class='col-12 col-md-4'><div class='item-conteudo'>" + data.conteudo[i].item+"</div></div>";
                 $(".json-conteudo").append(strHTL);
+            }
+
+            for(var i=0; i< data.principaisAtividadesDesenvolvidas.length; i++){
+                var strHABILIDADES = "<div class='col-12 col-md-4 item-habilidades'><p class='numero'>"+ (i+1) +"</p><p class='texto'>"+ data.principaisAtividadesDesenvolvidas[i].descricao +"</p></div>";
+                if(i < 6) {$(".json-habilidades").append(strHABILIDADES);}                
             }
 
             for(var i=0; i< data.professores.length; i++){
@@ -128,6 +141,12 @@
     <title>Inatel</title>
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJPTMG8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+
     <section class="head border-course background-course-mobile">
         <div class="container-grid">
             <div class="row">
@@ -196,17 +215,18 @@
 
             <div class="tab-content">
                 <div class="tab-pane sobre-o-curso fade show active" id="sobreocurso">
-                    <div class="row">
+                    <div class="row mb-5">
                         <h2 class="col-12">Sobre o curso</h2>
                         <div class="col-12 col-md-6 json-sobre">
-                            <!--
-                            <p>O curso de especialização em Design de Interação para Artefatos Digitais promove competências para a pesquisa, ideação, prototipação, análise e desenvolvimento de soluções digitais interativas, com base em práticas de Design Centrado no Usuário e o emprego eficaz de Metodologias de Design voltados à concepção de inovações com alto grau de usabilidade.</p>
-                            <p>Ao se formar neste curso, você poderá atuar em centenas de áreas diferentes, sobretudo com as diversas formas de tecnologias existentes atualmente.  Neste contexto, trabalhar um profissional com características fundamentais ligadas ao dinamismo, versatilidade, eficiência e alta capacidade é uma premissa que está presente na concepção da grade curricular do curso de Design de Interação para Artefatos Digitais.</p>
-                            -->
                         </div>
                         <div class="col-12 col-md-6">
                             <img src="./assets/img/cursos/design-interacao-artefatos-digitais/sobre-o-curso.png">
                         </div>
+                    </div>
+                    <div class="row">
+                        <h2 class="col-12">Principais habilidades</h2>
+                    </div>
+                    <div class="row principais-habilidades json-habilidades">                                              
                     </div>
                 </div>
 
