@@ -29,7 +29,6 @@
             $('.json-horario').text(data.horario);
             $('.json-sobre').html(data.sobre[0].descricao);
 
-            
             if(data.campus.length > 3){
                 $('.json-campus').append(data.campus[0].item + " / " + 
                 data.campus[1].item + " / " + 
@@ -46,7 +45,6 @@
                 }
             }
             
-
             $('.json-inicio').text(data.inicio);
             $('.json-horario').text(data.horario);
             $('.json-duracao').text(data.duracao);
@@ -108,12 +106,22 @@
             $( "body" ).addClass(data.class);
 
             for(var i=0; i< 4; i++){
-                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'><a class='item-cursos box-shadow-course' href='"+ data.cards[i].link +".html'><img src='"+ data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'><p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'><img src='./assets/img/maps-and-flags.svg'>"+ data.cards[i].campus[0].item +"<span class='color-course'>"+ data.cards[i].campusExtras +"</span></p><p class='item'><img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'><img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div<a>";
+                var strCARDS = "<div class='col-12 col-lg-3 col-md-6'>"+
+                "<a class='item-cursos box-shadow-course' href='"+ 
+                data.cards[i].link +".html'><img src='"+ 
+                data.cards[i].imagem +".png' class='img-destaque'><div class='descricao-cursos'>"+
+                "<p class='titulo'>"+ data.cards[i].nome +"</p><p class='item'>"+
+                "<img src='./assets/img/maps-and-flags.svg'>"+ 
+                data.cards[i].campus[0].item +"<span class='color-course'>"+ 
+                data.cards[i].campusExtras +"</span></p><p class='item'>"+
+                "<img src='./assets/img/shuttle.svg'>"+ data.cards[i].inicio +"</p><p class='item'>"+
+                "<img src='./assets/img/calendar.svg'>"+ data.cards[i].duracao +"</p></div></a></div<a>";
                 $('.json-cards').append(strCARDS);
             }
 
             for(var i=0; i< data.cards.length; i++){
-                var strFOOTER = "<p><a href='"+ data.cards[i].link +".html'>"+ data.cards[i].nome +"</a></p>";
+                var strFOOTER = "<p><a href='"+ data.cards[i].link +".html'>"+ 
+                data.cards[i].nome +"</a></p>";
                 $('.json-footer').append(strFOOTER);
             }
         });
