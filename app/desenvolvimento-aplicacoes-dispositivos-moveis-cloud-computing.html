@@ -51,6 +51,11 @@
                 $(".json-conteudo").append(strHTL);
             }
 
+            for(var i=0; i< data.principaisAtividadesDesenvolvidas.length; i++){
+                var strHABILIDADES = "<div class='col-12 col-md-4 item-habilidades'><p class='numero'>"+ (i+1) +"</p><p class='texto'>"+ data.principaisAtividadesDesenvolvidas[i].descricao +"</p></div>";
+                if(i < 6) {$(".json-habilidades").append(strHABILIDADES);}                
+            }
+
             for(var i=0; i< data.professores.length; i++){
                 var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'>"+
                 "<img src='./assets/img/professores/"+
@@ -127,6 +132,11 @@
     <title>Inatel</title>
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJPTMG8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <section class="head border-course background-course-mobile">
         <div class="container-grid">
             <div class="row">
@@ -196,17 +206,18 @@
 
             <div class="tab-content">
                 <div class="tab-pane sobre-o-curso fade show active" id="sobreocurso">
-                    <div class="row">
+                    <div class="row mb-5">
                         <h2 class="col-12">Sobre o curso</h2>
                         <div class="col-12 col-md-6 json-sobre">
-                            
                         </div>
                         <div class="col-12 col-md-6">
                             <img src="./assets/img/cursos/design-interacao-artefatos-digitais/sobre-o-curso.png">
                         </div>
-                        <div class="col-12">
-                            Teste
-                        </div>
+                    </div>
+                    <div class="row">
+                        <h2 class="col-12">Principais habilidades</h2>
+                    </div>
+                    <div class="row principais-habilidades json-habilidades">                                              
                     </div>
                 </div>
 
