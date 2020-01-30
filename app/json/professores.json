@@ -188,12 +188,6 @@
         },
         {
             "imagem": "sem-foto",
-            "professor": "Bernardo Augusto Chaves Dória",
-            "materia": "Matéria do professor",
-            "descricao": "Tem experiência na área de radiologia, com ênfase em física das radiações."
-        },
-        {
-            "imagem": "sem-foto",
             "professor": "Camila Mendonça de Moraes",
             "materia": "Matéria do professor",
             "descricao": "Professora Adjunta da Universidade Federal do Rio de Janeiro (UFRJ), área de Enfermagem Médico-cirúrgica. Doutora em Enfermagem, EERP-USP (2014). Mestre em Enfermagem, EERP-USP (2009). Especialista em Engenharia Biomédica, INATEL (2010). Especialista em Enfermagem Médico-cirúrgica, UNIFESP (2005). Graduação em Enfermagem USP (2003). Autora da Escala de avaliação de risco para o desenvolvimento de lesões decorrentes do posicionamento cirúrgico do paciente (ELPO). Pesquisadora do Grupo de Estudos, Pesquisa e Extensão em prática baseada evidências (GEPEVI) integrante do grupo Pesquisa Integrada em Saúde da UFRJ. Membro da Sociedade Brasileira de Enfermeiros de Centro Cirúrgico, Recuperação Pós-anestésica e Central de Materiais e Esterilização (SOBECC). Membro da Association of PeriOperative Registered Curses (AORN). Revisora dos periódicos: Revista da Escola de Enfermagem da USP, Revista Acta Paulista, Revista Brasileira de Enfermagem, Revista Estima, International Biomedical Engineering and Clinical Science e European Journal of Cancer Care."
@@ -203,12 +197,6 @@
             "professor": "Egídio Raimundo Neto",
             "materia": "Matéria do professor",
             "descricao": "Possui Graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (12/2011) e Mestrado em Telecomunicações, também pelo Instituto Nacional de Telecomunicações (03 / 2014). Trabalha atualmente como Professor do Instituto Nacional de Telecomunicações nos cursos de Engenharia e Tecnologia e também como Professor na FAEX - Faculdade de Extrema nos cursos de Engenharia e Tecnologia. As principais áreas de interesse são: Redes Industriais, Sistemas de Comunicação de Tempo Crítico para Automação, Internet das Coisas para Indústria (IoT), Sistemas de Comunicação de 5a. Geração, Manufatura Avançada, Sistemas de Controle Clássico, Discreto e Moderno, Robótica e SmartGrid."
-        },
-        {
-            "imagem": "elisa-carneiro",
-            "professor": "Elisa Rennó Carneiro Dester",
-            "materia": "Matéria do professor",
-            "descricao": "Possui graduação em Fisioterapia pela Universidade Gama Filho (1999) e mestrado em Ciências da Motricidade Humana pela Universidade Castelo Branco (2003). Tem experiência na área de Ciências da Saúde atuando como professora nos seguintes temas: Anatomia Humana, Fisiologia Humana, Engenharia de Reabilitação e Fisioterapia aplicada à Saúde da Mulher. Vem desenvolvendo pesquisas nas áreas de Saúde da Mulher, Tecnologias Assistivas, Engenharia Biomédica e Biomecânica."
         },
         {
             "imagem": "elisa-carneiro",
@@ -269,12 +257,6 @@
             "professor": "Patrícia de Azambuja",
             "materia": "Matéria do professor",
             "descricao": "Professora da Universidade Fumec e Faminas-BH em cursos de graduação e pós-graduação. Mestranda em Neurociências na UFMG. Especialização em Engenharia Biomédica e Engenharia Clínica (INATEL). Possui título de proficiência em Anatomia Humana pela Sociedade Brasileira de Anatomia (2014), graduação em Ciências Biológicas pela Universidade Federal de Minas Gerais (2000). Tem experiência na área de Morfologia, com ênfase em Anatomia Humana e Neuro-anatomia, atuando principalmente nos seguintes temas: lesão cerebral e reabilitação."
-        },
-        {
-            "imagem": "romulo-volpato",
-            "professor": "Romulo Mota Volpato",
-            "materia": "Matéria do professor",
-            "descricao": "Possui graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações (1990) e mestrado em Engenharia Elétrica pela Universidade Federal de Itajubá (2004). Doutorado em Engenharia Elétrica na Universidade Federal de Itajubá (2012). Atualmente é professor da Fundação Instituto Nacional de Telecomunicações. Tem experiência na área de Engenharia Elétrica, com ênfase em Instrumentação Eletrônica, atuando principalmente nos seguintes temas: MICROELETRÔNICA, RFID, Sensores implantados, perda de retorno, automatização de medições, interferência eletromagnética, labview e compatibilidade eletromagnética."
         },
         {
             "imagem": "romulo-volpato",
