@@ -55,7 +55,7 @@ $.get( json_origem, function(data) {
             }
         }
     }
-
+    
     $('.json-inicio').text(data.inicio);
     $('.json-horario').text(data.horario);
     $('.json-duracao').text(data.duracao);
