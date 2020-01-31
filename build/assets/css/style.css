@@ -222,27 +222,27 @@ footer .signature .social .link:last-child {
   margin: 0 0 0 10px;
 }
 footer .signature .social .link.facebook-footer {
-  background-image: url(/assets/img/facebook.svg);
+  background-image: url(../img/facebook.svg);
 }
 @media screen and (max-width: 768px) {
   footer .signature .social .link.facebook-footer {
-    background-image: url(/assets/img/facebook-white.svg);
+    background-image: url(../img/facebook-white.svg);
   }
 }
 footer .signature .social .link.twitter-footer {
-  background-image: url(/assets/img/twitter.svg);
+  background-image: url(../img/twitter.svg);
 }
 @media screen and (max-width: 768px) {
   footer .signature .social .link.twitter-footer {
-    background-image: url(/assets/img/twitter-white.svg);
+    background-image: url(../img/twitter-white.svg);
   }
 }
 footer .signature .social .link.youtube-footer {
-  background-image: url(/assets/img/youtube.svg);
+  background-image: url(../img/youtube.svg);
 }
 @media screen and (max-width: 768px) {
   footer .signature .social .link.youtube-footer {
-    background-image: url(/assets/img/youtube-white.svg);
+    background-image: url(../img/youtube-white.svg);
   }
 }
 .float-button-mobile {
@@ -568,10 +568,10 @@ footer .signature .social .link.youtube-footer {
 }
 .design-interacao-artefatos-digitais .background-course-image {
   padding-top: 20px;
-  background-image: url(/assets/img/cursos/design-interacao-artefatos-digitais/banner-interna-design.png);
+  background-image: url(../img/cursos/design-interacao-artefatos-digitais/banner-interna-design.png);
 }
 .design-interacao-artefatos-digitais .background-course-more {
-  background-image: url(/assets/img/cursos/design-interacao-artefatos-digitais/bg-cursos-interna.png);
+  background-image: url(../img/cursos/design-interacao-artefatos-digitais/bg-cursos-interna.png);
 }
 .design-interacao-artefatos-digitais .border-course {
   border-color: #CC2562 !important;
@@ -598,10 +598,10 @@ footer .signature .social .link.youtube-footer {
 }
 .engenharia-redes-sistemas-telecomunicacoes .background-course-image {
   padding-top: 20px;
-  background-image: url(/assets/img/cursos/engenharia-redes-sistemas-telecomunicacoes/engenharia-redes.png);
+  background-image: url(../img/cursos/engenharia-redes-sistemas-telecomunicacoes/engenharia-redes.png);
 }
 .engenharia-redes-sistemas-telecomunicacoes .background-course-more {
-  background-image: url(/assets/img/cursos/engenharia-redes-sistemas-telecomunicacoes/bg-outros-cursos-redes.png);
+  background-image: url(../img/cursos/engenharia-redes-sistemas-telecomunicacoes/bg-outros-cursos-redes.png);
 }
 .engenharia-redes-sistemas-telecomunicacoes .border-course {
   border-color: #EA2F00 !important;
@@ -628,10 +628,10 @@ footer .signature .social .link.youtube-footer {
 }
 .engenharia-clinica-engenharia-biomedica .background-course-image {
   padding-top: 20px;
-  background-image: url(/assets/img/cursos/engenharia-clinica-engenharia-biomedica/engenharia-clinica.png);
+  background-image: url(../img/cursos/engenharia-clinica-engenharia-biomedica/engenharia-clinica.png);
 }
 .engenharia-clinica-engenharia-biomedica .background-course-more {
-  background-image: url(/assets/img/cursos/engenharia-clinica-engenharia-biomedica/bg-outros-cursos-eng-clinica.png);
+  background-image: url(../img/cursos/engenharia-clinica-engenharia-biomedica/bg-outros-cursos-eng-clinica.png);
 }
 .engenharia-clinica-engenharia-biomedica .border-course {
   border-color: #A220CB !important;
@@ -658,10 +658,10 @@ footer .signature .social .link.youtube-footer {
 }
 .engenharia-sistemas-eletroeletronico-automacao-controle-industrial .background-course-image {
   padding-top: 20px;
-  background-image: url(/assets/img/cursos/engenharia-sistemas-eletroeletronicos-automacao-controle-industrial/engenharia-sistemas.png);
+  background-image: url(../img/cursos/engenharia-sistemas-eletroeletronicos-automacao-controle-industrial/engenharia-sistemas.png);
 }
 .engenharia-sistemas-eletroeletronico-automacao-controle-industrial .background-course-more {
-  background-image: url(/assets/img/cursos/engenharia-sistemas-eletroeletronicos-automacao-controle-industrial/bg-outros-cursos-eng-sistemas.png);
+  background-image: url(../img/cursos/engenharia-sistemas-eletroeletronicos-automacao-controle-industrial/bg-outros-cursos-eng-sistemas.png);
 }
 .engenharia-sistemas-eletroeletronico-automacao-controle-industrial .border-course {
   border-color: #2E0096 !important;
@@ -688,10 +688,10 @@ footer .signature .social .link.youtube-footer {
 }
 .desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .background-course-image {
   padding-top: 20px;
-  background-image: url(/assets/img/cursos/desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing/desenvolvimento.png);
+  background-image: url(../img/cursos/desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing/desenvolvimento.png);
 }
 .desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .background-course-more {
-  background-image: url(/assets/img/cursos/desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing/bg-outros-cursos-desenvolvimento.png);
+  background-image: url(../img/cursos/desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing/bg-outros-cursos-desenvolvimento.png);
 }
 .desenvolvimento-aplicacoes-dispositivos-moveis-cloud-computing .border-course {
   border-color: #008394 !important;
@@ -718,10 +718,10 @@ footer .signature .social .link.youtube-footer {
 }
 .internet-das-coisas .background-course-image {
   padding-top: 20px;
-  background-image: url(/assets/img/cursos/internet-das-coisas/Iot.png);
+  background-image: url(../img/cursos/internet-das-coisas/Iot.png);
 }
 .internet-das-coisas .background-course-more {
-  background-image: url(/assets/img/cursos/internet-das-coisas/bg-outros-cursos-iot.png);
+  background-image: url(../img/cursos/internet-das-coisas/bg-outros-cursos-iot.png);
 }
 .internet-das-coisas .border-course {
   border-color: #068CD4 !important;
@@ -748,10 +748,10 @@ footer .signature .social .link.youtube-footer {
 }
 .mba-gestao-empresarial-ambiente-tecnologico .background-course-image {
   padding-top: 20px;
-  background-image: url(/assets/img/cursos/mba-gestao-empresarial-ambiente-tecnologico/MBA.png);
+  background-image: url(../img/cursos/mba-gestao-empresarial-ambiente-tecnologico/MBA.png);
 }
 .mba-gestao-empresarial-ambiente-tecnologico .background-course-more {
-  background-image: url(/assets/img/cursos/mba-gestao-empresarial-ambiente-tecnologico/bg-outros-cursos-mba.png);
+  background-image: url(../img/cursos/mba-gestao-empresarial-ambiente-tecnologico/bg-outros-cursos-mba.png);
 }
 .mba-gestao-empresarial-ambiente-tecnologico .border-course {
   border-color: #3F930A !important;
@@ -778,10 +778,10 @@ footer .signature .social .link.youtube-footer {
 }
 .industria-4 .background-course-image {
   padding-top: 20px;
-  background-image: url(/assets/img/cursos/industria-4/industria.png);
+  background-image: url(../img/cursos/industria-4/industria.png);
 }
 .industria-4 .background-course-more {
-  background-image: url(/assets/img/cursos/industria-4/bg-outros-cursos-industria.png);
+  background-image: url(../img/cursos/industria-4/bg-outros-cursos-industria.png);
 }
 .industria-4 .border-course {
   border-color: #820073 !important;
@@ -1077,7 +1077,7 @@ footer .signature .social .link.youtube-footer {
   }
 }
 .course-content .container-grid .info-course .local {
-  background-image: url(/assets/img/maps-and-flags.svg);
+  background-image: url(../img/maps-and-flags.svg);
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 20px;
@@ -1088,7 +1088,7 @@ footer .signature .social .link.youtube-footer {
   text-align: left;
 }
 .course-content .container-grid .info-course .init {
-  background-image: url(/assets/img/shuttle.svg);
+  background-image: url(../img/shuttle.svg);
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 20px;
@@ -1099,7 +1099,7 @@ footer .signature .social .link.youtube-footer {
   text-align: left;
 }
 .course-content .container-grid .info-course .hour {
-  background-image: url(/assets/img/alarm-clock.svg);
+  background-image: url(../img/alarm-clock.svg);
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 20px;
@@ -1110,7 +1110,7 @@ footer .signature .social .link.youtube-footer {
   text-align: left;
 }
 .course-content .container-grid .info-course .durability {
-  background-image: url(/assets/img/calendar.svg);
+  background-image: url(../img/calendar.svg);
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 20px;
@@ -1346,7 +1346,7 @@ footer .signature .social .link.youtube-footer {
   width: fit-content;
   padding-left: 61px;
   margin: 0 auto;
-  background-image: url(/assets/img/phone.svg);
+  background-image: url(../img/phone.svg);
   background-repeat: no-repeat;
   background-size: 45px;
 }
@@ -1482,7 +1482,7 @@ footer .signature .social .link.youtube-footer {
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
-  background-image: url(/assets/img/maps-and-flags-white.svg);
+  background-image: url(../img/maps-and-flags-white.svg);
   background-repeat: no-repeat;
   background-position: left center;
   margin: 0;
@@ -1686,7 +1686,7 @@ footer .signature .social .link.youtube-footer {
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
-  background-image: url(/assets/img/maps-and-flags-white.svg);
+  background-image: url(../img/maps-and-flags-white.svg);
   background-repeat: no-repeat;
   background-position: left center;
   margin: 0;
@@ -1707,7 +1707,7 @@ footer .signature .social .link.youtube-footer {
 }
 .home-content-diferenciais {
   margin: 40px 0;
-  background-image: url(/assets/img/bg-diferenciais.png);
+  background-image: url(../img/bg-diferenciais.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1762,7 +1762,7 @@ footer .signature .social .link.youtube-footer {
 .home-content-diferenciais .container-grid .item-diferenciais-destaque {
   margin-top: 24px;
   padding: 72px 48px 148px 48px;
-  background-image: url(/assets/img/diferenciais-cursos.png);
+  background-image: url(../img/diferenciais-cursos.png);
   background-position: left;
   background-size: auto 100%;
 }
@@ -1811,7 +1811,7 @@ footer .signature .social .link.youtube-footer {
 }
 .home-content-depoimentos {
   margin: 40px 0;
-  background-image: url(/assets/img/bg-depoimentos.png);
+  background-image: url(../img/bg-depoimentos.png);
   background-repeat: no-repeat;
   background-position: right;
   padding: 120px 0;
@@ -2108,19 +2108,19 @@ footer .signature .social .link.youtube-footer {
   }
 }
 .home-content-instalacoes .tab-content .cidade-santa-rita-do-sapucai {
-  background-image: url(/assets/img/santa-rita-do-sapucai.png);
+  background-image: url(../img/santa-rita-do-sapucai.png);
 }
 .home-content-instalacoes .tab-content .cidade-sao-paulo {
-  background-image: url(/assets/img/sao-paulo.png);
+  background-image: url(../img/sao-paulo.png);
 }
 .home-content-instalacoes .tab-content .cidade-rio-de-janeiro {
-  background-image: url(/assets/img/rio-de-janeiro.png);
+  background-image: url(../img/rio-de-janeiro.png);
 }
 .home-content-instalacoes .tab-content .cidade-volta-redonda {
-  background-image: url(/assets/img/volta-redonda.png);
+  background-image: url(../img/volta-redonda.png);
 }
 .home-content-instalacoes .tab-content .cidade-belo-horizonte {
-  background-image: url(/assets/img/belo-horizonte.png);
+  background-image: url(../img/belo-horizonte.png);
 }
 .home-content-instalacoes .tab-content .container-grid {
   padding-top: 42px;
@@ -2152,7 +2152,7 @@ footer .signature .social .link.youtube-footer {
   margin-bottom: 32px;
 }
 .home-content-instalacoes .tab-content .container-grid .cidade-dados .local {
-  background-image: url(/assets/img/maps-and-flags.svg);
+  background-image: url(../img/maps-and-flags.svg);
   background-repeat: no-repeat;
   padding-left: 32px;
   color: #000;
@@ -2164,7 +2164,7 @@ footer .signature .social .link.youtube-footer {
   text-align: left;
 }
 .home-content-instalacoes .tab-content .container-grid .cidade-dados .telefone {
-  background-image: url(/assets/img/phone.svg);
+  background-image: url(../img/phone.svg);
   background-repeat: no-repeat;
   padding-left: 32px;
   background-size: 17px;
@@ -2178,7 +2178,7 @@ footer .signature .social .link.youtube-footer {
 }
 .home-content-parceiros {
   margin: 40px 0 0 0;
-  background-image: url(/assets/img/bg-parceiros.png);
+  background-image: url(../img/bg-parceiros.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 60px 0;

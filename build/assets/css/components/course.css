@@ -107,7 +107,7 @@
   }
 }
 .course-content .container-grid .info-course .local {
-  background-image: url(/assets/img/maps-and-flags.svg);
+  background-image: url(../img/maps-and-flags.svg);
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 20px;
@@ -118,7 +118,7 @@
   text-align: left;
 }
 .course-content .container-grid .info-course .init {
-  background-image: url(/assets/img/shuttle.svg);
+  background-image: url(../img/shuttle.svg);
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 20px;
@@ -129,7 +129,7 @@
   text-align: left;
 }
 .course-content .container-grid .info-course .hour {
-  background-image: url(/assets/img/alarm-clock.svg);
+  background-image: url(../img/alarm-clock.svg);
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 20px;
@@ -140,7 +140,7 @@
   text-align: left;
 }
 .course-content .container-grid .info-course .durability {
-  background-image: url(/assets/img/calendar.svg);
+  background-image: url(../img/calendar.svg);
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 20px;
@@ -376,7 +376,7 @@
   width: fit-content;
   padding-left: 61px;
   margin: 0 auto;
-  background-image: url(/assets/img/phone.svg);
+  background-image: url(../img/phone.svg);
   background-repeat: no-repeat;
   background-size: 45px;
 }
@@ -512,7 +512,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
-  background-image: url(/assets/img/maps-and-flags-white.svg);
+  background-image: url(../img/maps-and-flags-white.svg);
   background-repeat: no-repeat;
   background-position: left center;
   margin: 0;

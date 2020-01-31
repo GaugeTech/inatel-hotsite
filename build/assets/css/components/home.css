@@ -204,7 +204,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
-  background-image: url(/assets/img/maps-and-flags-white.svg);
+  background-image: url(../img/maps-and-flags-white.svg);
   background-repeat: no-repeat;
   background-position: left center;
   margin: 0;
@@ -225,7 +225,7 @@
 }
 .home-content-diferenciais {
   margin: 40px 0;
-  background-image: url(/assets/img/bg-diferenciais.png);
+  background-image: url(../img/bg-diferenciais.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -280,7 +280,7 @@
 .home-content-diferenciais .container-grid .item-diferenciais-destaque {
   margin-top: 24px;
   padding: 72px 48px 148px 48px;
-  background-image: url(/assets/img/diferenciais-cursos.png);
+  background-image: url(../img/diferenciais-cursos.png);
   background-position: left;
   background-size: auto 100%;
 }
@@ -329,7 +329,7 @@
 }
 .home-content-depoimentos {
   margin: 40px 0;
-  background-image: url(/assets/img/bg-depoimentos.png);
+  background-image: url(../img/bg-depoimentos.png);
   background-repeat: no-repeat;
   background-position: right;
   padding: 120px 0;
@@ -626,19 +626,19 @@
   }
 }
 .home-content-instalacoes .tab-content .cidade-santa-rita-do-sapucai {
-  background-image: url(/assets/img/santa-rita-do-sapucai.png);
+  background-image: url(../img/santa-rita-do-sapucai.png);
 }
 .home-content-instalacoes .tab-content .cidade-sao-paulo {
-  background-image: url(/assets/img/sao-paulo.png);
+  background-image: url(../img/sao-paulo.png);
 }
 .home-content-instalacoes .tab-content .cidade-rio-de-janeiro {
-  background-image: url(/assets/img/rio-de-janeiro.png);
+  background-image: url(../img/rio-de-janeiro.png);
 }
 .home-content-instalacoes .tab-content .cidade-volta-redonda {
-  background-image: url(/assets/img/volta-redonda.png);
+  background-image: url(../img/volta-redonda.png);
 }
 .home-content-instalacoes .tab-content .cidade-belo-horizonte {
-  background-image: url(/assets/img/belo-horizonte.png);
+  background-image: url(../img/belo-horizonte.png);
 }
 .home-content-instalacoes .tab-content .container-grid {
   padding-top: 42px;
@@ -670,7 +670,7 @@
   margin-bottom: 32px;
 }
 .home-content-instalacoes .tab-content .container-grid .cidade-dados .local {
-  background-image: url(/assets/img/maps-and-flags.svg);
+  background-image: url(../img/maps-and-flags.svg);
   background-repeat: no-repeat;
   padding-left: 32px;
   color: #000;
@@ -682,7 +682,7 @@
   text-align: left;
 }
 .home-content-instalacoes .tab-content .container-grid .cidade-dados .telefone {
-  background-image: url(/assets/img/phone.svg);
+  background-image: url(../img/phone.svg);
   background-repeat: no-repeat;
   padding-left: 32px;
   background-size: 17px;
@@ -696,7 +696,7 @@
 }
 .home-content-parceiros {
   margin: 40px 0 0 0;
-  background-image: url(/assets/img/bg-parceiros.png);
+  background-image: url(../img/bg-parceiros.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 60px 0;

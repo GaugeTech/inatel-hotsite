@@ -136,27 +136,27 @@ footer .signature .social .link:last-child {
   margin: 0 0 0 10px;
 }
 footer .signature .social .link.facebook-footer {
-  background-image: url(/assets/img/facebook.svg);
+  background-image: url(../img/facebook.svg);
 }
 @media screen and (max-width: 768px) {
   footer .signature .social .link.facebook-footer {
-    background-image: url(/assets/img/facebook-white.svg);
+    background-image: url(../img/facebook-white.svg);
   }
 }
 footer .signature .social .link.twitter-footer {
-  background-image: url(/assets/img/twitter.svg);
+  background-image: url(../img/twitter.svg);
 }
 @media screen and (max-width: 768px) {
   footer .signature .social .link.twitter-footer {
-    background-image: url(/assets/img/twitter-white.svg);
+    background-image: url(../img/twitter-white.svg);
   }
 }
 footer .signature .social .link.youtube-footer {
-  background-image: url(/assets/img/youtube.svg);
+  background-image: url(../img/youtube.svg);
 }
 @media screen and (max-width: 768px) {
   footer .signature .social .link.youtube-footer {
-    background-image: url(/assets/img/youtube-white.svg);
+    background-image: url(../img/youtube-white.svg);
   }
 }
 .float-button-mobile {
