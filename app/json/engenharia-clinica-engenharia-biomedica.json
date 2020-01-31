@@ -273,10 +273,6 @@
     },
     {
         "imagem": "imagem",
-        "descricao": "Administrar departamentos que envolvam tecnologias médicas."
-    },
-    {
-        "imagem": "imagem",
         "descricao": "Produzir e desenvolver equipamentos e tecnologias médicas para terapia, diagnóstico e monitoração de pacientes."
     },
     {
@@ -291,6 +287,10 @@
         "imagem": "imagem",
         "descricao": "Aprimorar os processos no EAS, visando favorecer os cuidados dispensados aos pacientes e a otimização de recursos."
     },
+    {
+        "imagem": "imagem",
+        "descricao": "Administrar departamentos que envolvam tecnologias médicas."
+    }, 
     {
         "imagem": "imagem",
         "descricao": "Administrar departamentos que envolvam tecnologias médicas."

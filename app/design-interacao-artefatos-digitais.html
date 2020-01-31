@@ -139,15 +139,15 @@
             $('body').find('.overlay').toggleClass('closed');
         } 
 
-        // function modalProfessor(id) {
-        //     var teste = parseInt(id, 10);
-        //     console.log(teste);
-        //     $.get( "./json/design-interacao-artefatos-digitais.json", function(dataProfessores) {               
+        function modalProfessor(id) {
+            // var teste = parseInt(id, 10);
+            // console.log(teste);
+            // $.get( "./json/design-interacao-artefatos-digitais.json", function(dataProfessores) {               
                 
-        //         console.log( dataProfessores.professores[teste].professor );
+            //     console.log( dataProfessores.professores[teste].professor );
                 
-        //     });
-        // }
+            // });
+        }
     </script>
 
     <title>Inatel</title>
@@ -173,7 +173,7 @@
                 </div>
                 <div class="col-5">
                     <div class="buttons-header">
-                        <a href="/" class="button-shadown border-course background-course">Inscreva-se</a>
+                        <a href="https://siteseguro.inatel.br/GestaoInscricao/" target="_blank" class="button-shadown border-course background-course">Inscreva-se</a>
                         <a href="#" class="button border-course color-course" onClick="modalOpen()">Receba conteúdo exclusivos dos cursos</a>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                 <h3>PÓS-GRADUAÇÃO</h3>
                 <h1 class="json-name-curso"></h1>
 
-                <a href="#" class="button-shadown color-course button-xg">Inscreva-se</a>
+                <a href="https://siteseguro.inatel.br/GestaoInscricao/" target="_blank" class="button-shadown color-course button-xg">Inscreva-se</a>
                 <a href="#" class="button-outline button-xg" onClick="modalOpen()">Receba conteúdos exclusivos dos cursos </a>
             </div>
         </div>
@@ -221,9 +221,9 @@
                 <div class="tab-item color-course" data-toggle="tab" href="#conteudo">
                     Conteúdo
                 </div>
-                <div class="tab-item color-course" data-toggle="tab" href="#professores">
+                <!-- <div class="tab-item color-course" data-toggle="tab" href="#professores">
                     Professores
-                </div>
+                </div> -->
                 <div class="tab-item color-course" data-toggle="tab" href="#valores">
                     Valores
                 </div>                                                                                        
@@ -404,7 +404,7 @@
     </footer>
 
     <div class="float-button-mobile">
-        <a href="#" onclick="modalOpen()" class="button-shadown border-course background-course">Increva-se</a>
+        <a href="https://siteseguro.inatel.br/GestaoInscricao/" target="_blank" class="button-shadown border-course background-course">Increva-se</a>
     </div>
 
     <div class="float-overlay-professor closed">
@@ -424,10 +424,10 @@
 
     <div class="float-inscreva-se closed">
         <div class="topo">
-            <h4>Para receber os conteúdos exclusivos dos cursos de Pós-graduação Inatel, preencha os dados abaixo:</h4>
             <div class="fechar" onClick="modalOpen()">
                 Fechar <img src="./assets/img/fechar.svg" />
-            </div>
+            </div>            
+            <h4>Para receber os conteúdos exclusivos dos cursos de Pós-graduação Inatel, preencha os dados abaixo:</h4>
         </div>
 
         <div class="conteudo">
