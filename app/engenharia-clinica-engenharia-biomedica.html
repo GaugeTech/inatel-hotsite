@@ -62,7 +62,7 @@
             }
 
             for(var i=0; i< data.professores.length; i++){
-                var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores'>"+
+                var strPROFS = "<div class='col-12 col-md-4'><div class='item-professores' onClick='modalProfessor(\" "+ data.professores[i].id  +" \")'>"+
                 "<img src='./assets/img/professores/"+
                 data.professores[i].imagem + 
                 ".jpg' class='thumb-professor'>"+
@@ -201,9 +201,9 @@
                 <div class="tab-item color-course" data-toggle="tab" href="#conteudo">
                     Conteúdo
                 </div>
-                <!-- <div class="tab-item color-course" data-toggle="tab" href="#professores">
+                <div class="tab-item color-course" data-toggle="tab" href="#professores">
                     Professores
-                </div> -->
+                </div>
                 <div class="tab-item color-course" data-toggle="tab" href="#valores">
                     Valores
                 </div>                                                                                        
@@ -253,8 +253,7 @@
                                 </div>
                                 <div class="divisao"></div>
 
-                                <div class="descricao-coordernador json-coordenador-descricao">
-                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius leo arcu, laoreet varius dui convallis sed. Nam in neque commodo, iaculis augue non, volutpat orci. Nam odio enim, porttitor in dapibus id, ultrices nec justo. Phasellus volutpat a nulla id ultricies. Fusce ac fermentum arcu. Nullam risus orci, sagittis id ultrices imperdiet, luctus ac tortor. Quisque luctus, justo ac vestibulum vestibulum, urna eros hendrerit lacus, eu condimentum urna arcu sit amet lorem. Quisque placerat ac magna vitae efficitur. Aliquam vehicula arcu ante, pellentesque rhoncus turpis consequat id. Praesent pharetra massa eu commodo accumsan. Aenean massa lorem, gravida at diam tempor, faucibus finibus arcu. Integer rhoncus rhoncus varius. Integer tempor lorem nec risus faucibus hendrerit. Curabitur non lobortis velit. Maecenas eleifend quis ipsum dapibus pulvinar.</p>-->
+                                <div class="descricao-coordernador json-coordenador-descricao">                                
                                 </div>
                             </div>
                         </div>
@@ -391,6 +390,23 @@
     <div class="float-button-mobile">
         <a href="https://siteseguro.inatel.br/GestaoInscricao/" target="_blank" class="button-shadown border-course background-course">Increva-se</a>
     </div>
+
+<!-- MODAL -->
+
+    <div class="float-overlay-professor closed">
+        <div class="topo">
+            <h4>Para receber os conteúdos exclusivos dos cursos de Pós-graduação Inatel, preencha os dados abaixo:</h4>
+            <div class="fechar" onClick="modalProfessor()">
+                Fechar <img src="./assets/img/fechar.svg" />
+            </div>
+        </div>
+
+        <div class="conteudo">
+        
+        </div>
+    </div>
+
+    <div class="overlay-professor closed" onClick="modalProfessor()"></div>  
 
     <div class="float-inscreva-se closed">
         <div class="topo">
