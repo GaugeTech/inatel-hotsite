@@ -26,7 +26,7 @@
         margin: 15px 0;
         text-transform: uppercase;
         @media screen and (min-width: @tablet) { 
-            padding: 64px 0 0 0;
+            padding: 25px 0 0 0;
         }
     }
     h1 {
@@ -67,6 +67,9 @@
             background: #F9F9F9;
             margin: 0 -15px;
             padding: 25px 15px;
+            div {
+                margin-bottom: 10px;
+            }
             @media screen and (min-width: @tablet) {            
                 padding: 25px 40px;
                 display: flex;
@@ -285,10 +288,11 @@
                     margin-bottom: 15px;                
                 }
                 table {
-                    width: 100%;
+                    min-width: 950px;
                     border-bottom: 2px solid @black;
+                    margin-bottom: 24px;
                     @media screen and (min-width: @tablet) {
-                        // width: 100%;
+                        width: 100%;
                     }
                     th {
                         color: #000000;
@@ -299,7 +303,11 @@
                         text-align: left;  
                         font-weight: 700;   
                         padding: 20px 0;
-                        border-bottom: 1px solid #F0F0F0;                   
+                        border-bottom: 1px solid #F0F0F0; 
+                        width: 155px;                  
+                        @media screen and (min-width: @tablet) {
+                            width: max-content;
+                        }
                         span {
                             color: #008A82;
                             font-family: @fontRoboto;
@@ -307,8 +315,13 @@
                             font-weight: 700;
                             line-height: 20px;
                             text-align: left;      
-                            position: absolute;
-                            margin-top: -20px;              
+                            display: block;
+                            width: 100%;                            
+                            margin-top: -20px;
+                            @media screen and (min-width: @tablet) {
+                                display: initial;
+                                position: absolute;
+                            }              
                         }
                     }
                     td {
@@ -318,7 +331,7 @@
                         font-weight: 400;
                         line-height: 26px;
                         text-align: left;
-                        padding: 20px 0;
+                        padding: 20px 10px 20px 0;
                         border-bottom: 1px solid #F0F0F0;
                     }
                 }
