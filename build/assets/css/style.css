@@ -22,8 +22,11 @@
 }
 @media screen and (max-width: 1025px) {
   .head .logo {
+<<<<<<< HEAD
     margin-left: -15px;
     margin-right: -15px;
+=======
+>>>>>>> 6f67df6b9fc1614bfcbda2eb53053bea4c9235fa
     width: 100%;
   }
 }
@@ -1793,6 +1796,14 @@ footer .signature .social .link.youtube-footer {
   width: 348px;
   margin: 24px 0 85px 0;
 }
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 768px) {
+  .home-content-diferenciais .container-grid .item-diferenciais-destaque .descricao {
+    width: 100%;
+  }
+}
+>>>>>>> 6f67df6b9fc1614bfcbda2eb53053bea4c9235fa
 .home-content-diferenciais .container-grid .nossos-diferenciais-mobile {
   display: flex;
 }

@@ -43,8 +43,11 @@
 }
 @media screen and (max-width: 1025px) {
   .head .logo {
+<<<<<<< HEAD
     margin-left: -15px;
     margin-right: -15px;
+=======
+>>>>>>> 6f67df6b9fc1614bfcbda2eb53053bea4c9235fa
     width: 100%;
   }
 }
