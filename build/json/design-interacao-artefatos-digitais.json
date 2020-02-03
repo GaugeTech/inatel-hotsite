@@ -1,0 +1,192 @@
+{
+    "titulo": "Design de Interação para artefatos digitais",
+    "nivel": "Pós-graduação",
+    "class": "design-interacao-artefatos-digitais",
+    "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"São Paulo"},{"item":"Rio de Janeiro"}],
+    "inicio": "Início: Mar/2020",
+    "horario": "Horário: Sáb: 8h30 às 12h30 e 13h30 às 17h30",
+    "duracao": "Duração: 24 meses",
+    "sobre": [
+        {
+            "descricao": "<p>O curso de especialização em Design de Interação para Artefatos Digitais promove competências para a pesquisa, ideação, prototipação, análise e desenvolvimento de soluções digitais interativas, com base em práticas de Design Centrado no Usuário e o emprego eficaz de Metodologias de Design voltados à concepção de inovações com alto grau de usabilidade.</p><p>Ao se formar neste curso, você poderá atuar em centenas de áreas diferentes, sobretudo com as diversas formas de tecnologias existentes atualmente.  Neste contexto, trabalhar um profissional com características fundamentais ligadas ao dinamismo, versatilidade, eficiência e alta capacidade é uma premissa que está presente na concepção da grade curricular do curso de Design de Interação para Artefatos Digitais.</p>",
+            "imagem": "imagem"
+        }
+    ],
+    "conteudo": [
+        {"item": "Design Centrado no Usuário"},
+        {"item": "Design Thinking"},
+        {"item": "Pitch e Apresentação de Projetos"},
+        {"item": "Metodologia de Design"},
+        {"item": "UI Design - User Interface Design"},
+        {"item": "IoT, Playable e SmartCities"},
+        {"item": "Inovação e Geração de Novos Negócios"},
+        {"item": "Prototipação"},
+        {"item": "Gamificação"},
+        {"item": "Sociedade, Tecnologia e Tendências"},
+        {"item": "Testes com Usuários"},
+        {"item": "Capacitação de Recursos para Financiamento da Inovação"},
+        {"item": "Liderança Adaptativa"},
+        {"item": "Usabilidade e Acessibilidade"},
+        {"item": "Metodologia Científica"}
+    ],
+    "coordenador": [
+        {
+            "imagem": "imagem",
+            "nome": "Prof. Mestre Luiz Francisco Alves de Araujo",
+            "cargo": "Coordenador do curso",
+            "descricao": "É doutorando em Design pela Universidade Federal de Pernambuco na área de artefatos digitais, possui mestrado (2015) e graduação em Design (1994) pela mesma instituição. É coordenador do curso de Bacharelado em Design da CESAR School e também atua como coordenador do curso de especialização em Design de Interação para Artefatos Digitais na mesma instituição. Atuou como coordenador do Curso Técnico de Nível Médio de Multimídia/Artes para Jogos Digitais na Escola Técnica Estadual Cícero Dias - Programa NAVE, e também coordenou a especialização em Design de Interação na Faculdade Guararapes."
+        }
+    ],
+    "professores": [
+        {
+            "id": null,
+            "imagem": "sem-foto",
+            "professor": "Eduardo José Gonçalves de Oliveira",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": null,
+            "imagem": "sem-foto",
+            "professor": "Luiz Francisco Alves de Araujo",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": null,
+            "imagem": "sem-foto",
+            "professor": "Marcello Caldas Bressan",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": null,
+            "imagem": "sem-foto",
+            "professor": "Leonardo Carneiro da Cunha de S. Lima",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": null,
+            "imagem": "sem-foto",
+            "professor": "Ricardo André de Lima Peters",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": null,
+            "imagem": "sem-foto",
+            "professor": "Helda Barros",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": null,
+            "imagem": "sem-foto",
+            "professor": "Erika Cavalcanti Madeira Campos",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": null,
+            "imagem": "sem-foto",
+            "professor": "Tamires Serra",
+            "materia": "Matéria do professor"
+        },
+        {
+            "id": null,
+            "imagem": "sem-foto",
+            "professor": "Renata Santos de Souza",
+            "materia": "Matéria do professor"
+        }
+    ],
+    "unidades": [
+        {
+            "valores": [
+                {
+                    "cidade": "Santa Rita do Sapucaí",
+                    "desconto": "Descontos",
+                    "valor_curso": "Valor do curso",
+                    "valor_desconto": "Valor com desconto",
+                    "desconto_um": "9",
+                    "matricula_opcao_um": "Matrícula até 15/12/19",
+                    "desconto_dois": "7",
+                    "matricula_opcao_dois": "Matrícula de 16/12/19 a 28/02/20",
+                    "desconto_tres": "5",
+                    "matricula_opcao_tres": "Matrícula após 01/03/20"
+                },
+                {
+                    "primeira_coluna": "À vista (20% de desconto)",
+                    "valor_curso": "R$ 27.360,00",
+                    "valor_desconto": "R$ 21.888,00",
+                    "valor_matricula_1": "R$ 19.918,08",
+                    "valor_matricula_2": "R$ 20.355,84",
+                    "valor_matricula_3": "R$ 20.793,60"
+                },
+                {
+                    "primeira_coluna": "1+1 (10% de desconto)",
+                    "valor_curso": "R$ 27.360,00",
+                    "valor_desconto": "R$ 24.624,00",
+                    "valor_matricula_1": "R$ 11.203,92",
+                    "valor_matricula_2": "R$ 11.450,16",
+                    "valor_matricula_3": "R$ 11.696,40"
+                },
+                {
+                    "primeira_coluna": "24 vezes de R$ 1.140,00",
+                    "valor_curso": "R$ 27.360,00",
+                    "valor_desconto": "-",
+                    "valor_matricula_1": "R$ 1.037,40",
+                    "valor_matricula_2": "R$ 1.060,20",
+                    "valor_matricula_3": "R$ 1.083,00"
+                }
+            ]
+        },
+        {
+            "valores": [
+                {
+                    "cidade": "Rio de Janeiro e São Paulo",
+                    "desconto": "Descontos",
+                    "valor_curso": "Valor do curso",
+                    "valor_desconto": "Valor com desconto",
+                    "desconto_um": "9",
+                    "matricula_opcao_um": "Matrícula até 15/12/19",
+                    "desconto_dois": "7",
+                    "matricula_opcao_dois": "Matrícula de 16/12/19 a 28/02/20",
+                    "desconto_tres": "5",
+                    "matricula_opcao_tres": "Matrícula após 01/03/20"
+                },
+                {
+                    "primeira_coluna": "À vista (20% de desconto)",
+                    "valor_curso": "R$ 33.120,00",
+                    "valor_desconto": "R$ 26.496,00",
+                    "valor_matricula_1": "R$ 24.111,36",
+                    "valor_matricula_2": "R$ 24.641,28",
+                    "valor_matricula_3": "R$ 25.171,20"
+                },
+                {
+                    "primeira_coluna": "1+1 (10% de desconto)",
+                    "valor_curso": "R$ 33.120,00",
+                    "valor_desconto": "R$ 29.808,00",
+                    "valor_matricula_1": "R$ 13.562,64",
+                    "valor_matricula_2": "R$ 13.860,72",
+                    "valor_matricula_3": "R$ 14.158,80"
+                },
+                {
+                    "primeira_coluna": "24 vezes de R$ 1.140,00",
+                    "valor_curso": "R$ 33.120,00",
+                    "valor_desconto": "-",
+                    "valor_matricula_1": "R$ 1.255,80",
+                    "valor_matricula_2": "R$ 1.283,40",
+                    "valor_matricula_3": "R$ 1.311,00"
+                }
+            ]
+        }
+    ],
+    "principaisAtividadesDesenvolvidas": [
+        {
+            "imagem": "imagem",
+            "descricao": "Desenvolvimento de artefatos digitais interativos da análise inicial, sua implementação e análise estratégica dos projetos."
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Organização e planejamento de projetos de artefatos digitais, tanto sobre os processos envolvidos como também sobre gestão de pessoas envolvidas na iniciativa."
+        },
+        {
+            "imagem": "imagem",
+            "descricao": "Utilização de metodologias de design, abordagens de Design Thinking e design."
+        }
+    ]
+}
