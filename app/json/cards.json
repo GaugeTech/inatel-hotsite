@@ -66,8 +66,8 @@
         {
             "imagem": "./assets/img/cursos/design-interacao-artefatos-digitais/thumb-design",
             "nome": "Design de Interação para Artefatos Digitais",
-            "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"São Paulo"},{"item":"Rio de Janeiro"}],
-            "campusExtras" : "+2<span class='tooltip'><span>São Paulo</span><br><span>Rio de Janeiro</span></span>",
+            "campus": [{"item":"Santa Rita do Sapucaí"}],
+            "campusExtras" : "",
             "inicio": "Março/2020",
             "duracao": "24 meses",
             "link": "design-interacao-artefatos-digitais"

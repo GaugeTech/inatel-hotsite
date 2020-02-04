@@ -80,7 +80,7 @@
                 data.unidades[j].valores[0].desconto_um + "% de deconto</span>" + 
                 data.unidades[j].valores[0].matricula_opcao_um + "</th><th><span class='color-course'>+ " + 
                 data.unidades[j].valores[0].desconto_dois + "% de deconto</span class='color-course'>" + 
-                data.unidades[j].valores[0].matricula_opcao_tres + "</th><th><span class='color-course'>+ " + 
+                data.unidades[j].valores[0].matricula_opcao_dois + "</th><th><span class='color-course'>+ " + 
                 data.unidades[j].valores[0].desconto_tres + "% de deconto</span>" + 
                 data.unidades[j].valores[0].matricula_opcao_tres + "</th></tr>";
 
@@ -88,7 +88,7 @@
                 var strTABELA = strHEADER;
 
                 for(var i=1; i < data.unidades[j].valores.length; i++){         
-                    var strVALORES = "<tr><td>"+data.unidades[0].valores[i].primeira_coluna+"</td><td>"+
+                    var strVALORES = "<tr><td>"+data.unidades[j].valores[i].primeira_coluna+"</td><td>"+
                         data.unidades[j].valores[i].valor_curso+"</td><td>"+
                         data.unidades[j].valores[i].valor_desconto+"</td><td>"+
                         data.unidades[j].valores[i].valor_matricula_1+"</td><td>"+
