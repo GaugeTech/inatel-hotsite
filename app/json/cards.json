@@ -47,7 +47,7 @@
         },
         {
             "imagem": "./assets/img/cursos/mba-gestao-empresarial-ambiente-tecnologico/thumb-mba",
-            "nome": "MBA em Gestão Empresarial em Ambientes Tecnológicos",
+            "nome": "MBA em Gestão Empresarial em Ambiente Tecnológico",
             "campus": [{"item":"Santa Rita do Sapucaí"},{"item":"São Paulo"}],
             "campusExtras" : "+1<span class='tooltip'><span>São Paulo</span></span>",
             "inicio": "Março/2020",
